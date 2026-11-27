@@ -1,0 +1,242 @@
+{
+ "e15a_b_real": {
+  "watch": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.6167,
+   "gap_ci": [
+    0.5917,
+    0.64
+   ],
+   "verdicts": {
+    "blocked": 0.002,
+    "delegate": 0.2119,
+    "feasible": 0.7844,
+    "substitute": 0.0017
+   },
+   "verdict_counts": {
+    "blocked": 14,
+    "delegate": 1497,
+    "feasible": 5542,
+    "substitute": 12
+   }
+  },
+  "speaker": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.6369,
+   "gap_ci": [
+    0.6125,
+    0.6596
+   ],
+   "verdicts": {
+    "blocked": 0.0017,
+    "delegate": 0.2134,
+    "feasible": 0.7788,
+    "substitute": 0.0061
+   },
+   "verdict_counts": {
+    "blocked": 12,
+    "delegate": 1508,
+    "feasible": 5502,
+    "substitute": 43
+   }
+  },
+  "phone": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.206,
+   "gap_ci": [
+    0.1858,
+    0.2268
+   ],
+   "verdicts": {
+    "delegate": 0.0651,
+    "feasible": 0.9349
+   },
+   "verdict_counts": {
+    "delegate": 460,
+    "feasible": 6605
+   }
+  },
+  "laptop": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.0,
+   "gap_ci": [
+    0.0,
+    0.0
+   ],
+   "verdicts": {
+    "feasible": 1.0
+   },
+   "verdict_counts": {
+    "feasible": 7065
+   }
+  }
+ },
+ "e15a_b_synth": {
+  "watch": {
+   "n_handoffs": 1804,
+   "mean_plan_steps": 5.2,
+   "gap_rate": 0.3997,
+   "gap_ci": [
+    0.3764,
+    0.4235
+   ],
+   "verdicts": {
+    "blocked": 0.0782,
+    "delegate": 0.0377,
+    "feasible": 0.8841
+   },
+   "verdict_counts": {
+    "blocked": 734,
+    "delegate": 354,
+    "feasible": 8299
+   }
+  },
+  "speaker": {
+   "n_handoffs": 1804,
+   "mean_plan_steps": 5.2,
+   "gap_rate": 0.2034,
+   "gap_ci": [
+    0.1846,
+    0.2217
+   ],
+   "verdicts": {
+    "blocked": 0.0391,
+    "feasible": 0.9609
+   },
+   "verdict_counts": {
+    "blocked": 367,
+    "feasible": 9020
+   }
+  },
+  "phone": {
+   "n_handoffs": 1804,
+   "mean_plan_steps": 5.2,
+   "gap_rate": 0.0,
+   "gap_ci": [
+    0.0,
+    0.0
+   ],
+   "verdicts": {
+    "feasible": 1.0
+   },
+   "verdict_counts": {
+    "feasible": 9387
+   }
+  },
+  "laptop": {
+   "n_handoffs": 1804,
+   "mean_plan_steps": 5.2,
+   "gap_rate": 0.0,
+   "gap_ci": [
+    0.0,
+    0.0
+   ],
+   "verdicts": {
+    "feasible": 1.0
+   },
+   "verdict_counts": {
+    "feasible": 9387
+   }
+  }
+ },
+ "e15c_cost_watch": {
+  "n": 1641,
+  "median_added_tokens": 187,
+  "mean_added_tokens": 181.7,
+  "mean_block_tokens": 1147.4,
+  "recall_without_capability": [
+   0.8974,
+   0.8854,
+   0.9093
+  ],
+  "recall_with_capability": [
+   0.8824,
+   0.8702,
+   0.895
+  ],
+  "recall_delta": -0.0151
+ },
+ "n_real_plans": 1641,
+ "n_synth_plans": 1804,
+ "e15d_source_offline_real": {
+  "watch": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.6167,
+   "gap_ci": [
+    0.5917,
+    0.64
+   ],
+   "verdicts": {
+    "blocked": 0.002,
+    "defer": 0.2119,
+    "feasible": 0.7844,
+    "substitute": 0.0017
+   },
+   "verdict_counts": {
+    "blocked": 14,
+    "defer": 1497,
+    "feasible": 5542,
+    "substitute": 12
+   }
+  },
+  "speaker": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.6369,
+   "gap_ci": [
+    0.6125,
+    0.6596
+   ],
+   "verdicts": {
+    "blocked": 0.0017,
+    "defer": 0.2134,
+    "feasible": 0.7788,
+    "substitute": 0.0061
+   },
+   "verdict_counts": {
+    "blocked": 12,
+    "defer": 1508,
+    "feasible": 5502,
+    "substitute": 43
+   }
+  },
+  "phone": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.206,
+   "gap_ci": [
+    0.1858,
+    0.2268
+   ],
+   "verdicts": {
+    "defer": 0.0651,
+    "feasible": 0.9349
+   },
+   "verdict_counts": {
+    "defer": 460,
+    "feasible": 6605
+   }
+  },
+  "laptop": {
+   "n_handoffs": 1636,
+   "mean_plan_steps": 4.32,
+   "gap_rate": 0.0,
+   "gap_ci": [
+    0.0,
+    0.0
+   ],
+   "verdicts": {
+    "feasible": 1.0
+   },
+   "verdict_counts": {
+    "feasible": 7065
+   }
+  }
+ },
+ "runtime_s": 124.5
+}

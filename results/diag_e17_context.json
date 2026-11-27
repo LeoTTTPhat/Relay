@@ -1,0 +1,79 @@
+{
+ "identical_outputs": true,
+ "cold": [
+  {
+   "tid": "alggen-1",
+   "k": 3,
+   "out_tokens": 207,
+   "recall": 1.0
+  },
+  {
+   "tid": "alggen-100",
+   "k": 4,
+   "out_tokens": 351,
+   "recall": 0.2647
+  },
+  {
+   "tid": "alggen-102",
+   "k": 6,
+   "out_tokens": 405,
+   "recall": 1.0
+  },
+  {
+   "tid": "alggen-104",
+   "k": 7,
+   "out_tokens": 166,
+   "recall": 0.0
+  },
+  {
+   "tid": "alggen-106",
+   "k": 2,
+   "out_tokens": 247,
+   "recall": 0.6
+  },
+  {
+   "tid": "alggen-108",
+   "k": 6,
+   "out_tokens": 184,
+   "recall": 0.0054
+  }
+ ],
+ "after_scorer": [
+  {
+   "tid": "alggen-1",
+   "k": 3,
+   "out_tokens": 207,
+   "recall": 1.0
+  },
+  {
+   "tid": "alggen-100",
+   "k": 4,
+   "out_tokens": 351,
+   "recall": 0.2647
+  },
+  {
+   "tid": "alggen-102",
+   "k": 6,
+   "out_tokens": 405,
+   "recall": 1.0
+  },
+  {
+   "tid": "alggen-104",
+   "k": 7,
+   "out_tokens": 166,
+   "recall": 0.0
+  },
+  {
+   "tid": "alggen-106",
+   "k": 2,
+   "out_tokens": 247,
+   "recall": 0.6
+  },
+  {
+   "tid": "alggen-108",
+   "k": 6,
+   "out_tokens": 184,
+   "recall": 0.0054
+  }
+ ]
+}

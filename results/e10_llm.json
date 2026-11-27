@@ -1,0 +1,448 @@
+{
+ "E10e_selective": {
+  "n": 120,
+  "scorer_model": "Qwen/Qwen3-0.6B-Base",
+  "recall": {
+   "full": [
+    0.9492,
+    0.9175,
+    0.9768
+   ],
+   "recency": [
+    0.9299,
+    0.8906,
+    0.965
+   ],
+   "relay": [
+    0.9644,
+    0.9372,
+    0.9876
+   ],
+   "relay-lite": [
+    0.8984,
+    0.8615,
+    0.9325
+   ],
+   "extractive": [
+    0.8438,
+    0.7972,
+    0.8912
+   ],
+   "selective": [
+    0.8953,
+    0.8601,
+    0.9282
+   ],
+   "randdrop": [
+    0.9226,
+    0.8825,
+    0.9548
+   ]
+  },
+  "recall_strict": {
+   "full": 0.9551,
+   "recency": 0.9378,
+   "relay": 0.9626,
+   "relay-lite": 0.894,
+   "extractive": 0.848,
+   "selective": 0.8832,
+   "randdrop": 0.9379
+  },
+  "tokens": {
+   "full": 1351.4,
+   "recency": 1083.8,
+   "relay": 983.9,
+   "relay-lite": 741.7,
+   "extractive": 1458.6,
+   "selective": 1415.8,
+   "randdrop": 1124.9
+  },
+  "paired_vs_relay": [
+   {
+    "vs": "full",
+    "delta": 0.01525273377265787,
+    "ci": [
+     -0.015533999806592312,
+     0.04527576396234484
+    ],
+    "p_raw": 0.19127367246338967,
+    "cliffs_delta": 0.03312500000000007,
+    "effect": "negligible",
+    "n": 120,
+    "p_holm": 0.19127367246338967
+   },
+   {
+    "vs": "recency",
+    "delta": 0.034561858846571335,
+    "ci": [
+     -0.00029429638072695614,
+     0.06975991155924097
+    ],
+    "p_raw": 0.035452183296508843,
+    "cliffs_delta": 0.0673611111111112,
+    "effect": "negligible",
+    "n": 120,
+    "p_holm": 0.07090436659301769
+   },
+   {
+    "vs": "relay-lite",
+    "delta": 0.06601377224225131,
+    "ci": [
+     0.04338373906067969,
+     0.09065363019835873
+    ],
+    "p_raw": 1.1645424145095447e-06,
+    "cliffs_delta": 0.19874999999999998,
+    "effect": "small",
+    "n": 120,
+    "p_holm": 5.822712072547724e-06
+   },
+   {
+    "vs": "extractive",
+    "delta": 0.12060114908617561,
+    "ci": [
+     0.08140120064311991,
+     0.16310655459153192
+    ],
+    "p_raw": 1.8715083149475848e-07,
+    "cliffs_delta": 0.27041666666666675,
+    "effect": "small",
+    "n": 120,
+    "p_holm": 1.122904988968551e-06
+   },
+   {
+    "vs": "selective",
+    "delta": 0.06917945619537626,
+    "ci": [
+     0.0342244037208354,
+     0.10492009610674506
+    ],
+    "p_raw": 7.498049052660598e-05,
+    "cliffs_delta": 0.21444444444444444,
+    "effect": "small",
+    "n": 120,
+    "p_holm": 0.0002999219621064239
+   },
+   {
+    "vs": "randdrop",
+    "delta": 0.041855576916438014,
+    "ci": [
+     0.0054957821255005885,
+     0.07932063803797086
+    ],
+    "p_raw": 0.016584160877659876,
+    "cliffs_delta": 0.09263888888888894,
+    "effect": "negligible",
+    "n": 120,
+    "p_holm": 0.04975248263297963
+   }
+  ]
+ },
+ "E10a_prefill": {
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "device": "mps",
+  "points": [
+   {
+    "ctx_tokens": 256,
+    "seconds": 0.0998,
+    "tokens_per_s": 2565.9
+   },
+   {
+    "ctx_tokens": 512,
+    "seconds": 0.1809,
+    "tokens_per_s": 2829.6
+   },
+   {
+    "ctx_tokens": 1024,
+    "seconds": 0.3367,
+    "tokens_per_s": 3041.2
+   },
+   {
+    "ctx_tokens": 2048,
+    "seconds": 0.6649,
+    "tokens_per_s": 3080.4
+   },
+   {
+    "ctx_tokens": 4096,
+    "seconds": 1.4386,
+    "tokens_per_s": 2847.2
+   }
+  ]
+ },
+ "E10b_ledger": {
+  "n_cases": 80,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "per_policy": {
+   "full": {
+    "recognised_done": 0.7875,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.8938,
+    "ci_recognised": [
+     0.7875,
+     0.6997,
+     0.8625
+    ],
+    "n": 80
+   },
+   "recency": {
+    "recognised_done": 0.7875,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.8938,
+    "ci_recognised": [
+     0.7875,
+     0.6997,
+     0.8625
+    ],
+    "n": 80
+   },
+   "relay": {
+    "recognised_done": 0.95,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.975,
+    "ci_recognised": [
+     0.95,
+     0.9,
+     0.9875
+    ],
+    "n": 80
+   },
+   "relay-lite": {
+    "recognised_done": 0.9625,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.9812,
+    "ci_recognised": [
+     0.9625,
+     0.9125,
+     1.0
+    ],
+    "n": 80
+   },
+   "extractive": {
+    "recognised_done": 0.7875,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.8938,
+    "ci_recognised": [
+     0.7875,
+     0.6997,
+     0.8625
+    ],
+    "n": 80
+   },
+   "trunc25": {
+    "recognised_done": 0.4625,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.7312,
+    "ci_recognised": [
+     0.4625,
+     0.35,
+     0.575
+    ],
+    "n": 80
+   },
+   "randdrop": {
+    "recognised_done": 0.8,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.9,
+    "ci_recognised": [
+     0.8,
+     0.7125,
+     0.8875
+    ],
+    "n": 80
+   },
+   "restart": {
+    "recognised_done": 0.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.5,
+    "ci_recognised": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "n": 80
+   }
+  }
+ },
+ "E10c_state_qa": {
+  "n_cases": 60,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "per_policy": {
+   "full": {
+    "qa_acc": 0.5833,
+    "probe_recall": 1.0,
+    "ci": [
+     0.5833,
+     0.4917,
+     0.675
+    ]
+   },
+   "recency": {
+    "qa_acc": 0.5833,
+    "probe_recall": 1.0,
+    "ci": [
+     0.5833,
+     0.4917,
+     0.675
+    ]
+   },
+   "relay": {
+    "qa_acc": 0.5167,
+    "probe_recall": 1.0,
+    "ci": [
+     0.5167,
+     0.4081,
+     0.625
+    ]
+   },
+   "relay-lite": {
+    "qa_acc": 0.5,
+    "probe_recall": 0.9953,
+    "ci": [
+     0.5,
+     0.3917,
+     0.6083
+    ]
+   },
+   "extractive": {
+    "qa_acc": 0.6,
+    "probe_recall": 1.0,
+    "ci": [
+     0.6,
+     0.5083,
+     0.6835
+    ]
+   },
+   "trunc25": {
+    "qa_acc": 0.175,
+    "probe_recall": 0.2006,
+    "ci": [
+     0.175,
+     0.1083,
+     0.25
+    ]
+   },
+   "randdrop": {
+    "qa_acc": 0.5417,
+    "probe_recall": 0.6478,
+    "ci": [
+     0.5417,
+     0.4583,
+     0.625
+    ]
+   },
+   "restart": {
+    "qa_acc": 0.0,
+    "probe_recall": 0.4324,
+    "ci": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "pearson_probe_vs_qa": 0.4558
+ },
+ "E10d_answer_recovery": {
+  "n_cases": 65,
+  "n_evals": 520,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "per_policy": {
+   "full": {
+    "acc": 0.0615,
+    "ci": [
+     0.0615,
+     0.0154,
+     0.1231
+    ],
+    "frr": 0.8355
+   },
+   "recency": {
+    "acc": 0.0615,
+    "ci": [
+     0.0615,
+     0.0154,
+     0.1231
+    ],
+    "frr": 0.757
+   },
+   "relay": {
+    "acc": 0.0615,
+    "ci": [
+     0.0615,
+     0.0154,
+     0.1231
+    ],
+    "frr": 0.8805
+   },
+   "relay-lite": {
+    "acc": 0.0615,
+    "ci": [
+     0.0615,
+     0.0154,
+     0.1231
+    ],
+    "frr": 0.6563
+   },
+   "extractive": {
+    "acc": 0.0615,
+    "ci": [
+     0.0615,
+     0.0154,
+     0.1231
+    ],
+    "frr": 0.5857
+   },
+   "trunc25": {
+    "acc": 0.0462,
+    "ci": [
+     0.0462,
+     0.0,
+     0.0927
+    ],
+    "frr": 0.444
+   },
+   "randdrop": {
+    "acc": 0.0615,
+    "ci": [
+     0.0615,
+     0.0154,
+     0.1231
+    ],
+    "frr": 0.7038
+   },
+   "restart": {
+    "acc": 0.0,
+    "ci": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "frr": 0.2765
+   }
+  },
+  "pearson_frr_vs_success": 0.2143,
+  "calibration": [
+   {
+    "frr_bin": "0.00-0.25",
+    "n": 110,
+    "acc": 0.0
+   },
+   {
+    "frr_bin": "0.25-0.50",
+    "n": 70,
+    "acc": 0.0143
+   },
+   {
+    "frr_bin": "0.50-0.75",
+    "n": 73,
+    "acc": 0.0
+   },
+   {
+    "frr_bin": "0.75-1.00",
+    "n": 267,
+    "acc": 0.0974
+   }
+  ]
+ },
+ "runtime_s": 939.7
+}

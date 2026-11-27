@@ -1,0 +1,692 @@
+{
+ "n": 72,
+ "out_tokens": {
+  "mean": 242.01388888888889,
+  "median": 228.0,
+  "min": 123.0,
+  "max": 531.0,
+  "n_under_20": 0
+ },
+ "recall": {
+  "mean": 0.6884250000000001,
+  "median": 0.75
+ },
+ "recall_by_prefix_quartile": [
+  {
+   "prefix_tokens": "452-934",
+   "n": 18,
+   "recall": 0.7647,
+   "out_tokens": 185.8
+  },
+  {
+   "prefix_tokens": "934-1490",
+   "n": 18,
+   "recall": 0.8379,
+   "out_tokens": 249.6
+  },
+  {
+   "prefix_tokens": "1490-2371",
+   "n": 18,
+   "recall": 0.6886,
+   "out_tokens": 272.8
+  },
+  {
+   "prefix_tokens": "2371-18012",
+   "n": 18,
+   "recall": 0.4626,
+   "out_tokens": 259.8
+  }
+ ],
+ "corr_prefix_vs_out_tokens": 0.13591141329086998,
+ "runtime_s": 1197.1,
+ "rows": [
+  {
+   "tid": "alggen-1",
+   "k": 3,
+   "prefix_tokens": 1093,
+   "out_tokens": 207,
+   "recall": 1.0,
+   "n_anchors": 2,
+   "head": "GOAL: Analyze the provided spreadsheet to determine how many clients will be receiving the sunset awning design.  CONSTR"
+  },
+  {
+   "tid": "alggen-100",
+   "k": 4,
+   "prefix_tokens": 2208,
+   "out_tokens": 351,
+   "recall": 0.2647,
+   "n_anchors": 34,
+   "head": "GOAL: Identify the highest rated (according to IMDB) Daniel Craig movie that is less than 150 minutes and is available o"
+  },
+  {
+   "tid": "alggen-102",
+   "k": 6,
+   "prefix_tokens": 1235,
+   "out_tokens": 405,
+   "recall": 1.0,
+   "n_anchors": 4,
+   "head": "GOAL: Identify the highest rated (according to IMDB) Isabelle Adjani feature film that is less than 2 hours and availabl"
+  },
+  {
+   "tid": "alggen-104",
+   "k": 7,
+   "prefix_tokens": 2063,
+   "out_tokens": 166,
+   "recall": 0.0,
+   "n_anchors": 3,
+   "head": "GOAL: Analyze and resolve the issue causing the code execution to fail with exit code 1 and output 'unknown language unk"
+  },
+  {
+   "tid": "alggen-106",
+   "k": 2,
+   "prefix_tokens": 927,
+   "out_tokens": 247,
+   "recall": 0.6,
+   "n_anchors": 5,
+   "head": "GOAL: Verify the highest sale price of a high-rise apartment in Mission Bay, San Francisco, during the year 2021.  CONST"
+  },
+  {
+   "tid": "alggen-108",
+   "k": 6,
+   "prefix_tokens": 10765,
+   "out_tokens": 184,
+   "recall": 0.0054,
+   "n_anchors": 186,
+   "head": "GOAL: Identify the board member who did not hold a C-suite position prior to joining Apple's Board.  CONSTRAINTS: - Veri"
+  },
+  {
+   "tid": "alggen-11",
+   "k": 6,
+   "prefix_tokens": 2363,
+   "out_tokens": 235,
+   "recall": 0.4,
+   "n_anchors": 5,
+   "head": "GOAL: Determine the number of studio albums published by Mercedes Sosa between 2000 and 2009 using the latest 2022 versi"
+  },
+  {
+   "tid": "alggen-111",
+   "k": 4,
+   "prefix_tokens": 1805,
+   "out_tokens": 302,
+   "recall": 0.875,
+   "n_anchors": 8,
+   "head": "GOAL: Determine the likelihood of hitting a rainy day (at least 0.5mm of precipitation) if traveling to Seattle during t"
+  },
+  {
+   "tid": "alggen-113",
+   "k": 5,
+   "prefix_tokens": 3415,
+   "out_tokens": 531,
+   "recall": 0.5455,
+   "n_anchors": 11,
+   "head": "GOAL: Identify popular hiking trails to waterfalls in Yosemite National Park that have more than 1,000 reviews on TripAd"
+  },
+  {
+   "tid": "alggen-115",
+   "k": 3,
+   "prefix_tokens": 1145,
+   "out_tokens": 233,
+   "recall": 1.0,
+   "n_anchors": 0,
+   "head": "GOAL: Verify the accuracy of the provided costs for a daily ticket and a season pass for California's Great America in S"
+  },
+  {
+   "tid": "alggen-117",
+   "k": 2,
+   "prefix_tokens": 896,
+   "out_tokens": 180,
+   "recall": 0.6667,
+   "n_anchors": 3,
+   "head": "GOAL: Identify the cause of the error \"unknown language json\" and provide a solution to fix it.  CONSTRAINTS: - The erro"
+  },
+  {
+   "tid": "alggen-119",
+   "k": 3,
+   "prefix_tokens": 1646,
+   "out_tokens": 177,
+   "recall": 0.1818,
+   "n_anchors": 11,
+   "head": "GOAL: Verify the accuracy of the list of gyms within 5 miles (by car) of the Mothman Museum in West Virginia, ensuring n"
+  },
+  {
+   "tid": "alggen-120",
+   "k": 2,
+   "prefix_tokens": 1762,
+   "out_tokens": 310,
+   "recall": 0.6571,
+   "n_anchors": 35,
+   "head": "GOAL: Identify restaurants (not takeaway only) within 1 block of Washington Square Park that offer vegan main dishes for"
+  },
+  {
+   "tid": "alggen-122",
+   "k": 5,
+   "prefix_tokens": 1128,
+   "out_tokens": 153,
+   "recall": 0.6429,
+   "n_anchors": 14,
+   "head": "GOAL: Identify the closest bar to Mummers Museum in Philadelphia that is wheelchair accessible.  CONSTRAINTS: - The bar "
+  },
+  {
+   "tid": "alggen-124",
+   "k": 3,
+   "prefix_tokens": 503,
+   "out_tokens": 201,
+   "recall": 1.0,
+   "n_anchors": 3,
+   "head": "GOAL: Identify which members of Fubo's Management Team joined the company during the same year Fubo's IPO happened.  CON"
+  },
+  {
+   "tid": "alggen-126",
+   "k": 3,
+   "prefix_tokens": 1823,
+   "out_tokens": 297,
+   "recall": 0.5714,
+   "n_anchors": 7,
+   "head": "GOAL: Identify which individuals in the monday.com C-suite did not hold a C-suite position during the company's IPO.  CO"
+  },
+  {
+   "tid": "alggen-14",
+   "k": 7,
+   "prefix_tokens": 4386,
+   "out_tokens": 226,
+   "recall": 0.6667,
+   "n_anchors": 3,
+   "head": "GOAL: Identify the book in which James Beard Award winners recommended the Frontier Restaurant in Albuquerque, NM.  CONS"
+  },
+  {
+   "tid": "alggen-16",
+   "k": 4,
+   "prefix_tokens": 1740,
+   "out_tokens": 304,
+   "recall": 0.8889,
+   "n_anchors": 9,
+   "head": "GOAL: In the YouTube 360 VR video from March 2018 narrated by the voice actor of Lord of the Rings' Gollum, identify the"
+  },
+  {
+   "tid": "alggen-18",
+   "k": 7,
+   "prefix_tokens": 2945,
+   "out_tokens": 151,
+   "recall": 0.5,
+   "n_anchors": 4,
+   "head": "GOAL: In Audre Lorde\u2019s poem \u201cFather Son and Holy Ghost\u201d, determine the stanza number in which some lines are indented.  "
+  },
+  {
+   "tid": "alggen-2",
+   "k": 3,
+   "prefix_tokens": 1140,
+   "out_tokens": 213,
+   "recall": 0.75,
+   "n_anchors": 4,
+   "head": "GOAL: Identify the country with the least number of athletes at the 1928 Summer Olympics. If there is a tie, return the "
+  },
+  {
+   "tid": "alggen-21",
+   "k": 2,
+   "prefix_tokens": 850,
+   "out_tokens": 170,
+   "recall": 1.0,
+   "n_anchors": 4,
+   "head": "GOAL: Identify the last word before the second chorus of Michael Jackson's song \"Thriller,\" which is the fifth single fr"
+  },
+  {
+   "tid": "alggen-23",
+   "k": 3,
+   "prefix_tokens": 736,
+   "out_tokens": 165,
+   "recall": 0.5,
+   "n_anchors": 2,
+   "head": "GOAL: Identify the portrait in the Metropolitan Museum of Art's collection with the accession number 29.100.5, determine"
+  },
+  {
+   "tid": "alggen-25",
+   "k": 2,
+   "prefix_tokens": 2395,
+   "out_tokens": 338,
+   "recall": 0.6667,
+   "n_anchors": 6,
+   "head": "GOAL: Identify the figure with three axes in the AI regulation paper submitted to arXiv.org in June 2022, extract the la"
+  },
+  {
+   "tid": "alggen-27",
+   "k": 2,
+   "prefix_tokens": 2079,
+   "out_tokens": 469,
+   "recall": 0.3333,
+   "n_anchors": 3,
+   "head": "GOAL: At the two-minute mark in the YouTube video uploaded by the channel \u201cGameGrumps\u201d on May 14, 2017 as part of their "
+  },
+  {
+   "tid": "alggen-29",
+   "k": 7,
+   "prefix_tokens": 5007,
+   "out_tokens": 180,
+   "recall": 0.375,
+   "n_anchors": 8,
+   "head": "GOAL: Verify the date when the image of St. Thomas Aquinas was first added to the Wikipedia page on the Principle of dou"
+  },
+  {
+   "tid": "alggen-30",
+   "k": 3,
+   "prefix_tokens": 894,
+   "out_tokens": 150,
+   "recall": 1.0,
+   "n_anchors": 5,
+   "head": "GOAL: Listen to the provided audio file and list all of the ingredients mentioned for the pie filling.  CONSTRAINTS: - O"
+  },
+  {
+   "tid": "alggen-32",
+   "k": 2,
+   "prefix_tokens": 453,
+   "out_tokens": 125,
+   "recall": 1.0,
+   "n_anchors": 2,
+   "head": "GOAL: Find the year in which the American Alligator was first found west of Texas (not including Texas) according to the"
+  },
+  {
+   "tid": "alggen-34",
+   "k": 4,
+   "prefix_tokens": 1108,
+   "out_tokens": 256,
+   "recall": 1.0,
+   "n_anchors": 6,
+   "head": "GOAL: Determine the total number of wheels on the listed steam locomotives in the provided Excel file.  CONSTRAINTS: - T"
+  },
+  {
+   "tid": "alggen-36",
+   "k": 6,
+   "prefix_tokens": 2085,
+   "out_tokens": 199,
+   "recall": 1.0,
+   "n_anchors": 0,
+   "head": "GOAL: Analyze the provided image and extract all the fractions that use / as the fraction line. Then solve the sample pr"
+  },
+  {
+   "tid": "alggen-38",
+   "k": 2,
+   "prefix_tokens": 525,
+   "out_tokens": 188,
+   "recall": 1.0,
+   "n_anchors": 5,
+   "head": "GOAL: Identify the first name of the character played by the actor who portrayed Ray in the Polish-language version of '"
+  },
+  {
+   "tid": "alggen-4",
+   "k": 5,
+   "prefix_tokens": 1325,
+   "out_tokens": 277,
+   "recall": 1.0,
+   "n_anchors": 2,
+   "head": "GOAL: Find which of the two homes, 2072 Akaikai Loop or 2017 Komo Mai Drive in Pearl City, Hawaii, sold for more in 2022"
+  },
+  {
+   "tid": "alggen-41",
+   "k": 3,
+   "prefix_tokens": 1119,
+   "out_tokens": 250,
+   "recall": 1.0,
+   "n_anchors": 7,
+   "head": "GOAL: Translate the sentence \"I like apples\" to Tizin language.  CONSTRAINTS: - Ensure the translation accurately follow"
+  },
+  {
+   "tid": "alggen-43",
+   "k": 3,
+   "prefix_tokens": 981,
+   "out_tokens": 224,
+   "recall": 0.5556,
+   "n_anchors": 9,
+   "head": "GOAL: Determine the time the Tri-Rail train that carried the most passengers on May 27, 2019, was scheduled to arrive in"
+  },
+  {
+   "tid": "alggen-45",
+   "k": 2,
+   "prefix_tokens": 831,
+   "out_tokens": 212,
+   "recall": 0.8333,
+   "n_anchors": 6,
+   "head": "GOAL: Determine the number of papers published by Nature in 2020 that would be incorrect as to their claims of statistic"
+  },
+  {
+   "tid": "alggen-47",
+   "k": 3,
+   "prefix_tokens": 936,
+   "out_tokens": 271,
+   "recall": 1.0,
+   "n_anchors": 0,
+   "head": "GOAL: Convert the given symbols \ud809\udc1c \ud809\udc10\ud809\udc1a from the Mesopotamian/Babylonian number system into Arabic numerals as a decimal nu"
+  },
+  {
+   "tid": "alggen-49",
+   "k": 2,
+   "prefix_tokens": 683,
+   "out_tokens": 200,
+   "recall": 0.6667,
+   "n_anchors": 3,
+   "head": "GOAL: Determine which employee did not give a gift in a Secret Santa exchange among twelve employees.  CONSTRAINTS: - Th"
+  },
+  {
+   "tid": "alggen-50",
+   "k": 3,
+   "prefix_tokens": 731,
+   "out_tokens": 196,
+   "recall": 0.8333,
+   "n_anchors": 6,
+   "head": "GOAL: Analyze the provided Excel file to find the vendor that makes the least money relative to the rent it pays and ide"
+  },
+  {
+   "tid": "alggen-52",
+   "k": 4,
+   "prefix_tokens": 1297,
+   "out_tokens": 240,
+   "recall": 0.5,
+   "n_anchors": 4,
+   "head": "GOAL: Compute the check digit for the Tropicos ID for the Order Helotiales as if it were an ISBN-10 number.  CONSTRAINTS"
+  },
+  {
+   "tid": "alggen-54",
+   "k": 6,
+   "prefix_tokens": 1635,
+   "out_tokens": 293,
+   "recall": 1.0,
+   "n_anchors": 5,
+   "head": "GOAL: Find the actual enrollment count of the clinical trial on H. pylori in acne vulgaris patients from Jan-May 2018 as"
+  },
+  {
+   "tid": "alggen-56",
+   "k": 6,
+   "prefix_tokens": 1193,
+   "out_tokens": 163,
+   "recall": 1.0,
+   "n_anchors": 5,
+   "head": "GOAL: Verify the recycling rate for water bottles from the provided Wikipedia link and recalculate the total amount of m"
+  },
+  {
+   "tid": "alggen-58",
+   "k": 2,
+   "prefix_tokens": 703,
+   "out_tokens": 174,
+   "recall": 0.7143,
+   "n_anchors": 7,
+   "head": "GOAL: Identify the other predictor base command that received a bug fix in the Scikit-Learn July 2017 changelog.  CONSTR"
+  },
+  {
+   "tid": "alggen-6",
+   "k": 2,
+   "prefix_tokens": 3038,
+   "out_tokens": 254,
+   "recall": 0.6667,
+   "n_anchors": 6,
+   "head": "GOAL: In Emily Midkiff's June 2014 article in the journal \"Fafnir,\" identify the word quoted from two different authors "
+  },
+  {
+   "tid": "alggen-61",
+   "k": 4,
+   "prefix_tokens": 1097,
+   "out_tokens": 374,
+   "recall": 1.0,
+   "n_anchors": 6,
+   "head": "GOAL: Execute the provided Python script against the given array of strings, extract the URL containing C++ source code,"
+  },
+  {
+   "tid": "alggen-63",
+   "k": 5,
+   "prefix_tokens": 1375,
+   "out_tokens": 275,
+   "recall": 1.0,
+   "n_anchors": 0,
+   "head": "GOAL: Using bass clef notes, determine the age of someone who has experienced the word spelled out in the sheet music by"
+  },
+  {
+   "tid": "alggen-65",
+   "k": 3,
+   "prefix_tokens": 907,
+   "out_tokens": 215,
+   "recall": 0.75,
+   "n_anchors": 4,
+   "head": "GOAL: Identify the command clicked on in the last video of the 2018 VSCode blog post on replit.com to remove extra lines"
+  },
+  {
+   "tid": "alggen-67",
+   "k": 5,
+   "prefix_tokens": 1825,
+   "out_tokens": 194,
+   "recall": 1.0,
+   "n_anchors": 1,
+   "head": "GOAL: Find the maximum length in meters of #9 in the first National Geographic short on YouTube that was ever released a"
+  },
+  {
+   "tid": "alggen-69",
+   "k": 4,
+   "prefix_tokens": 848,
+   "out_tokens": 213,
+   "recall": 1.0,
+   "n_anchors": 5,
+   "head": "GOAL: Examine the video at https://www.youtube.com/watch?v=1htKBjuUWec and determine what Teal'c says in response to the"
+  },
+  {
+   "tid": "alggen-70",
+   "k": 2,
+   "prefix_tokens": 868,
+   "out_tokens": 218,
+   "recall": 0.0,
+   "n_anchors": 1,
+   "head": "GOAL: Analyze and resolve the issue causing the code execution to fail with exit code 1 and output 'unknown language unk"
+  },
+  {
+   "tid": "alggen-72",
+   "k": 4,
+   "prefix_tokens": 1024,
+   "out_tokens": 169,
+   "recall": 0.75,
+   "n_anchors": 8,
+   "head": "GOAL: According to github, when was Regression added to the oldest closed numpy.polynomial issue that has the Regression"
+  },
+  {
+   "tid": "alggen-74",
+   "k": 4,
+   "prefix_tokens": 622,
+   "out_tokens": 123,
+   "recall": 1.0,
+   "n_anchors": 3,
+   "head": "GOAL: Identify the writer quoted by Merriam-Webster for the Word of the Day from June 27, 2022.  CONSTRAINTS: - The info"
+  },
+  {
+   "tid": "alggen-76",
+   "k": 4,
+   "prefix_tokens": 996,
+   "out_tokens": 226,
+   "recall": 0.8,
+   "n_anchors": 5,
+   "head": "GOAL: Identify the pitchers with the number before and after Taish\u014d Tamai's number as of July 2023, provide their last n"
+  },
+  {
+   "tid": "alggen-78",
+   "k": 7,
+   "prefix_tokens": 2147,
+   "out_tokens": 245,
+   "recall": 1.0,
+   "n_anchors": 2,
+   "head": "GOAL: Find the author who influenced the neurologist's belief in \"endopsychic myths\" according to Chapter 2 of the book "
+  },
+  {
+   "tid": "alggen-8",
+   "k": 6,
+   "prefix_tokens": 3661,
+   "out_tokens": 290,
+   "recall": 1.0,
+   "n_anchors": 0,
+   "head": "GOAL: You are given an Excel file as a map. You start on the START cell and move toward the END cell. You are allowed to"
+  },
+  {
+   "tid": "alggen-81",
+   "k": 5,
+   "prefix_tokens": 767,
+   "out_tokens": 179,
+   "recall": 1.0,
+   "n_anchors": 1,
+   "head": "GOAL: Identify the famous landmark shown in the background of the August 2021 issue of Vogue and determine its height in"
+  },
+  {
+   "tid": "alggen-83",
+   "k": 7,
+   "prefix_tokens": 1681,
+   "out_tokens": 194,
+   "recall": 1.0,
+   "n_anchors": 3,
+   "head": "GOAL: Determine the number of nonindigenous crocodiles found in Florida from the year 2000 through 2020 using the USGS N"
+  },
+  {
+   "tid": "alggen-85",
+   "k": 2,
+   "prefix_tokens": 3789,
+   "out_tokens": 230,
+   "recall": 0.125,
+   "n_anchors": 8,
+   "head": "GOAL: Find the last line of the rhyme under the flavor name on the headstone visible in the background of the photo of t"
+  },
+  {
+   "tid": "alggen-87",
+   "k": 3,
+   "prefix_tokens": 1112,
+   "out_tokens": 254,
+   "recall": 0.75,
+   "n_anchors": 8,
+   "head": "GOAL: Identify the albums released by Fiona Apple and Paula Cole before 1999 that did not receive a letter grade from Ro"
+  },
+  {
+   "tid": "alggen-89",
+   "k": 6,
+   "prefix_tokens": 1925,
+   "out_tokens": 243,
+   "recall": 1.0,
+   "n_anchors": 8,
+   "head": "GOAL: Verify the Yankee player with the most walks in the 1977 regular season and determine the number of at bats that p"
+  },
+  {
+   "tid": "alggen-90",
+   "k": 2,
+   "prefix_tokens": 1821,
+   "out_tokens": 451,
+   "recall": 1.0,
+   "n_anchors": 21,
+   "head": "**GOAL:** Find the absolute difference between the chapter numbers of the chapters quoted in the titles of two paintings"
+  },
+  {
+   "tid": "alggen-92",
+   "k": 5,
+   "prefix_tokens": 899,
+   "out_tokens": 189,
+   "recall": 0.2,
+   "n_anchors": 5,
+   "head": "GOAL: Analyze and resolve the issue causing the code execution to fail with exit code 1 and output 'unknown language unk"
+  },
+  {
+   "tid": "alggen-94",
+   "k": 6,
+   "prefix_tokens": 1795,
+   "out_tokens": 236,
+   "recall": 0.2222,
+   "n_anchors": 9,
+   "head": "GOAL: Identify the species of bird featured in the BBC Earth YouTube video of the Top 5 Silliest Animal Moments.  CONSTR"
+  },
+  {
+   "tid": "alggen-96",
+   "k": 6,
+   "prefix_tokens": 1464,
+   "out_tokens": 302,
+   "recall": 0.3333,
+   "n_anchors": 3,
+   "head": "GOAL: Retrieve the population data for chinstrap penguins from the Wikipedia page for penguin species populations as of "
+  },
+  {
+   "tid": "alggen-98",
+   "k": 4,
+   "prefix_tokens": 2755,
+   "out_tokens": 174,
+   "recall": 1.0,
+   "n_anchors": 0,
+   "head": "GOAL: Pick one of the 100 numbered ping-pong balls to maximize the odds of winning the grand prize of $10,000 in the gam"
+  },
+  {
+   "tid": "handcrafted-1",
+   "k": 24,
+   "prefix_tokens": 5842,
+   "out_tokens": 196,
+   "recall": 0.1176,
+   "n_anchors": 34,
+   "head": "GOAL: Find martial arts schools near the New York Stock Exchange that offer classes between 7-9 pm.  CONSTRAINTS: - Must"
+  },
+  {
+   "tid": "handcrafted-11",
+   "k": 62,
+   "prefix_tokens": 12820,
+   "out_tokens": 218,
+   "recall": 0.1163,
+   "n_anchors": 43,
+   "head": "GOAL: Identify the oldest flavor's headstone and locate the relevant photo.  CONSTRAINTS: - Must not re-perform actions "
+  },
+  {
+   "tid": "handcrafted-13",
+   "k": 8,
+   "prefix_tokens": 3229,
+   "out_tokens": 230,
+   "recall": 0.2222,
+   "n_anchors": 27,
+   "head": "GOAL: Based on recent years (2020-2023), how likely am I to hit a day with a max temperature (in Fahrenheit) over 95 if "
+  },
+  {
+   "tid": "handcrafted-15",
+   "k": 57,
+   "prefix_tokens": 17524,
+   "out_tokens": 299,
+   "recall": 0.1,
+   "n_anchors": 60,
+   "head": "GOAL: Gather information on Fidelity international emerging markets equity mutual funds with $0 transaction fees, specif"
+  },
+  {
+   "tid": "handcrafted-17",
+   "k": 12,
+   "prefix_tokens": 5294,
+   "out_tokens": 280,
+   "recall": 0.2857,
+   "n_anchors": 35,
+   "head": "GOAL: Search for eateries near Harkness Memorial State Park, located at 275 Great Neck Rd, Waterford, CT 06385, and chec"
+  },
+  {
+   "tid": "handcrafted-19",
+   "k": 58,
+   "prefix_tokens": 18011,
+   "out_tokens": 297,
+   "recall": 0.4,
+   "n_anchors": 25,
+   "head": "**GOAL:** Continue searching for press releases and information about new management hires at FuboTV in the year 2020.  "
+  },
+  {
+   "tid": "handcrafted-20",
+   "k": 12,
+   "prefix_tokens": 4413,
+   "out_tokens": 292,
+   "recall": 0.5333,
+   "n_anchors": 15,
+   "head": "GOAL: Determine the difference in seconds between the measured time spans of the X-ray time profile diagrams in the Marc"
+  },
+  {
+   "tid": "handcrafted-22",
+   "k": 7,
+   "prefix_tokens": 2885,
+   "out_tokens": 307,
+   "recall": 1.0,
+   "n_anchors": 5,
+   "head": "GOAL: In Emily Midkiff's June 2014 article in a journal named for one of Hreidmar's sons that guarded his house, what wo"
+  },
+  {
+   "tid": "handcrafted-24",
+   "k": 2,
+   "prefix_tokens": 1515,
+   "out_tokens": 245,
+   "recall": 1.0,
+   "n_anchors": 4,
+   "head": "GOAL: Translate \"I like apples\" to Tizin following the given sentence structure and verb usage rules.  CONSTRAINTS: - Mu"
+  }
+ ]
+}

@@ -1,0 +1,7778 @@
+[
+ {
+  "policy": "full",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 1124,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 1124,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 1303,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 847,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 847,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 1026,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 22,
+  "recall": 0.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 98,
+  "recall": 0.5,
+  "n_anchors": 2
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 1537,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1792,
+  "recall": 0.9706,
+  "n_anchors": 34
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1724,
+  "recall": 1.0,
+  "n_anchors": 34
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1719,
+  "recall": 1.0,
+  "n_anchors": 34
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1768,
+  "recall": 0.9706,
+  "n_anchors": 34
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 841,
+  "recall": 0.7059,
+  "n_anchors": 34
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1126,
+  "recall": 0.4118,
+  "n_anchors": 34
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1091,
+  "recall": 0.7059,
+  "n_anchors": 34
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 31,
+  "recall": 0.0588,
+  "n_anchors": 34
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1586,
+  "recall": 0.6765,
+  "n_anchors": 34
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 1304,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 1304,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 1314,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 969,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 794,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 1260,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 65,
+  "recall": 0.25,
+  "n_anchors": 4
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 44,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 1763,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 962,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 1179,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 882,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 773,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 1199,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 479,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 33,
+  "recall": 0.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 1520,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 951,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 951,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 961,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 611,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 611,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 925,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 26,
+  "recall": 0.6,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 1343,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 1792,
+  "recall": 0.0161,
+  "n_anchors": 186
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 297,
+  "recall": 0.0054,
+  "n_anchors": 186
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 391,
+  "recall": 0.0054,
+  "n_anchors": 186
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 1672,
+  "recall": 0.1989,
+  "n_anchors": 186
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 737,
+  "recall": 0.0108,
+  "n_anchors": 186
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 1259,
+  "recall": 0.0108,
+  "n_anchors": 186
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 274,
+  "recall": 0.0054,
+  "n_anchors": 186
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 23,
+  "recall": 0.0054,
+  "n_anchors": 186
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 1550,
+  "recall": 0.0645,
+  "n_anchors": 186
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 570,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 762,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 1714,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 848,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 1134,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 302,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 40,
+  "recall": 0.2,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 1428,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 1321,
+  "recall": 0.625,
+  "n_anchors": 8
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 1476,
+  "recall": 0.625,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 882,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 882,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 1466,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 54,
+  "recall": 0.5,
+  "n_anchors": 8
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 1515,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 1792,
+  "recall": 0.7273,
+  "n_anchors": 11
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 702,
+  "recall": 0.4545,
+  "n_anchors": 11
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 908,
+  "recall": 0.4545,
+  "n_anchors": 11
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 1616,
+  "recall": 1.0,
+  "n_anchors": 11
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 849,
+  "recall": 0.7273,
+  "n_anchors": 11
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 1342,
+  "recall": 0.5455,
+  "n_anchors": 11
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 519,
+  "recall": 0.3636,
+  "n_anchors": 11
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 56,
+  "recall": 0.0909,
+  "n_anchors": 11
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 1482,
+  "recall": 0.3636,
+  "n_anchors": 11
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 1180,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 1180,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 1190,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 545,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 545,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 1130,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 135,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 50,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 1539,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 920,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 920,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 1122,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 723,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 723,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 861,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 23,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 1495,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 1675,
+  "recall": 1.0,
+  "n_anchors": 11
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 952,
+  "recall": 1.0,
+  "n_anchors": 11
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 1139,
+  "recall": 1.0,
+  "n_anchors": 11
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 1153,
+  "recall": 1.0,
+  "n_anchors": 11
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 878,
+  "recall": 0.6364,
+  "n_anchors": 11
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 881,
+  "recall": 0.6364,
+  "n_anchors": 11
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 138,
+  "recall": 0.0,
+  "n_anchors": 11
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 29,
+  "recall": 0.1818,
+  "n_anchors": 11
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 1523,
+  "recall": 0.8182,
+  "n_anchors": 11
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 1785,
+  "recall": 1.0,
+  "n_anchors": 35
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 1201,
+  "recall": 1.0,
+  "n_anchors": 35
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 1327,
+  "recall": 1.0,
+  "n_anchors": 35
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 1056,
+  "recall": 1.0,
+  "n_anchors": 35
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 892,
+  "recall": 0.8286,
+  "n_anchors": 35
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 677,
+  "recall": 0.6,
+  "n_anchors": 35
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 93,
+  "recall": 0.0,
+  "n_anchors": 35
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 24,
+  "recall": 0.0286,
+  "n_anchors": 35
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 1494,
+  "recall": 0.5714,
+  "n_anchors": 35
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 1179,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 1179,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 1274,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 743,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 743,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 1163,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 174,
+  "recall": 0.6429,
+  "n_anchors": 14
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 16,
+  "recall": 0.1429,
+  "n_anchors": 14
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 1613,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 534,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 534,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 629,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 638,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 638,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 513,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 139,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 21,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 752,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1622,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1567,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1549,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 794,
+  "recall": 0.4286,
+  "n_anchors": 7
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1599,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 296,
+  "recall": 0.5714,
+  "n_anchors": 7
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 23,
+  "recall": 0.1429,
+  "n_anchors": 7
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1574,
+  "recall": 0.8571,
+  "n_anchors": 7
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1416,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1658,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1598,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 889,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1445,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1361,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 55,
+  "recall": 0.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1562,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 1787,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 1433,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 1126,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 919,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 811,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 1286,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 332,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 49,
+  "recall": 0.4444,
+  "n_anchors": 9
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 1574,
+  "recall": 0.7778,
+  "n_anchors": 9
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 934,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 1031,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 1246,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 705,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 1292,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 905,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 29,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 1592,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 1171,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 1171,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 1326,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 985,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 868,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 1126,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 134,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 45,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 1517,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 875,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 875,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 913,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 583,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 583,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 852,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 141,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 23,
+  "recall": 0.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 1415,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 776,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 776,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 786,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 496,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 496,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 718,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 128,
+  "recall": 0.5,
+  "n_anchors": 2
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 58,
+  "recall": 0.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 1097,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1109,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1288,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1740,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 836,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1473,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1034,
+  "recall": 0.1667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 75,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1748,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1655,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1589,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1691,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 887,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1534,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1324,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 121,
+  "recall": 0.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1763,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1318,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1521,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1721,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 877,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1452,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 504,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 31,
+  "recall": 0.125,
+  "n_anchors": 8
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1472,
+  "recall": 0.625,
+  "n_anchors": 8
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 929,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 929,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 947,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 756,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 661,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 735,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 81,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 194,
+  "recall": 0.2,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 1213,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 484,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 484,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 576,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 579,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 579,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 460,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 109,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 24,
+  "recall": 0.5,
+  "n_anchors": 2
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 762,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1151,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1151,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1334,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1054,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 758,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1119,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 291,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 32,
+  "recall": 0.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1675,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1372,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1629,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1385,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 805,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1526,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 129,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 44,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1698,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 556,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 556,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 578,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 470,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 470,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 528,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 86,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 28,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 805,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 1380,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 1380,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 1390,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 784,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 784,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 1268,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 112,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 1680,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 1156,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 1156,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 1073,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 678,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 678,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 912,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 62,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 244,
+  "recall": 0.7143,
+  "n_anchors": 7
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 1514,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 1014,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 1014,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 1141,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 950,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 877,
+  "recall": 0.8889,
+  "n_anchors": 9
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 954,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 166,
+  "recall": 0.3333,
+  "n_anchors": 9
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 60,
+  "recall": 0.4444,
+  "n_anchors": 9
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 1496,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 856,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 856,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 976,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 602,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 602,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 782,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 23,
+  "recall": 0.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 74,
+  "recall": 0.5,
+  "n_anchors": 6
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 1268,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 992,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 992,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 1000,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 475,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 475,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 936,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 46,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 56,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 1649,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 708,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 708,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 748,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 607,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 607,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 628,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 137,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 80,
+  "recall": 0.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 933,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 764,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 764,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 774,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 668,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 668,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 697,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 203,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 67,
+  "recall": 0.3333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 1052,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 1335,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 1335,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 1467,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 624,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 624,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 1308,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 574,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 27,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 1649,
+  "recall": 0.75,
+  "n_anchors": 4
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 1707,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 1407,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 1417,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 802,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 802,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 1372,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 455,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 35,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 1432,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 1251,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 1251,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 1310,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 715,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 715,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 1147,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 104,
+  "recall": 0.2,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 1462,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 734,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 734,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 744,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 523,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 523,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 700,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 34,
+  "recall": 0.5714,
+  "n_anchors": 7
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 1132,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 1792,
+  "recall": 0.5,
+  "n_anchors": 6
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 51,
+  "recall": 0.5,
+  "n_anchors": 6
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 147,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 1610,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 880,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 786,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 1792,
+  "recall": 0.5,
+  "n_anchors": 6
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 51,
+  "recall": 0.5,
+  "n_anchors": 6
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 1780,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 1137,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 1137,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 1246,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 1248,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 782,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 934,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 129,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 203,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 1407,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 1424,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 1424,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 1556,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 759,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 759,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 1379,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 307,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 45,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 1679,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 943,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 943,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 1037,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 768,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 768,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 911,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 227,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 32,
+  "recall": 0.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 1394,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 1101,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 1195,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 783,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 783,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 1362,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 35,
+  "recall": 0.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 1356,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 892,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 892,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 1051,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 852,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 802,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 853,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 207,
+  "recall": 0.4,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 39,
+  "recall": 0.6,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 1290,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 893,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 893,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 1094,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 781,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 781,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 807,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 364,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 85,
+  "recall": 0.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 1351,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 1062,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 1062,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 1142,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 539,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 539,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 1035,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 176,
+  "recall": 0.5,
+  "n_anchors": 8
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 27,
+  "recall": 0.375,
+  "n_anchors": 8
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 1531,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 696,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 696,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 706,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 604,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 604,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 667,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 139,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 29,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 1189,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 1036,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 1036,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 1096,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 823,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 823,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 985,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 51,
+  "recall": 0.2,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 1415,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1688,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1650,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1745,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 885,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1011,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1340,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 59,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1605,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1599,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1240,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1192,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 837,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1505,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 815,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 101,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1622,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 821,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 821,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 1025,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 819,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 819,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 778,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 93,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 43,
+  "recall": 0.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 1226,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1747,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1326,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1414,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1190,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 824,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1508,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 155,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 44,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1458,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1792,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1644,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1654,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1740,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 821,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1702,
+  "recall": 0.25,
+  "n_anchors": 8
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1594,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 50,
+  "recall": 0.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1792,
+  "recall": 0.25,
+  "n_anchors": 8
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 1148,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 1148,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 1182,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 800,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 800,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 1071,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 59,
+  "recall": 0.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 77,
+  "recall": 0.125,
+  "n_anchors": 8
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 1579,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 1251,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 1412,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 941,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 837,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 1503,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 41,
+  "recall": 0.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 25,
+  "recall": 0.125,
+  "n_anchors": 8
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 1606,
+  "recall": 0.625,
+  "n_anchors": 8
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1092,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1206,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1096,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 749,
+  "recall": 0.9048,
+  "n_anchors": 21
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1022,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 387,
+  "recall": 0.7619,
+  "n_anchors": 21
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 70,
+  "recall": 0.1905,
+  "n_anchors": 21
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1725,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 951,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 951,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 1049,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 683,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 683,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 849,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 352,
+  "recall": 0.6,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 102,
+  "recall": 0.2,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 1447,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1488,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1585,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1444,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 763,
+  "recall": 0.8889,
+  "n_anchors": 9
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1502,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 225,
+  "recall": 0.8889,
+  "n_anchors": 9
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 24,
+  "recall": 0.1111,
+  "n_anchors": 9
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1435,
+  "recall": 0.5556,
+  "n_anchors": 9
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1524,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1074,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1323,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1210,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 753,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1312,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 488,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 71,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1382,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "full",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "recency",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 872,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 1456,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 723,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 723,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "randdrop",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 1197,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "trunc25",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 79,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "restart",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 458,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "extractive",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 1490,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 34
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1314,
+  "recall": 0.2059,
+  "n_anchors": 34
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1512,
+  "recall": 0.2647,
+  "n_anchors": 34
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1658,
+  "recall": 0.2059,
+  "n_anchors": 34
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 631,
+  "recall": 0.1471,
+  "n_anchors": 34
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1385,
+  "recall": 0.1471,
+  "n_anchors": 34
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 915,
+  "recall": 0.1471,
+  "n_anchors": 34
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 26,
+  "recall": 0.0294,
+  "n_anchors": 34
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1680,
+  "recall": 0.0882,
+  "n_anchors": 34
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1792,
+  "recall": 0.2558,
+  "n_anchors": 43
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1341,
+  "recall": 0.2093,
+  "n_anchors": 43
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1480,
+  "recall": 0.2093,
+  "n_anchors": 43
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1735,
+  "recall": 0.6512,
+  "n_anchors": 43
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 781,
+  "recall": 0.186,
+  "n_anchors": 43
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1706,
+  "recall": 0.5349,
+  "n_anchors": 43
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1792,
+  "recall": 0.2558,
+  "n_anchors": 43
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 50,
+  "recall": 0.1163,
+  "n_anchors": 43
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1728,
+  "recall": 0.1395,
+  "n_anchors": 43
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 1792,
+  "recall": 0.9259,
+  "n_anchors": 27
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 786,
+  "recall": 0.8519,
+  "n_anchors": 27
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 1004,
+  "recall": 0.8519,
+  "n_anchors": 27
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 1320,
+  "recall": 1.0,
+  "n_anchors": 27
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 805,
+  "recall": 0.8519,
+  "n_anchors": 27
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 1459,
+  "recall": 0.2222,
+  "n_anchors": 27
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 372,
+  "recall": 0.7037,
+  "n_anchors": 27
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 52,
+  "recall": 0.1111,
+  "n_anchors": 27
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 1637,
+  "recall": 0.2963,
+  "n_anchors": 27
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1792,
+  "recall": 0.55,
+  "n_anchors": 60
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1535,
+  "recall": 0.55,
+  "n_anchors": 60
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1454,
+  "recall": 0.3833,
+  "n_anchors": 60
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1757,
+  "recall": 0.1833,
+  "n_anchors": 60
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 804,
+  "recall": 0.0833,
+  "n_anchors": 60
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1355,
+  "recall": 0.1167,
+  "n_anchors": 60
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1792,
+  "recall": 0.55,
+  "n_anchors": 60
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 34,
+  "recall": 0.05,
+  "n_anchors": 60
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1669,
+  "recall": 0.0833,
+  "n_anchors": 60
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1792,
+  "recall": 0.7429,
+  "n_anchors": 35
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1759,
+  "recall": 0.7429,
+  "n_anchors": 35
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1734,
+  "recall": 0.7429,
+  "n_anchors": 35
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1676,
+  "recall": 0.6857,
+  "n_anchors": 35
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 784,
+  "recall": 0.2,
+  "n_anchors": 35
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1792,
+  "recall": 0.7429,
+  "n_anchors": 35
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1450,
+  "recall": 0.7143,
+  "n_anchors": 35
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 27,
+  "recall": 0.0286,
+  "n_anchors": 35
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1765,
+  "recall": 0.2,
+  "n_anchors": 35
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1792,
+  "recall": 0.68,
+  "n_anchors": 25
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1556,
+  "recall": 0.64,
+  "n_anchors": 25
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1328,
+  "recall": 0.32,
+  "n_anchors": 25
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1784,
+  "recall": 0.2,
+  "n_anchors": 25
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 862,
+  "recall": 0.16,
+  "n_anchors": 25
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1571,
+  "recall": 0.52,
+  "n_anchors": 25
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1792,
+  "recall": 0.68,
+  "n_anchors": 25
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 21,
+  "recall": 0.12,
+  "n_anchors": 25
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1757,
+  "recall": 0.16,
+  "n_anchors": 25
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 1792,
+  "recall": 0.8,
+  "n_anchors": 15
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 620,
+  "recall": 0.7333,
+  "n_anchors": 15
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 881,
+  "recall": 0.7333,
+  "n_anchors": 15
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 1653,
+  "recall": 1.0,
+  "n_anchors": 15
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 754,
+  "recall": 0.7333,
+  "n_anchors": 15
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 1485,
+  "recall": 0.7333,
+  "n_anchors": 15
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 203,
+  "recall": 0.6,
+  "n_anchors": 15
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 101,
+  "recall": 0.4667,
+  "n_anchors": 15
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 1633,
+  "recall": 0.6667,
+  "n_anchors": 15
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 1792,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 506,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 868,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 729,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 1469,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 74,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 51,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 1587,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "full",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 1541,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "recency",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 1291,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "typed-recency",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 1301,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 664,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "relay-lite",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 664,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "randdrop",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 1496,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "trunc25",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 239,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "restart",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 45,
+  "recall": 0.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "extractive",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 1568,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 207,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 351,
+  "recall": 0.2647,
+  "n_anchors": 34
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 405,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 166,
+  "recall": 0.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 247,
+  "recall": 0.6,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 184,
+  "recall": 0.0054,
+  "n_anchors": 186
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 235,
+  "recall": 0.4,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 302,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 531,
+  "recall": 0.5455,
+  "n_anchors": 11
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 233,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 180,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 177,
+  "recall": 0.1818,
+  "n_anchors": 11
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 310,
+  "recall": 0.6571,
+  "n_anchors": 35
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 153,
+  "recall": 0.6429,
+  "n_anchors": 14
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 201,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 297,
+  "recall": 0.5714,
+  "n_anchors": 7
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 226,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 304,
+  "recall": 0.8889,
+  "n_anchors": 9
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 151,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 213,
+  "recall": 0.75,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 170,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 165,
+  "recall": 0.5,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 338,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 469,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 180,
+  "recall": 0.375,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 150,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 125,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 256,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 199,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 188,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 277,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 250,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 224,
+  "recall": 0.5556,
+  "n_anchors": 9
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 212,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 271,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 200,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 196,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 240,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 293,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 163,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 174,
+  "recall": 0.7143,
+  "n_anchors": 7
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 254,
+  "recall": 0.6667,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 374,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 275,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 215,
+  "recall": 0.75,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 194,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 213,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 218,
+  "recall": 0.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 169,
+  "recall": 0.75,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 123,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 226,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 245,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 290,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 179,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 194,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 230,
+  "recall": 0.125,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 254,
+  "recall": 0.75,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 243,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 451,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 189,
+  "recall": 0.2,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 236,
+  "recall": 0.2222,
+  "n_anchors": 9
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 302,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 174,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 196,
+  "recall": 0.1176,
+  "n_anchors": 34
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 218,
+  "recall": 0.1163,
+  "n_anchors": 43
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 230,
+  "recall": 0.2222,
+  "n_anchors": 27
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 299,
+  "recall": 0.1,
+  "n_anchors": 60
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 280,
+  "recall": 0.2857,
+  "n_anchors": 35
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 297,
+  "recall": 0.4,
+  "n_anchors": 25
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 292,
+  "recall": 0.5333,
+  "n_anchors": 15
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 307,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llm-summary",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 245,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 1511,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-1",
+  "k": 3,
+  "prefix_tokens": 1093,
+  "out_tokens": 1532,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1552,
+  "recall": 0.6765,
+  "n_anchors": 34
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-100",
+  "k": 4,
+  "prefix_tokens": 2208,
+  "out_tokens": 1586,
+  "recall": 0.7647,
+  "n_anchors": 34
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 1744,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-102",
+  "k": 6,
+  "prefix_tokens": 1235,
+  "out_tokens": 1753,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 1304,
+  "recall": 0.3333,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-104",
+  "k": 7,
+  "prefix_tokens": 2063,
+  "out_tokens": 1367,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 1343,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-106",
+  "k": 2,
+  "prefix_tokens": 927,
+  "out_tokens": 1343,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 1584,
+  "recall": 0.1022,
+  "n_anchors": 186
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-108",
+  "k": 6,
+  "prefix_tokens": 10765,
+  "out_tokens": 1559,
+  "recall": 0.1505,
+  "n_anchors": 186
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 1539,
+  "recall": 0.4,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-11",
+  "k": 6,
+  "prefix_tokens": 2363,
+  "out_tokens": 1485,
+  "recall": 0.8,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 1414,
+  "recall": 0.625,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-111",
+  "k": 4,
+  "prefix_tokens": 1805,
+  "out_tokens": 1459,
+  "recall": 0.75,
+  "n_anchors": 8
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 1422,
+  "recall": 0.6364,
+  "n_anchors": 11
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-113",
+  "k": 5,
+  "prefix_tokens": 3415,
+  "out_tokens": 1407,
+  "recall": 0.6364,
+  "n_anchors": 11
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 1452,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-115",
+  "k": 3,
+  "prefix_tokens": 1145,
+  "out_tokens": 1506,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 1461,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-117",
+  "k": 2,
+  "prefix_tokens": 896,
+  "out_tokens": 1465,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 1499,
+  "recall": 0.5455,
+  "n_anchors": 11
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-119",
+  "k": 3,
+  "prefix_tokens": 1646,
+  "out_tokens": 1528,
+  "recall": 1.0,
+  "n_anchors": 11
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 1547,
+  "recall": 0.8571,
+  "n_anchors": 35
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-120",
+  "k": 2,
+  "prefix_tokens": 1762,
+  "out_tokens": 1479,
+  "recall": 0.8,
+  "n_anchors": 35
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 1558,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-122",
+  "k": 5,
+  "prefix_tokens": 1128,
+  "out_tokens": 1607,
+  "recall": 1.0,
+  "n_anchors": 14
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 752,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-124",
+  "k": 3,
+  "prefix_tokens": 503,
+  "out_tokens": 752,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1521,
+  "recall": 0.7143,
+  "n_anchors": 7
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-126",
+  "k": 3,
+  "prefix_tokens": 1823,
+  "out_tokens": 1531,
+  "recall": 0.7143,
+  "n_anchors": 7
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1403,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-14",
+  "k": 7,
+  "prefix_tokens": 4386,
+  "out_tokens": 1501,
+  "recall": 0.6667,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 1420,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-16",
+  "k": 4,
+  "prefix_tokens": 1740,
+  "out_tokens": 1507,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 1477,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-18",
+  "k": 7,
+  "prefix_tokens": 2945,
+  "out_tokens": 1542,
+  "recall": 0.5,
+  "n_anchors": 4
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 1479,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-2",
+  "k": 3,
+  "prefix_tokens": 1140,
+  "out_tokens": 1501,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 1415,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-21",
+  "k": 2,
+  "prefix_tokens": 850,
+  "out_tokens": 1415,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 1097,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-23",
+  "k": 3,
+  "prefix_tokens": 736,
+  "out_tokens": 1097,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1577,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-25",
+  "k": 2,
+  "prefix_tokens": 2395,
+  "out_tokens": 1695,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1759,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-27",
+  "k": 2,
+  "prefix_tokens": 2079,
+  "out_tokens": 1790,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1664,
+  "recall": 0.5,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-29",
+  "k": 7,
+  "prefix_tokens": 5007,
+  "out_tokens": 1753,
+  "recall": 0.5,
+  "n_anchors": 8
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 1213,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-30",
+  "k": 3,
+  "prefix_tokens": 894,
+  "out_tokens": 1213,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 762,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-32",
+  "k": 2,
+  "prefix_tokens": 453,
+  "out_tokens": 762,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1675,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-34",
+  "k": 4,
+  "prefix_tokens": 1108,
+  "out_tokens": 1675,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1517,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-36",
+  "k": 6,
+  "prefix_tokens": 2085,
+  "out_tokens": 1645,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 805,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-38",
+  "k": 2,
+  "prefix_tokens": 525,
+  "out_tokens": 805,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 1562,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-4",
+  "k": 5,
+  "prefix_tokens": 1325,
+  "out_tokens": 1656,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 1531,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-41",
+  "k": 3,
+  "prefix_tokens": 1119,
+  "out_tokens": 1532,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 1496,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-43",
+  "k": 3,
+  "prefix_tokens": 981,
+  "out_tokens": 1496,
+  "recall": 1.0,
+  "n_anchors": 9
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 1268,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-45",
+  "k": 2,
+  "prefix_tokens": 831,
+  "out_tokens": 1268,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 1622,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-47",
+  "k": 3,
+  "prefix_tokens": 936,
+  "out_tokens": 1644,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 933,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-49",
+  "k": 2,
+  "prefix_tokens": 683,
+  "out_tokens": 933,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 1052,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-50",
+  "k": 3,
+  "prefix_tokens": 731,
+  "out_tokens": 1052,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 1614,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-52",
+  "k": 4,
+  "prefix_tokens": 1297,
+  "out_tokens": 1626,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 1356,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-54",
+  "k": 6,
+  "prefix_tokens": 1635,
+  "out_tokens": 1464,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 1446,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-56",
+  "k": 6,
+  "prefix_tokens": 1193,
+  "out_tokens": 1477,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 1132,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-58",
+  "k": 2,
+  "prefix_tokens": 703,
+  "out_tokens": 1132,
+  "recall": 1.0,
+  "n_anchors": 7
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 1739,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-6",
+  "k": 2,
+  "prefix_tokens": 3038,
+  "out_tokens": 1784,
+  "recall": 0.8333,
+  "n_anchors": 6
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 1407,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-61",
+  "k": 4,
+  "prefix_tokens": 1097,
+  "out_tokens": 1407,
+  "recall": 1.0,
+  "n_anchors": 6
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 1456,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-63",
+  "k": 5,
+  "prefix_tokens": 1375,
+  "out_tokens": 1623,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 1394,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-65",
+  "k": 3,
+  "prefix_tokens": 907,
+  "out_tokens": 1394,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 1366,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-67",
+  "k": 5,
+  "prefix_tokens": 1825,
+  "out_tokens": 1393,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 1290,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-69",
+  "k": 4,
+  "prefix_tokens": 848,
+  "out_tokens": 1290,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 1353,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-70",
+  "k": 2,
+  "prefix_tokens": 868,
+  "out_tokens": 1340,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 1505,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-72",
+  "k": 4,
+  "prefix_tokens": 1024,
+  "out_tokens": 1526,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 1189,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-74",
+  "k": 4,
+  "prefix_tokens": 622,
+  "out_tokens": 1189,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 1415,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-76",
+  "k": 4,
+  "prefix_tokens": 996,
+  "out_tokens": 1415,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1501,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-78",
+  "k": 7,
+  "prefix_tokens": 2147,
+  "out_tokens": 1597,
+  "recall": 1.0,
+  "n_anchors": 2
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1421,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-8",
+  "k": 6,
+  "prefix_tokens": 3661,
+  "out_tokens": 1469,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 1226,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-81",
+  "k": 5,
+  "prefix_tokens": 767,
+  "out_tokens": 1226,
+  "recall": 1.0,
+  "n_anchors": 1
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1390,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-83",
+  "k": 7,
+  "prefix_tokens": 1681,
+  "out_tokens": 1473,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1618,
+  "recall": 0.625,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-85",
+  "k": 2,
+  "prefix_tokens": 3789,
+  "out_tokens": 1705,
+  "recall": 0.375,
+  "n_anchors": 8
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 1532,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-87",
+  "k": 3,
+  "prefix_tokens": 1112,
+  "out_tokens": 1571,
+  "recall": 1.0,
+  "n_anchors": 8
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 1424,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-89",
+  "k": 6,
+  "prefix_tokens": 1925,
+  "out_tokens": 1542,
+  "recall": 0.875,
+  "n_anchors": 8
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1537,
+  "recall": 0.7143,
+  "n_anchors": 21
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-90",
+  "k": 2,
+  "prefix_tokens": 1821,
+  "out_tokens": 1591,
+  "recall": 1.0,
+  "n_anchors": 21
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 1444,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-92",
+  "k": 5,
+  "prefix_tokens": 899,
+  "out_tokens": 1435,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1455,
+  "recall": 0.4444,
+  "n_anchors": 9
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-94",
+  "k": 6,
+  "prefix_tokens": 1795,
+  "out_tokens": 1472,
+  "recall": 0.7778,
+  "n_anchors": 9
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1424,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-96",
+  "k": 6,
+  "prefix_tokens": 1464,
+  "out_tokens": 1448,
+  "recall": 1.0,
+  "n_anchors": 3
+ },
+ {
+  "policy": "selective",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 1351,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "alggen-98",
+  "k": 4,
+  "prefix_tokens": 2755,
+  "out_tokens": 1398,
+  "recall": 1.0,
+  "n_anchors": 0
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1792,
+  "recall": 0.2647,
+  "n_anchors": 34
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-1",
+  "k": 24,
+  "prefix_tokens": 5842,
+  "out_tokens": 1683,
+  "recall": 0.2647,
+  "n_anchors": 34
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1747,
+  "recall": 0.3721,
+  "n_anchors": 43
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-11",
+  "k": 62,
+  "prefix_tokens": 12820,
+  "out_tokens": 1582,
+  "recall": 0.2326,
+  "n_anchors": 43
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 1785,
+  "recall": 0.5185,
+  "n_anchors": 27
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-13",
+  "k": 8,
+  "prefix_tokens": 3229,
+  "out_tokens": 1792,
+  "recall": 0.3704,
+  "n_anchors": 27
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1702,
+  "recall": 0.2333,
+  "n_anchors": 60
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-15",
+  "k": 57,
+  "prefix_tokens": 17524,
+  "out_tokens": 1521,
+  "recall": 0.2167,
+  "n_anchors": 60
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1792,
+  "recall": 0.4286,
+  "n_anchors": 35
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-17",
+  "k": 12,
+  "prefix_tokens": 5294,
+  "out_tokens": 1734,
+  "recall": 0.4857,
+  "n_anchors": 35
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1736,
+  "recall": 0.28,
+  "n_anchors": 25
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-19",
+  "k": 58,
+  "prefix_tokens": 18011,
+  "out_tokens": 1555,
+  "recall": 0.28,
+  "n_anchors": 25
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 1563,
+  "recall": 0.6667,
+  "n_anchors": 15
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-20",
+  "k": 12,
+  "prefix_tokens": 4413,
+  "out_tokens": 1514,
+  "recall": 0.8667,
+  "n_anchors": 15
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 1753,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-22",
+  "k": 7,
+  "prefix_tokens": 2885,
+  "out_tokens": 1655,
+  "recall": 1.0,
+  "n_anchors": 5
+ },
+ {
+  "policy": "selective",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 1513,
+  "recall": 1.0,
+  "n_anchors": 4
+ },
+ {
+  "policy": "llmlingua",
+  "tid": "handcrafted-24",
+  "k": 2,
+  "prefix_tokens": 1515,
+  "out_tokens": 1542,
+  "recall": 1.0,
+  "n_anchors": 4
+ }
+]

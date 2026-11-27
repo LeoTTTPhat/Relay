@@ -1,0 +1,311 @@
+{
+ "Qwen2.5-7B-Instruct": {
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n_policies": 9,
+  "ledger": {
+   "n_cases": 48,
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "per_policy": {
+    "full": {
+     "recognised_done": 1.0,
+     "false_alarm_not_done": 0.0,
+     "balanced_acc": 1.0,
+     "ci_recognised": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n": 48
+    },
+    "recency": {
+     "recognised_done": 1.0,
+     "false_alarm_not_done": 0.0,
+     "balanced_acc": 1.0,
+     "ci_recognised": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n": 48
+    },
+    "typed-recency": {
+     "recognised_done": 1.0,
+     "false_alarm_not_done": 0.0,
+     "balanced_acc": 1.0,
+     "ci_recognised": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n": 48
+    },
+    "relay": {
+     "recognised_done": 1.0,
+     "false_alarm_not_done": 0.0625,
+     "balanced_acc": 0.9688,
+     "ci_recognised": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n": 48
+    },
+    "relay-lite": {
+     "recognised_done": 1.0,
+     "false_alarm_not_done": 0.0625,
+     "balanced_acc": 0.9688,
+     "ci_recognised": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n": 48
+    },
+    "extractive": {
+     "recognised_done": 1.0,
+     "false_alarm_not_done": 0.0,
+     "balanced_acc": 1.0,
+     "ci_recognised": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n": 48
+    },
+    "trunc25": {
+     "recognised_done": 0.6667,
+     "false_alarm_not_done": 0.0,
+     "balanced_acc": 0.8333,
+     "ci_recognised": [
+      0.6667,
+      0.5417,
+      0.7917
+     ],
+     "n": 48
+    },
+    "randdrop": {
+     "recognised_done": 1.0,
+     "false_alarm_not_done": 0.0,
+     "balanced_acc": 1.0,
+     "ci_recognised": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n": 48
+    },
+    "restart": {
+     "recognised_done": 0.0,
+     "false_alarm_not_done": 0.0,
+     "balanced_acc": 0.5,
+     "ci_recognised": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "n": 48
+    }
+   }
+  },
+  "state_qa": {
+   "n_cases": 40,
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "per_policy": {
+    "full": {
+     "qa_acc": 0.525,
+     "probe_recall": 1.0,
+     "ci": [
+      0.525,
+      0.425,
+      0.625
+     ]
+    },
+    "recency": {
+     "qa_acc": 0.525,
+     "probe_recall": 1.0,
+     "ci": [
+      0.525,
+      0.425,
+      0.625
+     ]
+    },
+    "typed-recency": {
+     "qa_acc": 0.65,
+     "probe_recall": 1.0,
+     "ci": [
+      0.65,
+      0.5625,
+      0.7375
+     ]
+    },
+    "relay": {
+     "qa_acc": 0.4625,
+     "probe_recall": 1.0,
+     "ci": [
+      0.4625,
+      0.3625,
+      0.575
+     ]
+    },
+    "relay-lite": {
+     "qa_acc": 0.45,
+     "probe_recall": 1.0,
+     "ci": [
+      0.45,
+      0.3497,
+      0.5625
+     ]
+    },
+    "extractive": {
+     "qa_acc": 0.45,
+     "probe_recall": 1.0,
+     "ci": [
+      0.45,
+      0.35,
+      0.5375
+     ]
+    },
+    "trunc25": {
+     "qa_acc": 0.1625,
+     "probe_recall": 0.1975,
+     "ci": [
+      0.1625,
+      0.0875,
+      0.25
+     ]
+    },
+    "randdrop": {
+     "qa_acc": 0.6,
+     "probe_recall": 0.6398,
+     "ci": [
+      0.6,
+      0.475,
+      0.7125
+     ]
+    },
+    "restart": {
+     "qa_acc": 0.0,
+     "probe_recall": 0.4363,
+     "ci": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "pearson_probe_vs_qa": 0.3961
+  },
+  "answer_recovery": {
+   "n_cases": 48,
+   "n_evals": 432,
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "per_policy": {
+    "full": {
+     "acc": 0.0833,
+     "ci": [
+      0.0833,
+      0.0208,
+      0.1667
+     ],
+     "frr": 0.8647
+    },
+    "recency": {
+     "acc": 0.0833,
+     "ci": [
+      0.0833,
+      0.0208,
+      0.1667
+     ],
+     "frr": 0.7853
+    },
+    "typed-recency": {
+     "acc": 0.0833,
+     "ci": [
+      0.0833,
+      0.0208,
+      0.1667
+     ],
+     "frr": 0.7552
+    },
+    "relay": {
+     "acc": 0.1042,
+     "ci": [
+      0.1042,
+      0.0417,
+      0.1875
+     ],
+     "frr": 0.8782
+    },
+    "relay-lite": {
+     "acc": 0.0833,
+     "ci": [
+      0.0833,
+      0.0208,
+      0.1667
+     ],
+     "frr": 0.6573
+    },
+    "extractive": {
+     "acc": 0.0833,
+     "ci": [
+      0.0833,
+      0.0208,
+      0.1667
+     ],
+     "frr": 0.6138
+    },
+    "trunc25": {
+     "acc": 0.0417,
+     "ci": [
+      0.0417,
+      0.0,
+      0.1042
+     ],
+     "frr": 0.4434
+    },
+    "randdrop": {
+     "acc": 0.0833,
+     "ci": [
+      0.0833,
+      0.0208,
+      0.1667
+     ],
+     "frr": 0.7081
+    },
+    "restart": {
+     "acc": 0.0,
+     "ci": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "frr": 0.2847
+    }
+   },
+   "pearson_frr_vs_success": 0.25,
+   "calibration": [
+    {
+     "frr_bin": "0.00-0.25",
+     "n": 89,
+     "acc": 0.0
+    },
+    {
+     "frr_bin": "0.25-0.50",
+     "n": 53,
+     "acc": 0.0
+    },
+    {
+     "frr_bin": "0.50-0.75",
+     "n": 54,
+     "acc": 0.0
+    },
+    {
+     "frr_bin": "0.75-1.00",
+     "n": 236,
+     "acc": 0.1314
+    }
+   ]
+  },
+  "runtime_s": 1377.2
+ }
+}

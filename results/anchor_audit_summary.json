@@ -1,0 +1,41 @@
+{
+ "n_traces": 29,
+ "cap_per_trace": 8,
+ "per_type": {
+  "quoted": {
+   "n": 30,
+   "tp": 22,
+   "precision": 0.7333
+  },
+  "__all__": {
+   "n": 167,
+   "tp": 120,
+   "precision": 0.7186
+  },
+  "entity": {
+   "n": 92,
+   "tp": 58,
+   "precision": 0.6304
+  },
+  "number": {
+   "n": 32,
+   "tp": 28,
+   "precision": 0.875
+  },
+  "file": {
+   "n": 2,
+   "tp": 2,
+   "precision": 1.0
+  },
+  "url": {
+   "n": 9,
+   "tp": 9,
+   "precision": 1.0
+  },
+  "answer": {
+   "n": 2,
+   "tp": 1,
+   "precision": 0.5
+  }
+ }
+}

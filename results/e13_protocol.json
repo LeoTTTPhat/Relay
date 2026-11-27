@@ -1,0 +1,298 @@
+{
+ "e13a_enforcement": {
+  "per_policy": {
+   "full": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 0.21816137566137567,
+     "lo": 0.2032037037037037,
+     "hi": 0.23415476190476187
+    },
+    "enforced": {
+     "mean": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "n": 1620
+   },
+   "recency": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 0.21013594944150502,
+     "lo": 0.1942578630217519,
+     "hi": 0.2253546443268665
+    },
+    "enforced": {
+     "mean": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "n": 1620
+   },
+   "typed-recency": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 0.05700690770135215,
+     "lo": 0.04835765726043503,
+     "hi": 0.06585958627278071
+    },
+    "enforced": {
+     "mean": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "n": 1620
+   },
+   "relay": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 0.050355673133450914,
+     "lo": 0.042424933862433865,
+     "hi": 0.058672141387419156
+    },
+    "enforced": {
+     "mean": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "n": 1620
+   },
+   "relay-lite": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 0.03748456790123456,
+     "lo": 0.030030478395061726,
+     "hi": 0.04587160126396237
+    },
+    "enforced": {
+     "mean": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "n": 1620
+   },
+   "trunc25": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 0.8259134332745443,
+     "lo": 0.8115820656966491,
+     "hi": 0.8403484714873605
+    },
+    "enforced": {
+     "mean": 0.6019532627865961,
+     "lo": 0.5847625661375662,
+     "hi": 0.6195707304526749
+    },
+    "n": 1620
+   },
+   "randdrop": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 0.20690623162845384,
+     "lo": 0.19156222442680776,
+     "hi": 0.2218074661963551
+    },
+    "enforced": {
+     "mean": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "n": 1620
+   },
+   "restart": {
+    "none": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "advisory": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "enforced": {
+     "mean": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    },
+    "n": 1620
+   }
+  },
+  "compliance_used": {
+   "full": 0.7875,
+   "recency": 0.7875,
+   "relay": 0.95,
+   "relay-lite": 0.9625,
+   "extractive": 0.7875,
+   "trunc25": 0.4625,
+   "randdrop": 0.8,
+   "restart": 0.0
+  },
+  "divergence_used": {
+   "v3-typed": 0.0,
+   "v2-action": 0.3289
+  }
+ },
+ "e13b_crash": {
+  "status_only/reconciler": {
+   "per_crash_point": {
+    "c0_before_prepare": {
+     "correct": 778
+    },
+    "c1_after_prepare": {
+     "correct": 779
+    },
+    "c2_in_flight": {
+     "correct": 447,
+     "duplicate": 417
+    },
+    "c3_after_response": {
+     "duplicate": 826
+    },
+    "c4_after_record": {
+     "correct": 753
+    }
+   },
+   "overall": {
+    "correct": 0.6893,
+    "duplicate": 0.3108
+   },
+   "n": 4000
+  },
+  "status_only/no-reconciler": {
+   "per_crash_point": {
+    "c0_before_prepare": {
+     "correct": 778
+    },
+    "c1_after_prepare": {
+     "correct": 800
+    },
+    "c2_in_flight": {
+     "duplicate": 439,
+     "correct": 392
+    },
+    "c3_after_response": {
+     "duplicate": 797
+    },
+    "c4_after_record": {
+     "correct": 794
+    }
+   },
+   "overall": {
+    "correct": 0.691,
+    "duplicate": 0.309
+   },
+   "n": 4000
+  },
+  "wal/reconciler": {
+   "per_crash_point": {
+    "c0_before_prepare": {
+     "correct": 782
+    },
+    "c1_after_prepare": {
+     "correct": 812
+    },
+    "c2_in_flight": {
+     "correct": 814
+    },
+    "c3_after_response": {
+     "correct": 778
+    },
+    "c4_after_record": {
+     "correct": 814
+    }
+   },
+   "overall": {
+    "correct": 1.0
+   },
+   "n": 4000
+  },
+  "wal/no-reconciler": {
+   "per_crash_point": {
+    "c0_before_prepare": {
+     "correct": 813
+    },
+    "c1_after_prepare": {
+     "blocked": 769
+    },
+    "c2_in_flight": {
+     "blocked": 813
+    },
+    "c3_after_response": {
+     "blocked": 789
+    },
+    "c4_after_record": {
+     "correct": 816
+    }
+   },
+   "overall": {
+    "correct": 0.4073,
+    "blocked": 0.5927
+   },
+   "n": 4000
+  }
+ },
+ "e13c_split_brain": {
+  "key_agreement": {
+   "deterministic": {
+    "n": 901,
+    "same": 901,
+    "agreement": 1.0,
+    "executions_per_race": 1.0
+   },
+   "device_scoped": {
+    "n": 901,
+    "same": 0,
+    "agreement": 0.0,
+    "executions_per_race": 2.0
+   },
+   "random_nonce": {
+    "n": 901,
+    "same": 0,
+    "agreement": 0.0,
+    "executions_per_race": 2.0
+   }
+  },
+  "stale_epoch_verdict": "block_stale",
+  "current_epoch_verdict": "execute"
+ },
+ "e13d_integrity": {
+  "honest_roundtrip": true,
+  "rejects_replay": true,
+  "rejects_wrong_destination": true,
+  "rejects_wrong_task": true,
+  "rejects_wrong_key": true,
+  "rejects_tampered_ciphertext": true,
+  "rejects_stale_epoch": true,
+  "overhead_bytes": 116
+ },
+ "runtime_s": 15.1
+}

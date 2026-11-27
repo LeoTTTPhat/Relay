@@ -1,0 +1,19 @@
+{
+ "n_candidates": 240,
+ "n_judged": 240,
+ "n_genuine": 36,
+ "n_recovered": 23,
+ "recall": 0.6389,
+ "per_type": {
+  "token": 0.4118,
+  "urlish": 0.5,
+  "capseq": 0.9091,
+  "quoted": 0.8333
+ },
+ "per_type_n": {
+  "token": 17,
+  "urlish": 2,
+  "capseq": 11,
+  "quoted": 6
+ }
+}

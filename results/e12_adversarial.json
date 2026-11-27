@@ -1,0 +1,137 @@
+{
+ "e12a_divergence": {
+  "v3-typed": {
+   "arg_alias": {
+    "n": 901,
+    "diverged": 0,
+    "rate": 0.0
+   },
+   "arg_reorder": {
+    "n": 901,
+    "diverged": 0,
+    "rate": 0.0
+   },
+   "numeric_format": {
+    "n": 901,
+    "diverged": 0,
+    "rate": 0.0
+   },
+   "url_query_order": {
+    "n": 901,
+    "diverged": 0,
+    "rate": 0.0
+   },
+   "volatile_field": {
+    "n": 901,
+    "diverged": 0,
+    "rate": 0.0
+   },
+   "whitespace_case": {
+    "n": 901,
+    "diverged": 0,
+    "rate": 0.0
+   }
+  },
+  "v1-head": {
+   "arg_alias": {
+    "n": 1501,
+    "diverged": 121,
+    "rate": 0.0806
+   },
+   "arg_reorder": {
+    "n": 1501,
+    "diverged": 152,
+    "rate": 0.1013
+   },
+   "command_split": {
+    "n": 1501,
+    "diverged": 2,
+    "rate": 0.0013
+   },
+   "decoy_injection": {
+    "n": 1501,
+    "diverged": 626,
+    "rate": 0.4171
+   },
+   "explanation_paraphrase": {
+    "n": 1501,
+    "diverged": 1258,
+    "rate": 0.8381
+   },
+   "quote_style": {
+    "n": 1501,
+    "diverged": 386,
+    "rate": 0.2572
+   },
+   "volatile_field": {
+    "n": 1501,
+    "diverged": 728,
+    "rate": 0.485
+   },
+   "whitespace_case": {
+    "n": 1501,
+    "diverged": 881,
+    "rate": 0.5869
+   }
+  },
+  "v2-action": {
+   "arg_alias": {
+    "n": 1501,
+    "diverged": 127,
+    "rate": 0.0846
+   },
+   "arg_reorder": {
+    "n": 1501,
+    "diverged": 156,
+    "rate": 0.1039
+   },
+   "command_split": {
+    "n": 1501,
+    "diverged": 5,
+    "rate": 0.0033
+   },
+   "decoy_injection": {
+    "n": 1501,
+    "diverged": 1456,
+    "rate": 0.97
+   },
+   "explanation_paraphrase": {
+    "n": 1501,
+    "diverged": 1258,
+    "rate": 0.8381
+   },
+   "quote_style": {
+    "n": 1501,
+    "diverged": 388,
+    "rate": 0.2585
+   },
+   "volatile_field": {
+    "n": 1501,
+    "diverged": 122,
+    "rate": 0.0813
+   },
+   "whitespace_case": {
+    "n": 1501,
+    "diverged": 438,
+    "rate": 0.2918
+   }
+  },
+  "n_typed_actions": 901,
+  "n_text_actions": 1501,
+  "v1-head_overall": 0.3459,
+  "v2-action_overall": 0.3289,
+  "v3-typed_overall": 0.0
+ },
+ "e12b_canon_collision": {
+  "v2-action": {
+   "n": 4000,
+   "collided": 0,
+   "rate": 0.0
+  },
+  "v3-typed": {
+   "n": 4000,
+   "collided": 0,
+   "rate": 0.0
+  }
+ }
+}

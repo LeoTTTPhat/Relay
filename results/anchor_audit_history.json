@@ -1,0 +1,88 @@
+{
+ "protocol": "Author annotation. 30 trajectories sampled (seed 3), one handoff position each (seed 7, uniform over steps 2..N-2); every extracted future-relevant anchor (capped at 8 per trajectory by deterministic stride subsampling) inspected with prefix and suffix context windows; judged TP if the string denotes a genuine task-level entity/quantity/artifact/answer AND the suffix occurrence re-references the same referent; FP if scaffold/chrome vocabulary, extraction artifact, or accidental collision.",
+ "iterations": [
+  {
+   "pass": 1,
+   "sample": "tuning (seed 3)",
+   "n": 194,
+   "tp": 93,
+   "precision": 0.479,
+   "action": "largest FP families: generic unigram entities (entity precision 0.42), framework/chrome vocabulary, number fragments (UUID/phone/time). Added common-English-word filter, scaffold stoplist, scaffold-context suppression, number hyphen/leading-zero rules, entity sub-span dedup."
+  },
+  {
+   "pass": 2,
+   "sample": "tuning (seed 3)",
+   "n": 161,
+   "tp": 104,
+   "precision": 0.646,
+   "action": "fixed trim-to-single-word leak, code-keyword entities, metadata window 30->60, quote possessive-split and template-escape artifacts, more common words."
+  },
+  {
+   "pass": 3,
+   "sample": "tuning (seed 3)",
+   "n": 142,
+   "tp": 115,
+   "precision": 0.81,
+   "action": "fixed article-retention bug, further vocabulary; declared tuning converged."
+  },
+  {
+   "pass": 4,
+   "sample": "second sample (seed 11, disjoint from tuning)",
+   "n": 184,
+   "tp": 110,
+   "precision": 0.598,
+   "action": "fresh sample surfaced mechanical families: JSON/dict key tokens, f-string URL templates, strftime formats, dotted code identifiers, harness files (scenario.py), epoch/app-id metadata, doubled-word spans. Applied mechanical fixes + clearly generic vocabulary. NOTE: after this step the second sample is no longer a pure holdout."
+  },
+  {
+   "pass": 5,
+   "sample": "second sample (seed 11), FINAL",
+   "n": 167,
+   "tp": 120,
+   "precision": 0.719,
+   "per_type": {
+    "url": [
+     9,
+     9
+    ],
+    "file": [
+     2,
+     2
+    ],
+    "number": [
+     28,
+     32
+    ],
+    "quoted": [
+     22,
+     30
+    ],
+    "entity": [
+     58,
+     92
+    ],
+    "answer": [
+     1,
+     2
+    ]
+   },
+   "residual_fp_families": "page-sidebar/chrome entities on re-scraped web pages (~17), generic vocabulary (~10), cross-referent string collisions (~6), code parameter values (~5), clipped spans (~6)."
+  }
+ ],
+ "final": {
+  "overall_precision": 0.719,
+  "n_anchors": 167,
+  "n_traces": 30,
+  "high_precision_subset": {
+   "types": [
+    "url",
+    "file",
+    "number"
+   ],
+   "tp": 39,
+   "n": 43,
+   "precision": 0.907,
+   "use": "reported as a sensitivity variant: fidelity recomputed on url/file/number/answer anchors only"
+  },
+  "collision_note": "the ground-truth-answer anchor rule can collide (a date '11' matching a count '11'); with n=2 answer anchors in the audited sample its precision estimate (0.5) is uninformative but the failure mode is disclosed."
+ }
+}

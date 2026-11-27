@@ -1,0 +1,99 @@
+{
+ "source": "results/e26_prototype.json",
+ "n_handoffs": 10,
+ "protocol_s": {
+  "median": 0.0196,
+  "min": 0.0108,
+  "max": 0.2149
+ },
+ "target_prefill_s": {
+  "median": 1.229,
+  "min": 0.674,
+  "max": 1.73
+ },
+ "target_first_gen_s": {
+  "median": 0.317,
+  "min": 0.221,
+  "max": 0.366
+ },
+ "to_first_decision_s": {
+  "median": 1.6439,
+  "min": 0.9785,
+  "max": 1.9716
+ },
+ "protocol_under_0.1s": 9,
+ "to_first_decision_under_1s": 1,
+ "to_first_decision_under_10s": 10,
+ "rows": [
+  {
+   "task": "synth-errand-000",
+   "protocol_s": 0.2149,
+   "target_prefill_s": 1.113,
+   "target_first_gen_s": 0.256,
+   "to_first_decision_s": 1.5839
+  },
+  {
+   "task": "synth-home-001",
+   "protocol_s": 0.0616,
+   "target_prefill_s": 1.005,
+   "target_first_gen_s": 0.349,
+   "to_first_decision_s": 1.4156
+  },
+  {
+   "task": "synth-shopping-002",
+   "protocol_s": 0.0108,
+   "target_prefill_s": 1.345,
+   "target_first_gen_s": 0.348,
+   "to_first_decision_s": 1.7038
+  },
+  {
+   "task": "synth-travel-003",
+   "protocol_s": 0.0163,
+   "target_prefill_s": 1.629,
+   "target_first_gen_s": 0.319,
+   "to_first_decision_s": 1.9643
+  },
+  {
+   "task": "synth-fleet-004",
+   "protocol_s": 0.0206,
+   "target_prefill_s": 1.73,
+   "target_first_gen_s": 0.221,
+   "to_first_decision_s": 1.9716
+  },
+  {
+   "task": "synth-errand-005",
+   "protocol_s": 0.026,
+   "target_prefill_s": 0.885,
+   "target_first_gen_s": 0.263,
+   "to_first_decision_s": 1.174
+  },
+  {
+   "task": "synth-home-006",
+   "protocol_s": 0.0185,
+   "target_prefill_s": 0.674,
+   "target_first_gen_s": 0.286,
+   "to_first_decision_s": 0.9785
+  },
+  {
+   "task": "synth-shopping-007",
+   "protocol_s": 0.0172,
+   "target_prefill_s": 0.877,
+   "target_first_gen_s": 0.315,
+   "to_first_decision_s": 1.2092
+  },
+  {
+   "task": "synth-travel-008",
+   "protocol_s": 0.0236,
+   "target_prefill_s": 1.564,
+   "target_first_gen_s": 0.366,
+   "to_first_decision_s": 1.9537
+  },
+  {
+   "task": "synth-fleet-009",
+   "protocol_s": 0.0186,
+   "target_prefill_s": 1.441,
+   "target_first_gen_s": 0.328,
+   "to_first_decision_s": 1.7876
+  }
+ ]
+}

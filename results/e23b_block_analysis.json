@@ -1,0 +1,54 @@
+{
+ "pad_pairs_per_step": 5,
+ "n_episodes": 200,
+ "per_policy": {
+  "full": {
+   "plan0_shipped": 0.0,
+   "done_keys_shipped": 0.6012,
+   "tokens": 1792.0,
+   "done_first_offset": 0.7406
+  },
+  "trunc25": {
+   "plan0_shipped": 0.0,
+   "done_keys_shipped": 0.441,
+   "tokens": 998.105,
+   "done_first_offset": 0.8057
+  },
+  "recency": {
+   "plan0_shipped": 0.0,
+   "done_keys_shipped": 0.6012,
+   "tokens": 1670.525,
+   "done_first_offset": 0.7259
+  },
+  "typed-recency": {
+   "plan0_shipped": 0.0,
+   "done_keys_shipped": 1.0,
+   "done_first_offset": 0.0527,
+   "tokens": 1713.465
+  },
+  "randdrop": {
+   "plan0_shipped": 0.505,
+   "plan0_offset": 0.0037,
+   "done_keys_shipped": 0.478,
+   "done_first_offset": 0.7137,
+   "tokens": 1716.33
+  },
+  "relay": {
+   "plan_shipped": 1.0,
+   "plan_from_step0": 1.0,
+   "plan_from_filler": 0.0,
+   "plan_step_before_last_done": 0.905,
+   "plan0_shipped": 1.0,
+   "plan0_offset": 0.8291,
+   "done_keys_shipped": 1.0,
+   "done_first_offset": 0.8902,
+   "tokens": 1404.16
+  },
+  "restart": {
+   "plan0_shipped": 0.0,
+   "done_keys_shipped": 0.0,
+   "tokens": 42.34
+  }
+ },
+ "n_with_plan_relay": 200
+}

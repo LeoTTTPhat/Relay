@@ -1,0 +1,781 @@
+{
+ "real_source_up": {
+  "watch": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.6119,
+    0.5868,
+    0.6357
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0086,
+    0.0043,
+    0.0134
+   ],
+   "any_substitute": [
+    0.0061,
+    0.0031,
+    0.0104
+   ],
+   "any_nonfeasible": [
+    0.6167,
+    0.5917,
+    0.64
+   ],
+   "next_not_local": [
+    0.2702,
+    0.2482,
+    0.294
+   ],
+   "next_stalled": [
+    0.0055,
+    0.0018,
+    0.0092
+   ],
+   "all_not_local": [
+    0.1773,
+    0.1583,
+    0.1962
+   ]
+  },
+  "speaker": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.6186,
+    0.5935,
+    0.6418
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0073,
+    0.0031,
+    0.0116
+   ],
+   "any_substitute": [
+    0.0251,
+    0.0177,
+    0.0324
+   ],
+   "any_nonfeasible": [
+    0.6369,
+    0.6125,
+    0.6596
+   ],
+   "next_not_local": [
+    0.2726,
+    0.2506,
+    0.2965
+   ],
+   "next_stalled": [
+    0.0043,
+    0.0012,
+    0.0079
+   ],
+   "all_not_local": [
+    0.1797,
+    0.1607,
+    0.1999
+   ]
+  },
+  "phone": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.206,
+    0.1858,
+    0.2268
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.206,
+    0.1858,
+    0.2268
+   ],
+   "next_not_local": [
+    0.0348,
+    0.0263,
+    0.044
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0244,
+    0.0171,
+    0.0324
+   ]
+  },
+  "laptop": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "real_source_down": {
+  "watch": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.6119,
+    0.5868,
+    0.6357
+   ],
+   "any_blocked": [
+    0.0086,
+    0.0043,
+    0.0134
+   ],
+   "any_substitute": [
+    0.0061,
+    0.0031,
+    0.0104
+   ],
+   "any_nonfeasible": [
+    0.6167,
+    0.5917,
+    0.64
+   ],
+   "next_not_local": [
+    0.2702,
+    0.2482,
+    0.294
+   ],
+   "next_stalled": [
+    0.2702,
+    0.2482,
+    0.294
+   ],
+   "all_not_local": [
+    0.1773,
+    0.1583,
+    0.1962
+   ]
+  },
+  "speaker": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.6186,
+    0.5935,
+    0.6418
+   ],
+   "any_blocked": [
+    0.0073,
+    0.0031,
+    0.0116
+   ],
+   "any_substitute": [
+    0.0251,
+    0.0177,
+    0.0324
+   ],
+   "any_nonfeasible": [
+    0.6369,
+    0.6125,
+    0.6596
+   ],
+   "next_not_local": [
+    0.2726,
+    0.2506,
+    0.2965
+   ],
+   "next_stalled": [
+    0.2726,
+    0.2506,
+    0.2965
+   ],
+   "all_not_local": [
+    0.1797,
+    0.1607,
+    0.1999
+   ]
+  },
+  "phone": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.206,
+    0.1858,
+    0.2268
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.206,
+    0.1858,
+    0.2268
+   ],
+   "next_not_local": [
+    0.0348,
+    0.0263,
+    0.044
+   ],
+   "next_stalled": [
+    0.0348,
+    0.0263,
+    0.044
+   ],
+   "all_not_local": [
+    0.0244,
+    0.0171,
+    0.0324
+   ]
+  },
+  "laptop": {
+   "n_handoffs": 1636,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "synth_source_up": {
+  "watch": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.1962,
+    0.1779,
+    0.2145
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.2034,
+    0.1846,
+    0.2217
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.3997,
+    0.3764,
+    0.4235
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.2062,
+    0.1848,
+    0.2251
+   ],
+   "true_next_stalled": [
+    0.154,
+    0.1374,
+    0.1718
+   ]
+  },
+  "speaker": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.2034,
+    0.1846,
+    0.2217
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.2034,
+    0.1846,
+    0.2217
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.1203,
+    0.1043,
+    0.1357
+   ],
+   "true_next_stalled": [
+    0.1203,
+    0.1043,
+    0.1357
+   ]
+  },
+  "phone": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "laptop": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "synth_source_down": {
+  "watch": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.1962,
+    0.1779,
+    0.2145
+   ],
+   "any_blocked": [
+    0.2034,
+    0.1846,
+    0.2217
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.3997,
+    0.3764,
+    0.4235
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.2062,
+    0.1848,
+    0.2251
+   ],
+   "true_next_stalled": [
+    0.2062,
+    0.1848,
+    0.2251
+   ]
+  },
+  "speaker": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.2034,
+    0.1846,
+    0.2217
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.2034,
+    0.1846,
+    0.2217
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.1203,
+    0.1043,
+    0.1357
+   ],
+   "true_next_stalled": [
+    0.1203,
+    0.1043,
+    0.1357
+   ]
+  },
+  "phone": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "laptop": {
+   "n_handoffs": 1804,
+   "any_delegate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_defer": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_blocked": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_substitute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "any_nonfeasible": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_not_local": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "true_next_stalled": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "n_real_plans": 1641,
+ "n_synth_plans": 1804,
+ "runtime_s": 70.5
+}

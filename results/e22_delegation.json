@@ -1,0 +1,99 @@
+{
+ "n_per_cell": 2000,
+ "fault_probabilities": {
+  "ticket_lost": 0.1,
+  "ticket_late": 0.1,
+  "s_crash_before": 0.1,
+  "s_crash_after": 0.1,
+  "result_lost": 0.1,
+  "result_dup": 0.1,
+  "local_propose": 0.6,
+  "second_handoff": 0.3,
+  "route_stale": 0.5
+ },
+ "lease": 10,
+ "cells": {
+  "naive_optimistic|plain": {
+   "counts": {
+    "lost": 358,
+    "correct": 1642
+   },
+   "rates": {
+    "correct": 0.821,
+    "lost": 0.179
+   }
+  },
+  "naive_optimistic|keyed": {
+   "counts": {
+    "correct": 1615,
+    "lost": 385
+   },
+   "rates": {
+    "correct": 0.8075,
+    "lost": 0.1925
+   }
+  },
+  "naive_optimistic|queryable": {
+   "counts": {
+    "correct": 1624,
+    "lost": 376
+   },
+   "rates": {
+    "correct": 0.812,
+    "lost": 0.188
+   }
+  },
+  "naive_unrecorded|plain": {
+   "counts": {
+    "correct": 372,
+    "duplicate": 1628
+   },
+   "rates": {
+    "correct": 0.186,
+    "duplicate": 0.814
+   }
+  },
+  "naive_unrecorded|keyed": {
+   "counts": {
+    "correct": 2000
+   },
+   "rates": {
+    "correct": 1.0
+   }
+  },
+  "naive_unrecorded|queryable": {
+   "counts": {
+    "correct": 2000
+   },
+   "rates": {
+    "correct": 1.0
+   }
+  },
+  "relay|plain": {
+   "counts": {
+    "correct": 1172,
+    "blocked": 828
+   },
+   "rates": {
+    "blocked": 0.414,
+    "correct": 0.586
+   }
+  },
+  "relay|keyed": {
+   "counts": {
+    "correct": 2000
+   },
+   "rates": {
+    "correct": 1.0
+   }
+  },
+  "relay|queryable": {
+   "counts": {
+    "correct": 2000
+   },
+   "rates": {
+    "correct": 1.0
+   }
+  }
+ }
+}

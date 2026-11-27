@@ -1,0 +1,1126 @@
+{
+ "Qwen2.5-7B-Instruct": {
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "policies": [
+   "full",
+   "recency",
+   "typed-recency",
+   "relay",
+   "restart"
+  ],
+  "n_episodes": 100,
+  "target": "watch",
+  "pad_pairs_per_step": 5,
+  "full_truncated_handoffs": 100,
+  "shards": 2,
+  "runtime_s_per_shard": [
+   4417.8,
+   4391.1
+  ],
+  "summary": {
+   "full|advisory": {
+    "n": 100,
+    "success": [
+     0.05,
+     0.01,
+     0.1
+    ],
+    "complete": [
+     0.22,
+     0.15,
+     0.31
+    ],
+    "duplicate": [
+     0.66,
+     0.57,
+     0.75
+    ],
+    "dup_pre": [
+     0.66,
+     0.57,
+     0.75
+    ],
+    "dup_post": [
+     0.01,
+     0.0,
+     0.03
+    ],
+    "violation": [
+     0.22,
+     0.14,
+     0.3
+    ],
+    "stopped": [
+     0.75,
+     0.66,
+     0.83
+    ],
+    "mean_turns": 3.71,
+    "mean_resume_tokens": 1792.0,
+    "truncated_at_target": 1.0
+   },
+   "full|enforced": {
+    "n": 100,
+    "success": [
+     0.07,
+     0.03,
+     0.13
+    ],
+    "complete": [
+     0.23,
+     0.15,
+     0.32
+    ],
+    "duplicate": [
+     0.27,
+     0.18,
+     0.36
+    ],
+    "dup_pre": [
+     0.27,
+     0.18,
+     0.36
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.22,
+     0.14,
+     0.3
+    ],
+    "stopped": [
+     0.7,
+     0.61,
+     0.78
+    ],
+    "mean_turns": 3.73,
+    "mean_resume_tokens": 1792.0,
+    "truncated_at_target": 1.0
+   },
+   "recency|advisory": {
+    "n": 100,
+    "success": [
+     0.04,
+     0.01,
+     0.08
+    ],
+    "complete": [
+     0.43,
+     0.34,
+     0.53
+    ],
+    "duplicate": [
+     0.79,
+     0.71,
+     0.8602
+    ],
+    "dup_pre": [
+     0.79,
+     0.71,
+     0.8602
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.27,
+     0.19,
+     0.36
+    ],
+    "stopped": [
+     0.44,
+     0.34,
+     0.54
+    ],
+    "mean_turns": 4.58,
+    "mean_resume_tokens": 1670.2,
+    "truncated_at_target": 0.0
+   },
+   "recency|enforced": {
+    "n": 100,
+    "success": [
+     0.12,
+     0.06,
+     0.1802
+    ],
+    "complete": [
+     0.44,
+     0.35,
+     0.54
+    ],
+    "duplicate": [
+     0.45,
+     0.35,
+     0.55
+    ],
+    "dup_pre": [
+     0.45,
+     0.35,
+     0.55
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.29,
+     0.21,
+     0.38
+    ],
+    "stopped": [
+     0.4,
+     0.31,
+     0.49
+    ],
+    "mean_turns": 4.6,
+    "mean_resume_tokens": 1670.2,
+    "truncated_at_target": 0.0
+   },
+   "typed-recency|advisory": {
+    "n": 100,
+    "success": [
+     0.04,
+     0.01,
+     0.08
+    ],
+    "complete": [
+     0.41,
+     0.32,
+     0.52
+    ],
+    "duplicate": [
+     0.64,
+     0.54,
+     0.73
+    ],
+    "dup_pre": [
+     0.63,
+     0.53,
+     0.72
+    ],
+    "dup_post": [
+     0.03,
+     0.0,
+     0.07
+    ],
+    "violation": [
+     0.16,
+     0.1,
+     0.24
+    ],
+    "stopped": [
+     0.55,
+     0.45,
+     0.64
+    ],
+    "mean_turns": 4.27,
+    "mean_resume_tokens": 1715.5,
+    "truncated_at_target": 0.0
+   },
+   "typed-recency|enforced": {
+    "n": 100,
+    "success": [
+     0.26,
+     0.18,
+     0.36
+    ],
+    "complete": [
+     0.4,
+     0.31,
+     0.5
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_pre": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.22,
+     0.15,
+     0.31
+    ],
+    "stopped": [
+     0.45,
+     0.35,
+     0.5402
+    ],
+    "mean_turns": 4.28,
+    "mean_resume_tokens": 1715.5,
+    "truncated_at_target": 0.0
+   },
+   "relay|advisory": {
+    "n": 100,
+    "success": [
+     0.02,
+     0.0,
+     0.05
+    ],
+    "complete": [
+     0.46,
+     0.37,
+     0.56
+    ],
+    "duplicate": [
+     0.82,
+     0.74,
+     0.89
+    ],
+    "dup_pre": [
+     0.8,
+     0.72,
+     0.87
+    ],
+    "dup_post": [
+     0.02,
+     0.0,
+     0.05
+    ],
+    "violation": [
+     0.19,
+     0.12,
+     0.27
+    ],
+    "stopped": [
+     0.3,
+     0.22,
+     0.39
+    ],
+    "mean_turns": 4.9,
+    "mean_resume_tokens": 1406.2,
+    "truncated_at_target": 0.0
+   },
+   "relay|enforced": {
+    "n": 100,
+    "success": [
+     0.28,
+     0.2,
+     0.37
+    ],
+    "complete": [
+     0.45,
+     0.35,
+     0.55
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_pre": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.24,
+     0.16,
+     0.33
+    ],
+    "stopped": [
+     0.27,
+     0.18,
+     0.36
+    ],
+    "mean_turns": 4.93,
+    "mean_resume_tokens": 1406.2,
+    "truncated_at_target": 0.0
+   },
+   "restart|advisory": {
+    "n": 100,
+    "success": [
+     0.03,
+     0.0,
+     0.07
+    ],
+    "complete": [
+     0.45,
+     0.35,
+     0.55
+    ],
+    "duplicate": [
+     0.9,
+     0.84,
+     0.95
+    ],
+    "dup_pre": [
+     0.89,
+     0.83,
+     0.95
+    ],
+    "dup_post": [
+     0.02,
+     0.0,
+     0.05
+    ],
+    "violation": [
+     0.25,
+     0.18,
+     0.3402
+    ],
+    "stopped": [
+     0.19,
+     0.12,
+     0.27
+    ],
+    "mean_turns": 5.16,
+    "mean_resume_tokens": 42.3,
+    "truncated_at_target": 0.0
+   },
+   "restart|enforced": {
+    "n": 100,
+    "success": [
+     0.03,
+     0.0,
+     0.07
+    ],
+    "complete": [
+     0.45,
+     0.35,
+     0.55
+    ],
+    "duplicate": [
+     0.89,
+     0.83,
+     0.95
+    ],
+    "dup_pre": [
+     0.89,
+     0.83,
+     0.95
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.25,
+     0.18,
+     0.3402
+    ],
+    "stopped": [
+     0.19,
+     0.12,
+     0.27
+    ],
+    "mean_turns": 5.16,
+    "mean_resume_tokens": 42.3,
+    "truncated_at_target": 0.0
+   }
+  }
+ },
+ "Qwen2.5-3B-Instruct-planlabel": {
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "policies": [
+   "relay-planlabel"
+  ],
+  "n_episodes": 40,
+  "target": "watch",
+  "pad_pairs_per_step": null,
+  "full_truncated_handoffs": 0,
+  "shards": 2,
+  "runtime_s_per_shard": [],
+  "summary": {
+   "relay-planlabel|advisory": {
+    "n": 40,
+    "success": [
+     0.025,
+     0.0,
+     0.075
+    ],
+    "complete": [
+     0.35,
+     0.2,
+     0.5
+    ],
+    "duplicate": [
+     0.85,
+     0.725,
+     0.95
+    ],
+    "dup_pre": [
+     0.8,
+     0.65,
+     0.9
+    ],
+    "dup_post": [
+     0.15,
+     0.05,
+     0.275
+    ],
+    "violation": [
+     0.475,
+     0.325,
+     0.625
+    ],
+    "stopped": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "mean_turns": 5.5,
+    "mean_resume_tokens": 1418.3,
+    "truncated_at_target": 0.0
+   },
+   "relay-planlabel|enforced": {
+    "n": 40,
+    "success": [
+     0.175,
+     0.075,
+     0.3
+    ],
+    "complete": [
+     0.35,
+     0.2,
+     0.5
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_pre": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.45,
+     0.3,
+     0.6
+    ],
+    "stopped": [
+     0.05,
+     0.0,
+     0.125
+    ],
+    "mean_turns": 5.5,
+    "mean_resume_tokens": 1418.3,
+    "truncated_at_target": 0.0
+   }
+  }
+ },
+ "Qwen2.5-3B-Instruct": {
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "policies": [
+   "full",
+   "trunc25",
+   "recency",
+   "typed-recency",
+   "randdrop",
+   "relay",
+   "restart"
+  ],
+  "n_episodes": 200,
+  "target": "watch",
+  "pad_pairs_per_step": 5,
+  "full_truncated_handoffs": 200,
+  "shards": 2,
+  "runtime_s_per_shard": [
+   9038.0,
+   10692.3
+  ],
+  "summary": {
+   "full|advisory": {
+    "n": 200,
+    "success": [
+     0.03,
+     0.01,
+     0.055
+    ],
+    "complete": [
+     0.28,
+     0.215,
+     0.345
+    ],
+    "duplicate": [
+     0.79,
+     0.735,
+     0.845
+    ],
+    "dup_pre": [
+     0.78,
+     0.7249,
+     0.84
+    ],
+    "dup_post": [
+     0.03,
+     0.01,
+     0.055
+    ],
+    "violation": [
+     0.415,
+     0.345,
+     0.4851
+    ],
+    "stopped": [
+     0.32,
+     0.26,
+     0.385
+    ],
+    "mean_turns": 5.01,
+    "mean_resume_tokens": 1792.0,
+    "truncated_at_target": 1.0
+   },
+   "full|enforced": {
+    "n": 200,
+    "success": [
+     0.085,
+     0.0499,
+     0.12
+    ],
+    "complete": [
+     0.25,
+     0.19,
+     0.315
+    ],
+    "duplicate": [
+     0.335,
+     0.2749,
+     0.4
+    ],
+    "dup_pre": [
+     0.335,
+     0.2749,
+     0.4
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.34,
+     0.275,
+     0.41
+    ],
+    "stopped": [
+     0.485,
+     0.415,
+     0.555
+    ],
+    "mean_turns": 4.69,
+    "mean_resume_tokens": 1792.0,
+    "truncated_at_target": 1.0
+   },
+   "trunc25|advisory": {
+    "n": 200,
+    "success": [
+     0.025,
+     0.005,
+     0.05
+    ],
+    "complete": [
+     0.255,
+     0.195,
+     0.3101
+    ],
+    "duplicate": [
+     0.755,
+     0.695,
+     0.815
+    ],
+    "dup_pre": [
+     0.74,
+     0.68,
+     0.8
+    ],
+    "dup_post": [
+     0.025,
+     0.005,
+     0.05
+    ],
+    "violation": [
+     0.42,
+     0.355,
+     0.49
+    ],
+    "stopped": [
+     0.3,
+     0.24,
+     0.36
+    ],
+    "mean_turns": 5.02,
+    "mean_resume_tokens": 998.1,
+    "truncated_at_target": 0.105
+   },
+   "trunc25|enforced": {
+    "n": 200,
+    "success": [
+     0.07,
+     0.035,
+     0.11
+    ],
+    "complete": [
+     0.22,
+     0.165,
+     0.28
+    ],
+    "duplicate": [
+     0.44,
+     0.365,
+     0.51
+    ],
+    "dup_pre": [
+     0.44,
+     0.365,
+     0.51
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.355,
+     0.29,
+     0.425
+    ],
+    "stopped": [
+     0.435,
+     0.365,
+     0.505
+    ],
+    "mean_turns": 4.67,
+    "mean_resume_tokens": 998.1,
+    "truncated_at_target": 0.105
+   },
+   "recency|advisory": {
+    "n": 200,
+    "success": [
+     0.045,
+     0.02,
+     0.075
+    ],
+    "complete": [
+     0.395,
+     0.33,
+     0.46
+    ],
+    "duplicate": [
+     0.8,
+     0.75,
+     0.855
+    ],
+    "dup_pre": [
+     0.775,
+     0.72,
+     0.83
+    ],
+    "dup_post": [
+     0.075,
+     0.045,
+     0.115
+    ],
+    "violation": [
+     0.425,
+     0.36,
+     0.495
+    ],
+    "stopped": [
+     0.1,
+     0.06,
+     0.14
+    ],
+    "mean_turns": 5.31,
+    "mean_resume_tokens": 1670.5,
+    "truncated_at_target": 0.0
+   },
+   "recency|enforced": {
+    "n": 200,
+    "success": [
+     0.1,
+     0.06,
+     0.14
+    ],
+    "complete": [
+     0.375,
+     0.31,
+     0.44
+    ],
+    "duplicate": [
+     0.44,
+     0.375,
+     0.5051
+    ],
+    "dup_pre": [
+     0.44,
+     0.375,
+     0.5051
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.395,
+     0.33,
+     0.465
+    ],
+    "stopped": [
+     0.17,
+     0.12,
+     0.225
+    ],
+    "mean_turns": 5.22,
+    "mean_resume_tokens": 1670.5,
+    "truncated_at_target": 0.0
+   },
+   "typed-recency|advisory": {
+    "n": 200,
+    "success": [
+     0.035,
+     0.01,
+     0.06
+    ],
+    "complete": [
+     0.385,
+     0.315,
+     0.46
+    ],
+    "duplicate": [
+     0.835,
+     0.78,
+     0.89
+    ],
+    "dup_pre": [
+     0.8,
+     0.745,
+     0.86
+    ],
+    "dup_post": [
+     0.07,
+     0.035,
+     0.11
+    ],
+    "violation": [
+     0.425,
+     0.36,
+     0.5
+    ],
+    "stopped": [
+     0.1,
+     0.06,
+     0.145
+    ],
+    "mean_turns": 5.29,
+    "mean_resume_tokens": 1713.5,
+    "truncated_at_target": 0.0
+   },
+   "typed-recency|enforced": {
+    "n": 200,
+    "success": [
+     0.195,
+     0.14,
+     0.25
+    ],
+    "complete": [
+     0.355,
+     0.29,
+     0.425
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_pre": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.35,
+     0.29,
+     0.425
+    ],
+    "stopped": [
+     0.185,
+     0.135,
+     0.24
+    ],
+    "mean_turns": 5.19,
+    "mean_resume_tokens": 1713.5,
+    "truncated_at_target": 0.0
+   },
+   "randdrop|advisory": {
+    "n": 200,
+    "success": [
+     0.045,
+     0.02,
+     0.075
+    ],
+    "complete": [
+     0.285,
+     0.22,
+     0.35
+    ],
+    "duplicate": [
+     0.79,
+     0.7399,
+     0.845
+    ],
+    "dup_pre": [
+     0.77,
+     0.715,
+     0.83
+    ],
+    "dup_post": [
+     0.05,
+     0.025,
+     0.085
+    ],
+    "violation": [
+     0.405,
+     0.34,
+     0.475
+    ],
+    "stopped": [
+     0.2,
+     0.145,
+     0.255
+    ],
+    "mean_turns": 5.12,
+    "mean_resume_tokens": 1716.3,
+    "truncated_at_target": 0.035
+   },
+   "randdrop|enforced": {
+    "n": 200,
+    "success": [
+     0.1,
+     0.06,
+     0.145
+    ],
+    "complete": [
+     0.24,
+     0.18,
+     0.2951
+    ],
+    "duplicate": [
+     0.435,
+     0.365,
+     0.5
+    ],
+    "dup_pre": [
+     0.435,
+     0.365,
+     0.5
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.355,
+     0.29,
+     0.42
+    ],
+    "stopped": [
+     0.325,
+     0.26,
+     0.3851
+    ],
+    "mean_turns": 4.9,
+    "mean_resume_tokens": 1716.3,
+    "truncated_at_target": 0.035
+   },
+   "relay|advisory": {
+    "n": 200,
+    "success": [
+     0.04,
+     0.015,
+     0.07
+    ],
+    "complete": [
+     0.35,
+     0.28,
+     0.415
+    ],
+    "duplicate": [
+     0.84,
+     0.7899,
+     0.89
+    ],
+    "dup_pre": [
+     0.79,
+     0.735,
+     0.85
+    ],
+    "dup_post": [
+     0.09,
+     0.05,
+     0.13
+    ],
+    "violation": [
+     0.415,
+     0.3499,
+     0.49
+    ],
+    "stopped": [
+     0.015,
+     0.0,
+     0.03
+    ],
+    "mean_turns": 5.37,
+    "mean_resume_tokens": 1404.2,
+    "truncated_at_target": 0.0
+   },
+   "relay|enforced": {
+    "n": 200,
+    "success": [
+     0.19,
+     0.14,
+     0.245
+    ],
+    "complete": [
+     0.345,
+     0.275,
+     0.415
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_pre": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.41,
+     0.345,
+     0.4801
+    ],
+    "stopped": [
+     0.02,
+     0.005,
+     0.04
+    ],
+    "mean_turns": 5.36,
+    "mean_resume_tokens": 1404.2,
+    "truncated_at_target": 0.0
+   },
+   "restart|advisory": {
+    "n": 200,
+    "success": [
+     0.035,
+     0.01,
+     0.06
+    ],
+    "complete": [
+     0.355,
+     0.285,
+     0.42
+    ],
+    "duplicate": [
+     0.88,
+     0.83,
+     0.925
+    ],
+    "dup_pre": [
+     0.855,
+     0.805,
+     0.905
+    ],
+    "dup_post": [
+     0.035,
+     0.01,
+     0.06
+    ],
+    "violation": [
+     0.35,
+     0.285,
+     0.415
+    ],
+    "stopped": [
+     0.08,
+     0.045,
+     0.12
+    ],
+    "mean_turns": 5.33,
+    "mean_resume_tokens": 42.3,
+    "truncated_at_target": 0.0
+   },
+   "restart|enforced": {
+    "n": 200,
+    "success": [
+     0.035,
+     0.01,
+     0.06
+    ],
+    "complete": [
+     0.355,
+     0.285,
+     0.42
+    ],
+    "duplicate": [
+     0.855,
+     0.805,
+     0.905
+    ],
+    "dup_pre": [
+     0.855,
+     0.805,
+     0.905
+    ],
+    "dup_post": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.35,
+     0.285,
+     0.415
+    ],
+    "stopped": [
+     0.08,
+     0.045,
+     0.12
+    ],
+    "mean_turns": 5.33,
+    "mean_resume_tokens": 42.3,
+    "truncated_at_target": 0.0
+   }
+  }
+ }
+}

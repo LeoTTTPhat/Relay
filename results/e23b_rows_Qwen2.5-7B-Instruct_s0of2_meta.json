@@ -1,0 +1,8 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "shard": "0/2",
+ "n_episodes": 50,
+ "pad_pairs_per_step": 5,
+ "full_truncated_handoffs": 50,
+ "runtime_s": 4417.8
+}

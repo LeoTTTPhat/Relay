@@ -1,0 +1,9 @@
+{
+ "pad_pairs_per_step": 5,
+ "watch_usable_window": 1792,
+ "n_handoffs": 200,
+ "n_exceeding_window": 200,
+ "prefix_tokens_min": 1823,
+ "prefix_tokens_median": 3651.5,
+ "prefix_tokens_max": 15772
+}

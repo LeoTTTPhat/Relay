@@ -1,0 +1,212 @@
+{
+ "e23_3b": {
+  "full": {
+   "n": 100,
+   "dup_pre": 0.66,
+   "dup_post": 0.09,
+   "first_effect_done": 0.4141,
+   "first_effect_is_first_action": 0.3131,
+   "n_with_effect": 99
+  },
+  "recency": {
+   "n": 100,
+   "dup_pre": 0.66,
+   "dup_post": 0.09,
+   "first_effect_done": 0.4141,
+   "first_effect_is_first_action": 0.3131,
+   "n_with_effect": 99
+  },
+  "typed-recency": {
+   "n": 100,
+   "dup_pre": 0.72,
+   "dup_post": 0.08,
+   "first_effect_done": 0.4545,
+   "first_effect_is_first_action": 0.3232,
+   "n_with_effect": 99
+  },
+  "relay": {
+   "n": 100,
+   "dup_pre": 0.77,
+   "dup_post": 0.12,
+   "first_effect_done": 0.5354,
+   "first_effect_is_first_action": 0.3838,
+   "n_with_effect": 99
+  },
+  "trunc25": {
+   "n": 100,
+   "dup_pre": 0.74,
+   "dup_post": 0.03,
+   "first_effect_done": 0.5417,
+   "first_effect_is_first_action": 0.2917,
+   "n_with_effect": 96
+  },
+  "randdrop": {
+   "n": 100,
+   "dup_pre": 0.69,
+   "dup_post": 0.1,
+   "first_effect_done": 0.4592,
+   "first_effect_is_first_action": 0.3367,
+   "n_with_effect": 98
+  },
+  "restart": {
+   "n": 100,
+   "dup_pre": 0.86,
+   "dup_post": 0.02,
+   "first_effect_done": 0.6061,
+   "first_effect_is_first_action": 0.5354,
+   "n_with_effect": 99
+  }
+ },
+ "e23_7b": {
+  "full": {
+   "n": 50,
+   "dup_pre": 0.54,
+   "dup_post": 0.0,
+   "first_effect_done": 0.3902,
+   "first_effect_is_first_action": 0.3902,
+   "n_with_effect": 41
+  },
+  "recency": {
+   "n": 50,
+   "dup_pre": 0.54,
+   "dup_post": 0.0,
+   "first_effect_done": 0.3902,
+   "first_effect_is_first_action": 0.3902,
+   "n_with_effect": 41
+  },
+  "typed-recency": {
+   "n": 50,
+   "dup_pre": 0.36,
+   "dup_post": 0.0,
+   "first_effect_done": 0.2222,
+   "first_effect_is_first_action": 0.3056,
+   "n_with_effect": 36
+  },
+  "relay": {
+   "n": 50,
+   "dup_pre": 0.6,
+   "dup_post": 0.02,
+   "first_effect_done": 0.5952,
+   "first_effect_is_first_action": 0.4524,
+   "n_with_effect": 42
+  },
+  "restart": {
+   "n": 50,
+   "dup_pre": 0.94,
+   "dup_post": 0.02,
+   "first_effect_done": 0.74,
+   "first_effect_is_first_action": 0.68,
+   "n_with_effect": 50
+  }
+ },
+ "e23b_3b": {
+  "full": {
+   "n": 200,
+   "dup_pre": 0.78,
+   "dup_post": 0.03,
+   "first_effect_done": 0.5816,
+   "first_effect_is_first_action": 0.4082,
+   "n_with_effect": 196
+  },
+  "trunc25": {
+   "n": 200,
+   "dup_pre": 0.74,
+   "dup_post": 0.025,
+   "first_effect_done": 0.5722,
+   "first_effect_is_first_action": 0.4064,
+   "n_with_effect": 187
+  },
+  "recency": {
+   "n": 200,
+   "dup_pre": 0.775,
+   "dup_post": 0.075,
+   "first_effect_done": 0.5101,
+   "first_effect_is_first_action": 0.4091,
+   "n_with_effect": 198
+  },
+  "typed-recency": {
+   "n": 200,
+   "dup_pre": 0.8,
+   "dup_post": 0.07,
+   "first_effect_done": 0.5152,
+   "first_effect_is_first_action": 0.3889,
+   "n_with_effect": 198
+  },
+  "randdrop": {
+   "n": 200,
+   "dup_pre": 0.77,
+   "dup_post": 0.05,
+   "first_effect_done": 0.5619,
+   "first_effect_is_first_action": 0.4588,
+   "n_with_effect": 194
+  },
+  "relay": {
+   "n": 200,
+   "dup_pre": 0.79,
+   "dup_post": 0.09,
+   "first_effect_done": 0.5482,
+   "first_effect_is_first_action": 0.4619,
+   "n_with_effect": 197
+  },
+  "restart": {
+   "n": 200,
+   "dup_pre": 0.855,
+   "dup_post": 0.035,
+   "first_effect_done": 0.603,
+   "first_effect_is_first_action": 0.5226,
+   "n_with_effect": 199
+  }
+ },
+ "e23b_7b": {
+  "full": {
+   "n": 100,
+   "dup_pre": 0.66,
+   "dup_post": 0.01,
+   "first_effect_done": 0.6667,
+   "first_effect_is_first_action": 0.5,
+   "n_with_effect": 90
+  },
+  "recency": {
+   "n": 100,
+   "dup_pre": 0.79,
+   "dup_post": 0.0,
+   "first_effect_done": 0.58,
+   "first_effect_is_first_action": 0.42,
+   "n_with_effect": 100
+  },
+  "typed-recency": {
+   "n": 100,
+   "dup_pre": 0.63,
+   "dup_post": 0.03,
+   "first_effect_done": 0.4943,
+   "first_effect_is_first_action": 0.3793,
+   "n_with_effect": 87
+  },
+  "relay": {
+   "n": 100,
+   "dup_pre": 0.8,
+   "dup_post": 0.02,
+   "first_effect_done": 0.625,
+   "first_effect_is_first_action": 0.5417,
+   "n_with_effect": 96
+  },
+  "restart": {
+   "n": 100,
+   "dup_pre": 0.89,
+   "dup_post": 0.02,
+   "first_effect_done": 0.7172,
+   "first_effect_is_first_action": 0.6263,
+   "n_with_effect": 99
+  }
+ },
+ "e23b_3b_planlabel": {
+  "relay-planlabel": {
+   "n": 40,
+   "dup_pre": 0.8,
+   "dup_post": 0.15,
+   "first_effect_done": 0.5641,
+   "first_effect_is_first_action": 0.4359,
+   "n_with_effect": 39
+  }
+ }
+}

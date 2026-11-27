@@ -1,0 +1,1524 @@
+{
+ "Qwen2.5-3B-Instruct": {
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "policies": [
+   "full",
+   "recency",
+   "typed-recency",
+   "relay",
+   "trunc25",
+   "randdrop",
+   "restart"
+  ],
+  "n_episodes": 100,
+  "target": "watch",
+  "summary": {
+   "full|advisory|all": {
+    "n": 100,
+    "success": [
+     0.09,
+     0.04,
+     0.15
+    ],
+    "complete": [
+     0.52,
+     0.42,
+     0.62
+    ],
+    "duplicate": [
+     0.71,
+     0.62,
+     0.8
+    ],
+    "violation": [
+     0.44,
+     0.34,
+     0.54
+    ],
+    "stopped": [
+     0.12,
+     0.06,
+     0.19
+    ],
+    "mean_turns": 5.25,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0057
+   },
+   "full|advisory|has_required": {
+    "n": 96,
+    "success": [
+     0.0938,
+     0.0417,
+     0.1562
+    ],
+    "complete": [
+     0.5,
+     0.3958,
+     0.6146
+    ],
+    "duplicate": [
+     0.6979,
+     0.5938,
+     0.7812
+    ],
+    "violation": [
+     0.4375,
+     0.3438,
+     0.5315
+    ],
+    "stopped": [
+     0.1146,
+     0.0521,
+     0.1771
+    ],
+    "mean_turns": 5.34,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0058
+   },
+   "full|enforced|all": {
+    "n": 100,
+    "success": [
+     0.22,
+     0.14,
+     0.31
+    ],
+    "complete": [
+     0.47,
+     0.37,
+     0.57
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.4,
+     0.3,
+     0.5
+    ],
+    "stopped": [
+     0.17,
+     0.1,
+     0.2402
+    ],
+    "mean_turns": 5.18,
+    "mean_suppressed": 1.0,
+    "invalid_rate": 0.0058
+   },
+   "full|enforced|has_required": {
+    "n": 96,
+    "success": [
+     0.2083,
+     0.125,
+     0.2917
+    ],
+    "complete": [
+     0.4479,
+     0.3438,
+     0.5625
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.3958,
+     0.2917,
+     0.4896
+    ],
+    "stopped": [
+     0.1667,
+     0.0938,
+     0.2396
+    ],
+    "mean_turns": 5.27,
+    "mean_suppressed": 0.969,
+    "invalid_rate": 0.0059
+   },
+   "recency|advisory|all": {
+    "n": 100,
+    "success": [
+     0.09,
+     0.04,
+     0.15
+    ],
+    "complete": [
+     0.52,
+     0.42,
+     0.62
+    ],
+    "duplicate": [
+     0.71,
+     0.62,
+     0.8
+    ],
+    "violation": [
+     0.44,
+     0.34,
+     0.54
+    ],
+    "stopped": [
+     0.12,
+     0.06,
+     0.19
+    ],
+    "mean_turns": 5.25,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0057
+   },
+   "recency|advisory|has_required": {
+    "n": 96,
+    "success": [
+     0.0938,
+     0.0417,
+     0.1562
+    ],
+    "complete": [
+     0.5,
+     0.3958,
+     0.6146
+    ],
+    "duplicate": [
+     0.6979,
+     0.5938,
+     0.7812
+    ],
+    "violation": [
+     0.4375,
+     0.3438,
+     0.5315
+    ],
+    "stopped": [
+     0.1146,
+     0.0521,
+     0.1771
+    ],
+    "mean_turns": 5.34,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0058
+   },
+   "recency|enforced|all": {
+    "n": 100,
+    "success": [
+     0.22,
+     0.14,
+     0.31
+    ],
+    "complete": [
+     0.47,
+     0.37,
+     0.57
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.4,
+     0.3,
+     0.5
+    ],
+    "stopped": [
+     0.17,
+     0.1,
+     0.2402
+    ],
+    "mean_turns": 5.18,
+    "mean_suppressed": 1.0,
+    "invalid_rate": 0.0058
+   },
+   "recency|enforced|has_required": {
+    "n": 96,
+    "success": [
+     0.2083,
+     0.125,
+     0.2917
+    ],
+    "complete": [
+     0.4479,
+     0.3438,
+     0.5625
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.3958,
+     0.2917,
+     0.4896
+    ],
+    "stopped": [
+     0.1667,
+     0.0938,
+     0.2396
+    ],
+    "mean_turns": 5.27,
+    "mean_suppressed": 0.969,
+    "invalid_rate": 0.0059
+   },
+   "typed-recency|advisory|all": {
+    "n": 100,
+    "success": [
+     0.07,
+     0.02,
+     0.12
+    ],
+    "complete": [
+     0.51,
+     0.41,
+     0.61
+    ],
+    "duplicate": [
+     0.76,
+     0.68,
+     0.84
+    ],
+    "violation": [
+     0.42,
+     0.3298,
+     0.51
+    ],
+    "stopped": [
+     0.14,
+     0.08,
+     0.21
+    ],
+    "mean_turns": 5.24,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0057
+   },
+   "typed-recency|advisory|has_required": {
+    "n": 96,
+    "success": [
+     0.0729,
+     0.0312,
+     0.1354
+    ],
+    "complete": [
+     0.4896,
+     0.3854,
+     0.5938
+    ],
+    "duplicate": [
+     0.75,
+     0.6667,
+     0.8229
+    ],
+    "violation": [
+     0.4062,
+     0.3125,
+     0.5
+    ],
+    "stopped": [
+     0.1458,
+     0.0833,
+     0.2188
+    ],
+    "mean_turns": 5.33,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0059
+   },
+   "typed-recency|enforced|all": {
+    "n": 100,
+    "success": [
+     0.26,
+     0.1798,
+     0.35
+    ],
+    "complete": [
+     0.47,
+     0.37,
+     0.57
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.38,
+     0.28,
+     0.47
+    ],
+    "stopped": [
+     0.17,
+     0.1,
+     0.25
+    ],
+    "mean_turns": 5.14,
+    "mean_suppressed": 1.18,
+    "invalid_rate": 0.0058
+   },
+   "typed-recency|enforced|has_required": {
+    "n": 96,
+    "success": [
+     0.2604,
+     0.1771,
+     0.3542
+    ],
+    "complete": [
+     0.4479,
+     0.3438,
+     0.5521
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.3646,
+     0.2604,
+     0.4688
+    ],
+    "stopped": [
+     0.1771,
+     0.1146,
+     0.25
+    ],
+    "mean_turns": 5.23,
+    "mean_suppressed": 1.146,
+    "invalid_rate": 0.006
+   },
+   "relay|advisory|all": {
+    "n": 100,
+    "success": [
+     0.06,
+     0.02,
+     0.11
+    ],
+    "complete": [
+     0.38,
+     0.29,
+     0.47
+    ],
+    "duplicate": [
+     0.85,
+     0.77,
+     0.92
+    ],
+    "violation": [
+     0.41,
+     0.31,
+     0.51
+    ],
+    "stopped": [
+     0.02,
+     0.0,
+     0.05
+    ],
+    "mean_turns": 5.29,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "relay|advisory|has_required": {
+    "n": 96,
+    "success": [
+     0.0625,
+     0.0208,
+     0.1146
+    ],
+    "complete": [
+     0.3542,
+     0.2708,
+     0.4479
+    ],
+    "duplicate": [
+     0.8438,
+     0.7708,
+     0.9167
+    ],
+    "violation": [
+     0.4271,
+     0.3333,
+     0.5208
+    ],
+    "stopped": [
+     0.0208,
+     0.0,
+     0.0521
+    ],
+    "mean_turns": 5.39,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "relay|enforced|all": {
+    "n": 100,
+    "success": [
+     0.25,
+     0.17,
+     0.33
+    ],
+    "complete": [
+     0.39,
+     0.3,
+     0.48
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.39,
+     0.3,
+     0.4802
+    ],
+    "stopped": [
+     0.05,
+     0.01,
+     0.1
+    ],
+    "mean_turns": 5.27,
+    "mean_suppressed": 1.26,
+    "invalid_rate": 0.0
+   },
+   "relay|enforced|has_required": {
+    "n": 96,
+    "success": [
+     0.2292,
+     0.1458,
+     0.3229
+    ],
+    "complete": [
+     0.3646,
+     0.2708,
+     0.4688
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.3958,
+     0.2917,
+     0.5
+    ],
+    "stopped": [
+     0.0521,
+     0.0104,
+     0.1042
+    ],
+    "mean_turns": 5.36,
+    "mean_suppressed": 1.219,
+    "invalid_rate": 0.0
+   },
+   "trunc25|advisory|all": {
+    "n": 100,
+    "success": [
+     0.05,
+     0.01,
+     0.1
+    ],
+    "complete": [
+     0.34,
+     0.25,
+     0.43
+    ],
+    "duplicate": [
+     0.76,
+     0.68,
+     0.84
+    ],
+    "violation": [
+     0.44,
+     0.34,
+     0.53
+    ],
+    "stopped": [
+     0.34,
+     0.25,
+     0.43
+    ],
+    "mean_turns": 4.87,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0021
+   },
+   "trunc25|advisory|has_required": {
+    "n": 96,
+    "success": [
+     0.0521,
+     0.0104,
+     0.1042
+    ],
+    "complete": [
+     0.3125,
+     0.2292,
+     0.4062
+    ],
+    "duplicate": [
+     0.75,
+     0.6667,
+     0.8333
+    ],
+    "violation": [
+     0.4167,
+     0.3229,
+     0.5208
+    ],
+    "stopped": [
+     0.3229,
+     0.2393,
+     0.4167
+    ],
+    "mean_turns": 4.95,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0021
+   },
+   "trunc25|enforced|all": {
+    "n": 100,
+    "success": [
+     0.07,
+     0.02,
+     0.12
+    ],
+    "complete": [
+     0.29,
+     0.2,
+     0.3802
+    ],
+    "duplicate": [
+     0.48,
+     0.39,
+     0.58
+    ],
+    "violation": [
+     0.36,
+     0.27,
+     0.45
+    ],
+    "stopped": [
+     0.44,
+     0.3498,
+     0.53
+    ],
+    "mean_turns": 4.51,
+    "mean_suppressed": 0.5,
+    "invalid_rate": 0.0022
+   },
+   "trunc25|enforced|has_required": {
+    "n": 96,
+    "success": [
+     0.0625,
+     0.0208,
+     0.1146
+    ],
+    "complete": [
+     0.2604,
+     0.1771,
+     0.3542
+    ],
+    "duplicate": [
+     0.4792,
+     0.375,
+     0.5729
+    ],
+    "violation": [
+     0.3438,
+     0.25,
+     0.4479
+    ],
+    "stopped": [
+     0.4375,
+     0.3438,
+     0.5417
+    ],
+    "mean_turns": 4.58,
+    "mean_suppressed": 0.479,
+    "invalid_rate": 0.0023
+   },
+   "randdrop|advisory|all": {
+    "n": 100,
+    "success": [
+     0.04,
+     0.01,
+     0.08
+    ],
+    "complete": [
+     0.51,
+     0.41,
+     0.61
+    ],
+    "duplicate": [
+     0.77,
+     0.68,
+     0.85
+    ],
+    "violation": [
+     0.47,
+     0.37,
+     0.57
+    ],
+    "stopped": [
+     0.09,
+     0.04,
+     0.15
+    ],
+    "mean_turns": 5.23,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "randdrop|advisory|has_required": {
+    "n": 96,
+    "success": [
+     0.0417,
+     0.0104,
+     0.0833
+    ],
+    "complete": [
+     0.4896,
+     0.3854,
+     0.5938
+    ],
+    "duplicate": [
+     0.7604,
+     0.6771,
+     0.8333
+    ],
+    "violation": [
+     0.4792,
+     0.3854,
+     0.5833
+    ],
+    "stopped": [
+     0.0938,
+     0.0417,
+     0.1562
+    ],
+    "mean_turns": 5.32,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "randdrop|enforced|all": {
+    "n": 100,
+    "success": [
+     0.21,
+     0.13,
+     0.29
+    ],
+    "complete": [
+     0.42,
+     0.3298,
+     0.51
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.41,
+     0.31,
+     0.51
+    ],
+    "stopped": [
+     0.21,
+     0.13,
+     0.29
+    ],
+    "mean_turns": 5.03,
+    "mean_suppressed": 1.1,
+    "invalid_rate": 0.0
+   },
+   "randdrop|enforced|has_required": {
+    "n": 96,
+    "success": [
+     0.1771,
+     0.1042,
+     0.2604
+    ],
+    "complete": [
+     0.3958,
+     0.3021,
+     0.5
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.4271,
+     0.3333,
+     0.5312
+    ],
+    "stopped": [
+     0.2083,
+     0.1354,
+     0.2917
+    ],
+    "mean_turns": 5.11,
+    "mean_suppressed": 1.083,
+    "invalid_rate": 0.0
+   },
+   "restart|advisory|all": {
+    "n": 100,
+    "success": [
+     0.03,
+     0.0,
+     0.06
+    ],
+    "complete": [
+     0.34,
+     0.25,
+     0.43
+    ],
+    "duplicate": [
+     0.88,
+     0.81,
+     0.94
+    ],
+    "violation": [
+     0.37,
+     0.28,
+     0.46
+    ],
+    "stopped": [
+     0.06,
+     0.02,
+     0.11
+    ],
+    "mean_turns": 5.26,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "restart|advisory|has_required": {
+    "n": 96,
+    "success": [
+     0.0312,
+     0.0,
+     0.0729
+    ],
+    "complete": [
+     0.3125,
+     0.2188,
+     0.4062
+    ],
+    "duplicate": [
+     0.875,
+     0.8021,
+     0.9375
+    ],
+    "violation": [
+     0.3542,
+     0.2604,
+     0.4482
+    ],
+    "stopped": [
+     0.0625,
+     0.0208,
+     0.1044
+    ],
+    "mean_turns": 5.35,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "restart|enforced|all": {
+    "n": 100,
+    "success": [
+     0.03,
+     0.0,
+     0.06
+    ],
+    "complete": [
+     0.34,
+     0.25,
+     0.43
+    ],
+    "duplicate": [
+     0.86,
+     0.8,
+     0.93
+    ],
+    "violation": [
+     0.37,
+     0.28,
+     0.46
+    ],
+    "stopped": [
+     0.07,
+     0.02,
+     0.1202
+    ],
+    "mean_turns": 5.26,
+    "mean_suppressed": 0.05,
+    "invalid_rate": 0.0
+   },
+   "restart|enforced|has_required": {
+    "n": 96,
+    "success": [
+     0.0312,
+     0.0,
+     0.0729
+    ],
+    "complete": [
+     0.3125,
+     0.2188,
+     0.4062
+    ],
+    "duplicate": [
+     0.8542,
+     0.7812,
+     0.9167
+    ],
+    "violation": [
+     0.3542,
+     0.2604,
+     0.4482
+    ],
+    "stopped": [
+     0.0729,
+     0.0312,
+     0.125
+    ],
+    "mean_turns": 5.35,
+    "mean_suppressed": 0.052,
+    "invalid_rate": 0.0
+   }
+  },
+  "runtime_s": null,
+  "note": "stopped at 100 episodes (time box)"
+ },
+ "Qwen2.5-7B-Instruct": {
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "policies": [
+   "full",
+   "recency",
+   "typed-recency",
+   "relay",
+   "restart"
+  ],
+  "n_episodes": 50,
+  "target": "watch",
+  "summary": {
+   "full|advisory|all": {
+    "n": 50,
+    "success": [
+     0.04,
+     0.0,
+     0.1
+    ],
+    "complete": [
+     0.3,
+     0.18,
+     0.42
+    ],
+    "duplicate": [
+     0.54,
+     0.4,
+     0.68
+    ],
+    "violation": [
+     0.32,
+     0.2,
+     0.44
+    ],
+    "stopped": [
+     0.54,
+     0.4,
+     0.68
+    ],
+    "mean_turns": 4.06,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "full|advisory|has_required": {
+    "n": 48,
+    "success": [
+     0.0208,
+     0.0,
+     0.0625
+    ],
+    "complete": [
+     0.2708,
+     0.1458,
+     0.3958
+    ],
+    "duplicate": [
+     0.5417,
+     0.4167,
+     0.6875
+    ],
+    "violation": [
+     0.3125,
+     0.1875,
+     0.4583
+    ],
+    "stopped": [
+     0.5417,
+     0.3958,
+     0.6875
+    ],
+    "mean_turns": 4.15,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "full|enforced|all": {
+    "n": 50,
+    "success": [
+     0.18,
+     0.08,
+     0.2805
+    ],
+    "complete": [
+     0.34,
+     0.22,
+     0.48
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.32,
+     0.2,
+     0.44
+    ],
+    "stopped": [
+     0.5,
+     0.36,
+     0.64
+    ],
+    "mean_turns": 4.0,
+    "mean_suppressed": 0.72,
+    "invalid_rate": 0.0
+   },
+   "full|enforced|has_required": {
+    "n": 48,
+    "success": [
+     0.1667,
+     0.0625,
+     0.2708
+    ],
+    "complete": [
+     0.3125,
+     0.1875,
+     0.4375
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.3125,
+     0.1875,
+     0.4583
+    ],
+    "stopped": [
+     0.5,
+     0.3542,
+     0.6458
+    ],
+    "mean_turns": 4.08,
+    "mean_suppressed": 0.729,
+    "invalid_rate": 0.0
+   },
+   "recency|advisory|all": {
+    "n": 50,
+    "success": [
+     0.04,
+     0.0,
+     0.1
+    ],
+    "complete": [
+     0.3,
+     0.18,
+     0.42
+    ],
+    "duplicate": [
+     0.54,
+     0.4,
+     0.68
+    ],
+    "violation": [
+     0.32,
+     0.2,
+     0.44
+    ],
+    "stopped": [
+     0.54,
+     0.4,
+     0.68
+    ],
+    "mean_turns": 4.06,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "recency|advisory|has_required": {
+    "n": 48,
+    "success": [
+     0.0208,
+     0.0,
+     0.0625
+    ],
+    "complete": [
+     0.2708,
+     0.1458,
+     0.3958
+    ],
+    "duplicate": [
+     0.5417,
+     0.4167,
+     0.6875
+    ],
+    "violation": [
+     0.3125,
+     0.1875,
+     0.4583
+    ],
+    "stopped": [
+     0.5417,
+     0.3958,
+     0.6875
+    ],
+    "mean_turns": 4.15,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "recency|enforced|all": {
+    "n": 50,
+    "success": [
+     0.18,
+     0.08,
+     0.2805
+    ],
+    "complete": [
+     0.34,
+     0.22,
+     0.48
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.32,
+     0.2,
+     0.44
+    ],
+    "stopped": [
+     0.5,
+     0.36,
+     0.64
+    ],
+    "mean_turns": 4.0,
+    "mean_suppressed": 0.72,
+    "invalid_rate": 0.0
+   },
+   "recency|enforced|has_required": {
+    "n": 48,
+    "success": [
+     0.1667,
+     0.0625,
+     0.2708
+    ],
+    "complete": [
+     0.3125,
+     0.1875,
+     0.4375
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.3125,
+     0.1875,
+     0.4583
+    ],
+    "stopped": [
+     0.5,
+     0.3542,
+     0.6458
+    ],
+    "mean_turns": 4.08,
+    "mean_suppressed": 0.729,
+    "invalid_rate": 0.0
+   },
+   "typed-recency|advisory|all": {
+    "n": 50,
+    "success": [
+     0.08,
+     0.02,
+     0.18
+    ],
+    "complete": [
+     0.34,
+     0.2,
+     0.48
+    ],
+    "duplicate": [
+     0.36,
+     0.24,
+     0.5
+    ],
+    "violation": [
+     0.24,
+     0.14,
+     0.36
+    ],
+    "stopped": [
+     0.68,
+     0.54,
+     0.8
+    ],
+    "mean_turns": 3.72,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "typed-recency|advisory|has_required": {
+    "n": 48,
+    "success": [
+     0.0417,
+     0.0,
+     0.1042
+    ],
+    "complete": [
+     0.3125,
+     0.1875,
+     0.4583
+    ],
+    "duplicate": [
+     0.375,
+     0.25,
+     0.5208
+    ],
+    "violation": [
+     0.25,
+     0.1458,
+     0.375
+    ],
+    "stopped": [
+     0.6667,
+     0.5417,
+     0.7917
+    ],
+    "mean_turns": 3.83,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "typed-recency|enforced|all": {
+    "n": 50,
+    "success": [
+     0.18,
+     0.08,
+     0.3
+    ],
+    "complete": [
+     0.36,
+     0.22,
+     0.5
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.26,
+     0.16,
+     0.38
+    ],
+    "stopped": [
+     0.64,
+     0.5,
+     0.76
+    ],
+    "mean_turns": 3.74,
+    "mean_suppressed": 0.5,
+    "invalid_rate": 0.0
+   },
+   "typed-recency|enforced|has_required": {
+    "n": 48,
+    "success": [
+     0.1458,
+     0.0625,
+     0.25
+    ],
+    "complete": [
+     0.3333,
+     0.2083,
+     0.4792
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.2708,
+     0.1458,
+     0.3958
+    ],
+    "stopped": [
+     0.625,
+     0.5,
+     0.75
+    ],
+    "mean_turns": 3.85,
+    "mean_suppressed": 0.521,
+    "invalid_rate": 0.0
+   },
+   "relay|advisory|all": {
+    "n": 50,
+    "success": [
+     0.08,
+     0.02,
+     0.16
+    ],
+    "complete": [
+     0.38,
+     0.24,
+     0.52
+    ],
+    "duplicate": [
+     0.62,
+     0.48,
+     0.74
+    ],
+    "violation": [
+     0.18,
+     0.08,
+     0.28
+    ],
+    "stopped": [
+     0.44,
+     0.32,
+     0.58
+    ],
+    "mean_turns": 4.32,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "relay|advisory|has_required": {
+    "n": 48,
+    "success": [
+     0.0833,
+     0.0208,
+     0.1667
+    ],
+    "complete": [
+     0.3542,
+     0.2292,
+     0.5
+    ],
+    "duplicate": [
+     0.6042,
+     0.4583,
+     0.75
+    ],
+    "violation": [
+     0.1875,
+     0.0833,
+     0.3125
+    ],
+    "stopped": [
+     0.4583,
+     0.3333,
+     0.6042
+    ],
+    "mean_turns": 4.38,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0
+   },
+   "relay|enforced|all": {
+    "n": 50,
+    "success": [
+     0.28,
+     0.1595,
+     0.4005
+    ],
+    "complete": [
+     0.4,
+     0.26,
+     0.5205
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.2,
+     0.1,
+     0.3
+    ],
+    "stopped": [
+     0.44,
+     0.3,
+     0.58
+    ],
+    "mean_turns": 4.36,
+    "mean_suppressed": 0.9,
+    "invalid_rate": 0.0
+   },
+   "relay|enforced|has_required": {
+    "n": 48,
+    "success": [
+     0.2708,
+     0.1458,
+     0.3958
+    ],
+    "complete": [
+     0.375,
+     0.25,
+     0.5208
+    ],
+    "duplicate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "violation": [
+     0.1875,
+     0.0833,
+     0.3125
+    ],
+    "stopped": [
+     0.4583,
+     0.3125,
+     0.6042
+    ],
+    "mean_turns": 4.42,
+    "mean_suppressed": 0.875,
+    "invalid_rate": 0.0
+   },
+   "restart|advisory|all": {
+    "n": 50,
+    "success": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "complete": [
+     0.42,
+     0.3,
+     0.56
+    ],
+    "duplicate": [
+     0.94,
+     0.86,
+     1.0
+    ],
+    "violation": [
+     0.24,
+     0.12,
+     0.36
+    ],
+    "stopped": [
+     0.22,
+     0.12,
+     0.34
+    ],
+    "mean_turns": 5.24,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0076
+   },
+   "restart|advisory|has_required": {
+    "n": 48,
+    "success": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "complete": [
+     0.3958,
+     0.2708,
+     0.5214
+    ],
+    "duplicate": [
+     0.9375,
+     0.8542,
+     1.0
+    ],
+    "violation": [
+     0.2292,
+     0.125,
+     0.3542
+    ],
+    "stopped": [
+     0.2292,
+     0.125,
+     0.3547
+    ],
+    "mean_turns": 5.33,
+    "mean_suppressed": 0.0,
+    "invalid_rate": 0.0078
+   },
+   "restart|enforced|all": {
+    "n": 50,
+    "success": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "complete": [
+     0.42,
+     0.3,
+     0.56
+    ],
+    "duplicate": [
+     0.94,
+     0.86,
+     1.0
+    ],
+    "violation": [
+     0.24,
+     0.12,
+     0.36
+    ],
+    "stopped": [
+     0.22,
+     0.12,
+     0.34
+    ],
+    "mean_turns": 5.24,
+    "mean_suppressed": 0.02,
+    "invalid_rate": 0.0076
+   },
+   "restart|enforced|has_required": {
+    "n": 48,
+    "success": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "complete": [
+     0.3958,
+     0.2708,
+     0.5214
+    ],
+    "duplicate": [
+     0.9375,
+     0.8542,
+     1.0
+    ],
+    "violation": [
+     0.2292,
+     0.125,
+     0.3542
+    ],
+    "stopped": [
+     0.2292,
+     0.125,
+     0.3547
+    ],
+    "mean_turns": 5.33,
+    "mean_suppressed": 0.021,
+    "invalid_rate": 0.0078
+   }
+  },
+  "runtime_s": 2463.9,
+  "note": ""
+ }
+}

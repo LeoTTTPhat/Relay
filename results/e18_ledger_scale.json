@@ -1,0 +1,237 @@
+{
+ "real": {
+  "label": "who&when",
+  "n_traj": 184,
+  "entries_final": {
+   "n": 184,
+   "median": 3.0,
+   "p90": 12.700000000000017,
+   "p99": 26.169999999999987,
+   "max": 28,
+   "mean": 4.49
+  },
+  "entries_at_handoff": {
+   "n": 1641,
+   "median": 1.0,
+   "p90": 6.0,
+   "p99": 18.59999999999991,
+   "max": 27,
+   "mean": 2.41
+  },
+  "traj_with_any_entry": 160,
+  "tokens_per_entry": {
+   "full": {
+    "n": 827,
+    "median": 71.0,
+    "p90": 79.0,
+    "p99": 92.74000000000001,
+    "max": 105,
+    "mean": 71.2
+   },
+   "saturated": {
+    "n": 827,
+    "median": 36.0,
+    "p90": 38.0,
+    "p99": 39.0,
+    "max": 40,
+    "mean": 35.76
+   },
+   "protocol_key": {
+    "n": 827,
+    "median": 40.0,
+    "p90": 42.0,
+    "p99": 43.0,
+    "max": 44,
+    "mean": 39.52
+   }
+  },
+  "core_min_tokens_median": 31,
+  "capacity": {
+   "watch": {
+    "budget": 1792,
+    "fit_saturated_trace_keys": 51,
+    "fit_saturated_protocol_keys": 45,
+    "fit_full_form": 23,
+    "protocol_ledger_tokens_at_fit": 1748,
+    "protocol_per_entry_in_block": 38.53,
+    "protocol_total_at_fit": 1780,
+    "full_ledger_tokens_at_fit": 1715,
+    "full_per_entry_in_block": 73.96,
+    "full_total_at_fit": 1747,
+    "core_tokens": 31,
+    "ledger_header_tokens": 14
+   },
+   "speaker": {
+    "budget": 3584,
+    "fit_saturated_trace_keys": 103,
+    "fit_saturated_protocol_keys": 92,
+    "fit_full_form": 48,
+    "protocol_ledger_tokens_at_fit": 3534,
+    "protocol_per_entry_in_block": 38.26,
+    "protocol_total_at_fit": 3566,
+    "full_ledger_tokens_at_fit": 3518,
+    "full_per_entry_in_block": 73.0,
+    "full_total_at_fit": 3550,
+    "core_tokens": 31,
+    "ledger_header_tokens": 14
+   },
+   "phone": {
+    "budget": 7168,
+    "fit_saturated_trace_keys": 205,
+    "fit_saturated_protocol_keys": 185,
+    "fit_full_form": 97,
+    "protocol_ledger_tokens_at_fit": 7136,
+    "protocol_per_entry_in_block": 38.5,
+    "protocol_total_at_fit": 7168,
+    "full_ledger_tokens_at_fit": 7101,
+    "full_per_entry_in_block": 73.06,
+    "full_total_at_fit": 7133,
+    "core_tokens": 31,
+    "ledger_header_tokens": 14
+   }
+  },
+  "final_ledger_would_block": {
+   "watch": 0,
+   "speaker": 0,
+   "phone": 0
+  },
+  "exposure_at_handoff": {
+   "watch": {
+    "over_half": 0.036,
+    "clip": 0.0018,
+    "block": 0.0,
+    "n": 1641
+   },
+   "speaker": {
+    "over_half": 0.0018,
+    "clip": 0.0,
+    "block": 0.0,
+    "n": 1641
+   },
+   "phone": {
+    "over_half": 0.0,
+    "clip": 0.0,
+    "block": 0.0,
+    "n": 1641
+   }
+  }
+ },
+ "synthetic": {
+  "label": "synthetic-200",
+  "n_traj": 200,
+  "entries_final": {
+   "n": 200,
+   "median": 4.0,
+   "p90": 9.0,
+   "p99": 10.0,
+   "max": 10,
+   "mean": 4.5
+  },
+  "entries_at_handoff": {
+   "n": 1804,
+   "median": 2.0,
+   "p90": 4.0,
+   "p99": 7.0,
+   "max": 8,
+   "mean": 1.97
+  },
+  "traj_with_any_entry": 200,
+  "tokens_per_entry": {
+   "full": {
+    "n": 901,
+    "median": 75.0,
+    "p90": 83.0,
+    "p99": 95.0,
+    "max": 97,
+    "mean": 74.59
+   },
+   "saturated": {
+    "n": 901,
+    "median": 31.0,
+    "p90": 33.0,
+    "p99": 34.0,
+    "max": 34,
+    "mean": 30.89
+   },
+   "protocol_key": {
+    "n": 901,
+    "median": 40.0,
+    "p90": 42.0,
+    "p99": 44.0,
+    "max": 44,
+    "mean": 39.81
+   }
+  },
+  "core_min_tokens_median": 31,
+  "capacity": {
+   "watch": {
+    "budget": 1792,
+    "fit_saturated_trace_keys": 59,
+    "fit_saturated_protocol_keys": 45,
+    "fit_full_form": 23,
+    "protocol_ledger_tokens_at_fit": 1752,
+    "protocol_per_entry_in_block": 38.62,
+    "protocol_total_at_fit": 1784,
+    "full_ledger_tokens_at_fit": 1730,
+    "full_per_entry_in_block": 74.61,
+    "full_total_at_fit": 1762,
+    "core_tokens": 31,
+    "ledger_header_tokens": 14
+   },
+   "speaker": {
+    "budget": 3584,
+    "fit_saturated_trace_keys": 119,
+    "fit_saturated_protocol_keys": 91,
+    "fit_full_form": 47,
+    "protocol_ledger_tokens_at_fit": 3531,
+    "protocol_per_entry_in_block": 38.65,
+    "protocol_total_at_fit": 3563,
+    "full_ledger_tokens_at_fit": 3491,
+    "full_per_entry_in_block": 73.98,
+    "full_total_at_fit": 3523,
+    "core_tokens": 31,
+    "ledger_header_tokens": 14
+   },
+   "phone": {
+    "budget": 7168,
+    "fit_saturated_trace_keys": 238,
+    "fit_saturated_protocol_keys": 183,
+    "fit_full_form": 96,
+    "protocol_ledger_tokens_at_fit": 7123,
+    "protocol_per_entry_in_block": 38.85,
+    "protocol_total_at_fit": 7155,
+    "full_ledger_tokens_at_fit": 7125,
+    "full_per_entry_in_block": 74.07,
+    "full_total_at_fit": 7157,
+    "core_tokens": 31,
+    "ledger_header_tokens": 14
+   }
+  },
+  "final_ledger_would_block": {
+   "watch": 0,
+   "speaker": 0,
+   "phone": 0
+  },
+  "exposure_at_handoff": {
+   "watch": {
+    "over_half": 0.0,
+    "clip": 0.0,
+    "block": 0.0,
+    "n": 1804
+   },
+   "speaker": {
+    "over_half": 0.0,
+    "clip": 0.0,
+    "block": 0.0,
+    "n": 1804
+   },
+   "phone": {
+    "over_half": 0.0,
+    "clip": 0.0,
+    "block": 0.0,
+    "n": 1804
+   }
+  }
+ },
+ "runtime_s": 8.8
+}

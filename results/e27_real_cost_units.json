@@ -1,0 +1,40 @@
+{
+ "n_trajectories": 184,
+ "n_handoffs": 1641,
+ "per_handoff_mean": {
+  "base": 0.8974,
+  "cons": 0.8864
+ },
+ "per_trajectory": {
+  "base": [
+   0.9032,
+   0.8745,
+   0.9302
+  ],
+  "cons": [
+   0.8933,
+   0.8635,
+   0.9218
+  ]
+ },
+ "tokens_per_trajectory_mean": {
+  "base": 1122.3,
+  "cons": 1182.7
+ },
+ "paired_over_trajectories": [
+  {
+   "vs": "base",
+   "delta": -0.009885030020820463,
+   "ci": [
+    -0.014914652870436668,
+    -0.005238979581396665
+   ],
+   "p_raw": 1.1954546769798768e-05,
+   "cliffs_delta": -0.03762996219281667,
+   "effect": "negligible",
+   "n": 184,
+   "p_holm": 1.1954546769798768e-05
+  }
+ ],
+ "e1_relay_go_run_recall": 0.9032
+}

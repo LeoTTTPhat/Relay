@@ -1,0 +1,57 @@
+{
+ "max_len_single": 5,
+ "max_len_delegation": 5,
+ "has_service_rejected": true,
+ "single": {
+  "plain": {
+   "sequences": 111110,
+   "outcomes": {
+    "live": 16184,
+    "blocked": 94926
+   },
+   "first_counterexamples": {}
+  },
+  "keyed": {
+   "sequences": 111110,
+   "outcomes": {
+    "live": 111110
+   },
+   "first_counterexamples": {}
+  },
+  "queryable": {
+   "sequences": 111110,
+   "outcomes": {
+    "live": 111110
+   },
+   "first_counterexamples": {}
+  }
+ },
+ "delegation": {
+  "plain": {
+   "sequences": 111111,
+   "outcomes": {
+    "blocked": 105199,
+    "live": 5912
+   },
+   "first_counterexamples": {}
+  },
+  "keyed": {
+   "sequences": 111111,
+   "outcomes": {
+    "live": 111111
+   },
+   "first_counterexamples": {}
+  },
+  "queryable": {
+   "sequences": 111111,
+   "outcomes": {
+    "live": 111111
+   },
+   "first_counterexamples": {}
+  }
+ },
+ "merge_algebra": {
+  "pairs": 16
+ },
+ "runtime_s": 268.8
+}

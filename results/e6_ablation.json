@@ -1,0 +1,167 @@
+{
+ "dst": "watch",
+ "components": {
+  "none": {
+   "recall": [
+    0.9032959247999355,
+    0.8727349779609288,
+    0.9308885687230402
+   ],
+   "recall_strict": 0.9232744453454846,
+   "probe": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "haz_real_rate": 0.00047281323877068556,
+   "haz_synth_rate": 0.0,
+   "delta_recall": 0.0,
+   "delta_probe": 0.0,
+   "delta_haz_synth": 0.0
+  },
+  "entities": {
+   "recall": [
+    0.6063547956709298,
+    0.5648643662444848,
+    0.6504435326908651
+   ],
+   "recall_strict": 0.6344586762061887,
+   "probe": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "haz_real_rate": 0.0,
+   "haz_synth_rate": 0.0,
+   "delta_recall": -0.2969,
+   "delta_probe": 0.0,
+   "delta_haz_synth": 0.0
+  },
+  "tool_digest": {
+   "recall": [
+    0.9240107198287626,
+    0.8986978377748976,
+    0.9481471340681592
+   ],
+   "recall_strict": 0.9433066294932423,
+   "probe": [
+    0.9265471088852668,
+    0.9184125747570069,
+    0.9347073621232784
+   ],
+   "haz_real_rate": 0.0028368794326241137,
+   "haz_synth_rate": 0.0,
+   "delta_recall": 0.0207,
+   "delta_probe": -0.0735,
+   "delta_haz_synth": 0.0
+  },
+  "plan": {
+   "recall": [
+    0.9062935387867188,
+    0.8764780199618066,
+    0.9338881247110702
+   ],
+   "recall_strict": 0.9255908541746656,
+   "probe": [
+    0.8757186285936285,
+    0.8717524925074924,
+    0.8801324542818294
+   ],
+   "haz_real_rate": 0.00047281323877068556,
+   "haz_synth_rate": 0.0,
+   "delta_recall": 0.003,
+   "delta_probe": -0.1243,
+   "delta_haz_synth": 0.0
+  },
+  "tail": {
+   "recall": [
+    0.9083181396834459,
+    0.8794986413355187,
+    0.935181992775399
+   ],
+   "recall_strict": 0.9259103562610127,
+   "probe": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "haz_real_rate": 0.00047281323877068556,
+   "haz_synth_rate": 0.0,
+   "delta_recall": 0.005,
+   "delta_probe": 0.0,
+   "delta_haz_synth": 0.0
+  },
+  "side_fx": {
+   "recall": [
+    0.9340692389520026,
+    0.911051184725041,
+    0.9561545342735555
+   ],
+   "recall_strict": 0.9520475404087969,
+   "probe": [
+    0.9122754990967066,
+    0.9015614364985504,
+    0.9220751772527652
+   ],
+   "haz_real_rate": 0.05768321513002364,
+   "haz_synth_rate": 0.5070349140177176,
+   "delta_recall": 0.0308,
+   "delta_probe": -0.0877,
+   "delta_haz_synth": 0.507
+  },
+  "constraints": {
+   "recall": [
+    0.9048383578206286,
+    0.8740313958053113,
+    0.9317871547972753
+   ],
+   "recall_strict": 0.9228174705905026,
+   "probe": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "haz_real_rate": 0.00047281323877068556,
+   "haz_synth_rate": 0.0,
+   "delta_recall": 0.0015,
+   "delta_probe": 0.0,
+   "delta_haz_synth": 0.0
+  },
+  "flat_entities": {
+   "recall": [
+    0.8300887794933303,
+    0.7963783069509469,
+    0.8622622015478599
+   ],
+   "recall_strict": 0.8713992655603174,
+   "probe": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "haz_real_rate": 0.0,
+   "haz_synth_rate": 0.0,
+   "delta_recall": -0.0732,
+   "delta_probe": 0.0,
+   "delta_haz_synth": 0.0
+  },
+  "fixed_order": {
+   "recall": [
+    0.8931556478115941,
+    0.8626505282340304,
+    0.9220814078133193
+   ],
+   "recall_strict": 0.9126656266320312,
+   "probe": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "haz_real_rate": 0.0,
+   "haz_synth_rate": 0.0,
+   "delta_recall": -0.0101,
+   "delta_probe": 0.0,
+   "delta_haz_synth": 0.0
+  }
+ }
+}

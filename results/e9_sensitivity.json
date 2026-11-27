@@ -1,0 +1,363 @@
+{
+ "sweeps": {
+  "prefill_tps": [
+   {
+    "multiplier": 0.5,
+    "latency_s": {
+     "full": 239.21,
+     "recency": 157.34,
+     "relay": 151.51,
+     "relay-lite": 100.92,
+     "restart": 7.53
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.963,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9988
+   },
+   {
+    "multiplier": 1.0,
+    "latency_s": {
+     "full": 119.74,
+     "recency": 78.74,
+     "relay": 75.84,
+     "relay-lite": 50.52,
+     "restart": 3.79
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.963,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9977
+   },
+   {
+    "multiplier": 2.0,
+    "latency_s": {
+     "full": 60.01,
+     "recency": 39.44,
+     "relay": 38.01,
+     "relay-lite": 25.32,
+     "restart": 1.93
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.964,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9954
+   },
+   {
+    "multiplier": 4.0,
+    "latency_s": {
+     "full": 30.14,
+     "recency": 19.79,
+     "relay": 19.09,
+     "relay-lite": 12.72,
+     "restart": 0.99
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.965,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9908
+   },
+   {
+    "multiplier": 8.0,
+    "latency_s": {
+     "full": 15.21,
+     "recency": 9.96,
+     "relay": 9.63,
+     "relay-lite": 6.42,
+     "restart": 0.53
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.967,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9817
+   },
+   {
+    "multiplier": 16.0,
+    "latency_s": {
+     "full": 7.74,
+     "recency": 5.05,
+     "relay": 4.91,
+     "relay-lite": 3.27,
+     "restart": 0.29
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.971,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9641
+   }
+  ],
+  "watch_ctx": [
+   {
+    "ctx": 1024,
+    "latency_s": {
+     "full": 51.48,
+     "recency": 27.56,
+     "relay": 44.32,
+     "relay-lite": 23.5,
+     "restart": 3.79
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 412.7,
+     "relay": 663.5,
+     "relay-lite": 351.8,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "recency",
+     "relay",
+     "full"
+    ],
+    "relay_vs_recency": 1.608,
+    "relay_vs_full": 0.861,
+    "prefill_share_relay": 0.9973
+   },
+   {
+    "ctx": 2048,
+    "latency_s": {
+     "full": 119.74,
+     "recency": 78.74,
+     "relay": 75.84,
+     "relay-lite": 50.52,
+     "restart": 3.79
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.963,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9977
+   },
+   {
+    "ctx": 4096,
+    "latency_s": {
+     "full": 239.21,
+     "recency": 134.92,
+     "relay": 93.82,
+     "relay-lite": 75.81,
+     "restart": 3.79
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 2021.5,
+     "relay": 1405.7,
+     "relay-lite": 1135.5,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.695,
+    "relay_vs_full": 0.392,
+    "prefill_share_relay": 0.9983
+   }
+  ],
+  "ble_bw": [
+   {
+    "multiplier": 0.25,
+    "latency_s": {
+     "full": 120.43,
+     "recency": 79.0,
+     "relay": 76.08,
+     "relay-lite": 50.7,
+     "restart": 3.82
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.963,
+    "relay_vs_full": 0.632,
+    "prefill_share_relay": 0.9946
+   },
+   {
+    "multiplier": 1.0,
+    "latency_s": {
+     "full": 119.74,
+     "recency": 78.74,
+     "relay": 75.84,
+     "relay-lite": 50.52,
+     "restart": 3.79
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.963,
+    "relay_vs_full": 0.633,
+    "prefill_share_relay": 0.9977
+   },
+   {
+    "multiplier": 10.0,
+    "latency_s": {
+     "full": 119.54,
+     "recency": 78.66,
+     "relay": 75.77,
+     "relay-lite": 50.47,
+     "restart": 3.78
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.963,
+    "relay_vs_full": 0.634,
+    "prefill_share_relay": 0.9986
+   },
+   {
+    "multiplier": 133.0,
+    "latency_s": {
+     "full": 119.52,
+     "recency": 78.65,
+     "relay": 75.77,
+     "relay-lite": 50.46,
+     "restart": 3.78
+    },
+    "tokens": {
+     "full": 4550.3,
+     "recency": 1179.1,
+     "relay": 1135.5,
+     "relay-lite": 756.1,
+     "restart": 56.1
+    },
+    "order_by_latency": [
+     "restart",
+     "relay-lite",
+     "relay",
+     "recency",
+     "full"
+    ],
+    "relay_vs_recency": 0.963,
+    "relay_vs_full": 0.634,
+    "prefill_share_relay": 0.9987
+   }
+  ]
+ },
+ "transfer_overtakes_prefill_bw_mbps": 0.00029,
+ "note": "bandwidth below which transfer exceeds prefill for the full-context policy on a watch target"
+}

@@ -1,0 +1,1434 @@
+{
+ "target_model": "Qwen/Qwen2.5-0.5B-Instruct (cpu, 2 threads)",
+ "source_model": "Qwen/Qwen2.5-7B-Instruct (mps)",
+ "target_model_load_s": 4.2,
+ "source_model_load_s": 9.7,
+ "forged_envelope_before_first_handoff": {
+  "type": "reject",
+  "reason": "authentication failed: forged or corrupt block"
+ },
+ "n_episodes": 10,
+ "n_duplicates": 0,
+ "n_violations": 6,
+ "n_all_performed": 2,
+ "n_ack": 10,
+ "n_replay_rejected": 10,
+ "stale_source_verdicts": [
+  "block_stale",
+  "block_stale",
+  "block_stale",
+  "block_stale",
+  "block_stale",
+  "block_stale",
+  "block_stale",
+  "block_stale",
+  "block_stale",
+  "block_stale"
+ ],
+ "replay_probe_verdicts": [
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate",
+  "skip_duplicate"
+ ],
+ "runtime_s": 118.4,
+ "source_stderr_tail": "s/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020\n  warnings.warn(\n\nLoading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]\nLoading checkpoint shards:  25%|\u2588\u2588\u258c       | 1/4 [00:01<00:03,  1.08s/it]\nLoading checkpoint shards:  50%|\u2588\u2588\u2588\u2588\u2588     | 2/4 [00:02<00:02,  1.06s/it]\nLoading checkpoint shards:  75%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c  | 3/4 [00:03<00:01,  1.11s/it]\nLoading checkpoint shards: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 4/4 [00:04<00:00,  1.10s/it]\nLoading checkpoint shards: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 4/4 [00:04<00:00,  1.09s/it]\nThe following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n",
+ "episodes": [
+  {
+   "task": "synth-errand-000",
+   "family": "errand",
+   "inflight": false,
+   "n_true_effects": 4,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A7",
+     "prefill_s": 0.714,
+     "gen_s": 0.647
+    },
+    {
+     "choice": "A2",
+     "prefill_s": 0.762,
+     "gen_s": 0.774
+    },
+    {
+     "choice": "A3",
+     "prefill_s": 0.955,
+     "gen_s": 0.733
+    },
+    {
+     "choice": "A5",
+     "prefill_s": 0.846,
+     "gen_s": 0.784
+    }
+   ],
+   "source_executed_mids": [
+    "A2",
+    "A5"
+   ],
+   "inflight_label": null,
+   "snapshot_statuses": [
+    "committed",
+    "committed"
+   ],
+   "block_tokens_est": 557,
+   "block_bytes": 768,
+   "wire_bytes": 3578,
+   "ms": {
+    "fence_snapshot": 0.52,
+    "distil_serialise": 198.79,
+    "seal": 1.39,
+    "send_verify_install_ack": 14.19
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.06,
+    "load_ms": 13.54,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-errand-000",
+    "block_tokens": 673,
+    "truncated_at_target": false,
+    "prefill_tokens": 908,
+    "prefill_s": 1.113,
+    "prefill_tok_per_s": 815.7,
+    "turns": [
+     {
+      "choice": "A3",
+      "gen_s": 0.256
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.283
+     },
+     {
+      "choice": "A2",
+      "gen_s": 0.436
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.372
+     },
+     {
+      "choice": "A4",
+      "gen_s": 0.523
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A1",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     },
+     {
+      "mid": "A2",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A4",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 0,
+    "final_statuses": {
+     "071c97eeb9396c2b": "committed",
+     "87baf6dbf5f6bc86": "committed",
+     "a9b5a1f6bd647cd8": "committed",
+     "d1fc006aca060b97": "committed"
+    }
+   },
+   "duplicate": false,
+   "violation": true,
+   "all_performed": false,
+   "effect_counts": {
+    "purchase|item=field notebook, amount=$18.22": 1,
+    "reserve_item|item=field notebook, store=Vela Electronics": 1,
+    "distractor": 1,
+    "message_send|to=alex, text=eta with 28 min queue": 1,
+    "booking|slot at Northgate Notary before 6:00 pm": 0
+   }
+  },
+  {
+   "task": "synth-home-001",
+   "family": "home",
+   "inflight": false,
+   "n_true_effects": 3,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A1",
+     "prefill_s": 0.654,
+     "gen_s": 0.55
+    },
+    {
+     "choice": "A4",
+     "prefill_s": 0.599,
+     "gen_s": 0.554
+    },
+    {
+     "choice": "A5",
+     "prefill_s": 0.724,
+     "gen_s": 0.679
+    }
+   ],
+   "source_executed_mids": [
+    "A4",
+    "A5"
+   ],
+   "inflight_label": null,
+   "snapshot_statuses": [
+    "committed",
+    "committed"
+   ],
+   "block_tokens_est": 402,
+   "block_bytes": 629,
+   "wire_bytes": 2766,
+   "ms": {
+    "fence_snapshot": 0.99,
+    "distil_serialise": 53.68,
+    "seal": 0.12,
+    "send_verify_install_ack": 6.86
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.09,
+    "load_ms": 6.2,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-home-001",
+    "block_tokens": 530,
+    "truncated_at_target": false,
+    "prefill_tokens": 724,
+    "prefill_s": 1.005,
+    "prefill_tok_per_s": 720.3,
+    "turns": [
+     {
+      "choice": "A3",
+      "gen_s": 0.349
+     },
+     {
+      "choice": "A4",
+      "gen_s": 0.598
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.38
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.422
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A3",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     },
+     {
+      "mid": "A4",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 0,
+    "final_statuses": {
+     "5f0cf195340fc246": "committed",
+     "693266cba94769c1": "committed",
+     "9bc22420f2640ea9": "committed"
+    }
+   },
+   "duplicate": false,
+   "violation": false,
+   "all_performed": true,
+   "effect_counts": {
+    "distractor": 0,
+    "device_actuation|schedule blinds at 7:15 pm": 1,
+    "device_actuation|thermostat in bedroom -> target 23C": 1,
+    "device_actuation|speaker volume -> 59%": 1
+   }
+  },
+  {
+   "task": "synth-shopping-002",
+   "family": "shopping",
+   "inflight": false,
+   "n_true_effects": 3,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A1",
+     "prefill_s": 0.771,
+     "gen_s": 0.516
+    },
+    {
+     "choice": "A3",
+     "prefill_s": 0.777,
+     "gen_s": 0.767
+    },
+    {
+     "choice": "A4",
+     "prefill_s": 0.735,
+     "gen_s": 0.6
+    },
+    {
+     "choice": "A5",
+     "prefill_s": 0.75,
+     "gen_s": 0.673
+    }
+   ],
+   "source_executed_mids": [
+    "A4",
+    "A5"
+   ],
+   "inflight_label": null,
+   "snapshot_statuses": [
+    "committed",
+    "committed"
+   ],
+   "block_tokens_est": 489,
+   "block_bytes": 688,
+   "wire_bytes": 3262,
+   "ms": {
+    "fence_snapshot": 0.65,
+    "distil_serialise": 2.45,
+    "seal": 0.17,
+    "send_verify_install_ack": 7.54
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.09,
+    "load_ms": 6.86,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-shopping-002",
+    "block_tokens": 661,
+    "truncated_at_target": false,
+    "prefill_tokens": 907,
+    "prefill_s": 1.345,
+    "prefill_tok_per_s": 674.3,
+    "turns": [
+     {
+      "choice": "A3",
+      "gen_s": 0.348
+     },
+     {
+      "choice": "A4",
+      "gen_s": 0.651
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.421
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.348
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A4",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 0,
+    "final_statuses": {
+     "9f071da2a6a561e1": "committed",
+     "e8a2b44e3aa11247": "committed"
+    }
+   },
+   "duplicate": false,
+   "violation": true,
+   "all_performed": false,
+   "effect_counts": {
+    "message_send|receipt ORD-738951 to owner email": 0,
+    "cart_add|bike pannier at hausmarkt.de for $154.76": 1,
+    "distractor": 1,
+    "purchase|bike pannier, $154.76, saved address": 0
+   }
+  },
+  {
+   "task": "synth-travel-003",
+   "family": "travel",
+   "inflight": false,
+   "n_true_effects": 4,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A1",
+     "prefill_s": 0.824,
+     "gen_s": 0.53
+    },
+    {
+     "choice": "A5",
+     "prefill_s": 0.794,
+     "gen_s": 0.69
+    },
+    {
+     "choice": "A3",
+     "prefill_s": 0.838,
+     "gen_s": 0.702
+    }
+   ],
+   "source_executed_mids": [
+    "A1",
+    "A3"
+   ],
+   "inflight_label": null,
+   "snapshot_statuses": [
+    "committed",
+    "committed"
+   ],
+   "block_tokens_est": 559,
+   "block_bytes": 776,
+   "wire_bytes": 3364,
+   "ms": {
+    "fence_snapshot": 4.53,
+    "distil_serialise": 3.06,
+    "seal": 0.14,
+    "send_verify_install_ack": 8.53
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.06,
+    "load_ms": 6.1,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-travel-003",
+    "block_tokens": 808,
+    "truncated_at_target": false,
+    "prefill_tokens": 1070,
+    "prefill_s": 1.629,
+    "prefill_tok_per_s": 657.0,
+    "turns": [
+     {
+      "choice": "A1",
+      "gen_s": 0.319
+     },
+     {
+      "choice": "A2",
+      "gen_s": 0.619
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.391
+     },
+     {
+      "choice": "A4",
+      "gen_s": 0.694
+     },
+     {
+      "choice": "A5",
+      "gen_s": 0.693
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A2",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     },
+     {
+      "mid": "A3",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 0,
+    "final_statuses": {
+     "077cade079d2e617": "committed",
+     "3dc6f81ffe741ffc": "committed",
+     "40c3fa5d6c091f22": "committed"
+    }
+   },
+   "duplicate": false,
+   "violation": true,
+   "all_performed": false,
+   "effect_counts": {
+    "booking|hold TransBora 657 on 2025-08-14 for $581.99": 1,
+    "file_write|itinerary_da nang.md": 1,
+    "distractor": 1,
+    "message_send|trip summary for Da Nang to owner": 0,
+    "booking|Hotel Miradouro, 3 nights at $160.04": 0
+   }
+  },
+  {
+   "task": "synth-fleet-004",
+   "family": "fleet",
+   "inflight": false,
+   "n_true_effects": 8,
+   "handoff_after": 4,
+   "source_turns": [
+    {
+     "choice": "A1",
+     "prefill_s": 0.988,
+     "gen_s": 0.583
+    },
+    {
+     "choice": "A2",
+     "prefill_s": 0.892,
+     "gen_s": 0.612
+    },
+    {
+     "choice": "A3",
+     "prefill_s": 0.853,
+     "gen_s": 0.613
+    },
+    {
+     "choice": "A4",
+     "prefill_s": 0.894,
+     "gen_s": 0.658
+    },
+    {
+     "choice": "A5",
+     "prefill_s": 0.946,
+     "gen_s": 0.75
+    },
+    {
+     "choice": "A6",
+     "prefill_s": 1.001,
+     "gen_s": 0.803
+    },
+    {
+     "choice": "A7",
+     "prefill_s": 0.993,
+     "gen_s": 0.78
+    },
+    {
+     "choice": "A8",
+     "prefill_s": 1.085,
+     "gen_s": 0.864
+    }
+   ],
+   "source_executed_mids": [
+    "A2",
+    "A3",
+    "A7",
+    "A8"
+   ],
+   "inflight_label": null,
+   "snapshot_statuses": [
+    "committed",
+    "committed",
+    "committed",
+    "committed"
+   ],
+   "block_tokens_est": 635,
+   "block_bytes": 858,
+   "wire_bytes": 6044,
+   "ms": {
+    "fence_snapshot": 2.47,
+    "distil_serialise": 3.29,
+    "seal": 0.15,
+    "send_verify_install_ack": 14.73
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.07,
+    "load_ms": 14.05,
+    "records": 4
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-fleet-004",
+    "block_tokens": 824,
+    "truncated_at_target": false,
+    "prefill_tokens": 1185,
+    "prefill_s": 1.73,
+    "prefill_tok_per_s": 684.8,
+    "turns": [
+     {
+      "choice": "A1",
+      "gen_s": 0.221
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.32
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.347
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.388
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.465
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.386
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.458
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A3",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A3",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A3",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A3",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 0,
+    "final_statuses": {
+     "2643ae69fcc23ec4": "committed",
+     "a32ba72a25ce2064": "committed",
+     "b6220e654cf9f483": "committed",
+     "cf249a5730a436b0": "committed"
+    }
+   },
+   "duplicate": false,
+   "violation": false,
+   "all_performed": false,
+   "effect_counts": {
+    "device_actuation|zone=study, device=speaker volume, target=off": 1,
+    "device_actuation|zone=hallway, device=thermostat, target=off": 1,
+    "device_actuation|zone=bedroom, device=door lock, target=off": 1,
+    "device_actuation|zone=hallway, device=robot vacuum, target=off": 1,
+    "device_actuation|zone=living room, device=ceiling light, target=off": 0,
+    "device_actuation|zone=study, device=thermostat, target=off": 0,
+    "file_write|closedown_ridgeline.md": 0,
+    "device_actuation|zone=living room, device=blinds, target=off": 0
+   }
+  },
+  {
+   "task": "synth-errand-005",
+   "family": "errand",
+   "inflight": true,
+   "n_true_effects": 4,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A7",
+     "prefill_s": 0.709,
+     "gen_s": 0.551
+    },
+    {
+     "choice": "A2",
+     "prefill_s": 0.689,
+     "gen_s": 0.605
+    },
+    {
+     "choice": "A4",
+     "prefill_s": 0.765,
+     "gen_s": 0.661
+    },
+    {
+     "choice": "A1",
+     "prefill_s": 0.773,
+     "gen_s": 0.726
+    }
+   ],
+   "source_executed_mids": [
+    "A2",
+    "A1"
+   ],
+   "inflight_label": "purchase(item=prescription refill, amount=$37.32)",
+   "snapshot_statuses": [
+    "unknown",
+    "committed"
+   ],
+   "block_tokens_est": 471,
+   "block_bytes": 687,
+   "wire_bytes": 3418,
+   "ms": {
+    "fence_snapshot": 1.95,
+    "distil_serialise": 3.09,
+    "seal": 0.14,
+    "send_verify_install_ack": 20.81
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.09,
+    "load_ms": 20.1,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-errand-005",
+    "block_tokens": 500,
+    "truncated_at_target": false,
+    "prefill_tokens": 740,
+    "prefill_s": 0.885,
+    "prefill_tok_per_s": 836.0,
+    "turns": [
+     {
+      "choice": "A3",
+      "gen_s": 0.263
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.484
+     },
+     {
+      "choice": "A2",
+      "gen_s": 0.624
+     },
+     {
+      "choice": "A4",
+      "gen_s": 0.559
+     },
+     {
+      "choice": "A5",
+      "gen_s": 0.642
+     },
+     {
+      "choice": "A6",
+      "gen_s": 0.414
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A3",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "reconciled to committed"
+     },
+     {
+      "mid": "A2",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A6",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 1,
+    "final_statuses": {
+     "1a36c4169eaae46f": "committed",
+     "a867b843ddb93548": "committed",
+     "b7f8f641f5e3cc05": "committed",
+     "ed9dfc6bc775972e": "committed"
+    }
+   },
+   "duplicate": false,
+   "violation": true,
+   "all_performed": false,
+   "effect_counts": {
+    "purchase|item=prescription refill, amount=$37.32": 1,
+    "reserve_item|item=prescription refill, store=GreenLeaf Pharmacy": 1,
+    "message_send|to=omar, text=eta with 26 min queue": 1,
+    "distractor": 1,
+    "booking|slot at CityHall Annex before 6:30 pm": 0
+   }
+  },
+  {
+   "task": "synth-home-006",
+   "family": "home",
+   "inflight": true,
+   "n_true_effects": 3,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A1",
+     "prefill_s": 0.627,
+     "gen_s": 0.573
+    },
+    {
+     "choice": "A2",
+     "prefill_s": 0.635,
+     "gen_s": 0.548
+    },
+    {
+     "choice": "A4",
+     "prefill_s": 0.688,
+     "gen_s": 0.684
+    }
+   ],
+   "source_executed_mids": [
+    "A1",
+    "A4"
+   ],
+   "inflight_label": "device_actuation(thermostat -> 57%)",
+   "snapshot_statuses": [
+    "committed",
+    "unknown"
+   ],
+   "block_tokens_est": 290,
+   "block_bytes": 538,
+   "wire_bytes": 2561,
+   "ms": {
+    "fence_snapshot": 2.15,
+    "distil_serialise": 1.84,
+    "seal": 0.16,
+    "send_verify_install_ack": 14.36
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.07,
+    "load_ms": 13.57,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-home-006",
+    "block_tokens": 342,
+    "truncated_at_target": false,
+    "prefill_tokens": 537,
+    "prefill_s": 0.674,
+    "prefill_tok_per_s": 796.9,
+    "turns": [
+     {
+      "choice": "A3",
+      "gen_s": 0.286
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.201
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.254
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.249
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.268
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A3",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 1,
+    "final_statuses": {
+     "001c86b61fc2c614": "committed",
+     "d85a3b8ca563eb8f": "committed",
+     "f4bf935af9e414e3": "unknown"
+    }
+   },
+   "duplicate": false,
+   "violation": false,
+   "all_performed": true,
+   "effect_counts": {
+    "device_actuation|robot vacuum in hallway -> target 20C": 1,
+    "device_actuation|schedule door lock at 8:15 pm": 1,
+    "device_actuation|thermostat -> 57%": 1,
+    "distractor": 0
+   }
+  },
+  {
+   "task": "synth-shopping-007",
+   "family": "shopping",
+   "inflight": true,
+   "n_true_effects": 3,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A4",
+     "prefill_s": 1.007,
+     "gen_s": 0.617
+    },
+    {
+     "choice": "A3",
+     "prefill_s": 0.681,
+     "gen_s": 0.617
+    },
+    {
+     "choice": "A5",
+     "prefill_s": 0.71,
+     "gen_s": 0.583
+    }
+   ],
+   "source_executed_mids": [
+    "A3",
+    "A5"
+   ],
+   "inflight_label": "purchase(trail running shoes, $124.96, saved address)",
+   "snapshot_statuses": [
+    "committed",
+    "unknown"
+   ],
+   "block_tokens_est": 395,
+   "block_bytes": 593,
+   "wire_bytes": 3148,
+   "ms": {
+    "fence_snapshot": 2.63,
+    "distil_serialise": 1.97,
+    "seal": 0.23,
+    "send_verify_install_ack": 12.36
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.07,
+    "load_ms": 11.56,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-shopping-007",
+    "block_tokens": 486,
+    "truncated_at_target": false,
+    "prefill_tokens": 726,
+    "prefill_s": 0.877,
+    "prefill_tok_per_s": 827.9,
+    "turns": [
+     {
+      "choice": "A3",
+      "gen_s": 0.315
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.355
+     },
+     {
+      "choice": "A4",
+      "gen_s": 0.705
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.452
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.546
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A3",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 1,
+    "final_statuses": {
+     "0ed7d30858a3dcc9": "committed",
+     "7895247877085f12": "committed",
+     "dd50e43e596ecadb": "unknown"
+    }
+   },
+   "duplicate": false,
+   "violation": true,
+   "all_performed": false,
+   "effect_counts": {
+    "distractor": 1,
+    "message_send|receipt ORD-572289 to owner email": 0,
+    "cart_add|trail running shoes at nordvia.com for $124.96": 1,
+    "purchase|trail running shoes, $124.96, saved address": 1
+   }
+  },
+  {
+   "task": "synth-travel-008",
+   "family": "travel",
+   "inflight": true,
+   "n_true_effects": 4,
+   "handoff_after": 2,
+   "source_turns": [
+    {
+     "choice": "A6",
+     "prefill_s": 0.742,
+     "gen_s": 0.628
+    },
+    {
+     "choice": "A1",
+     "prefill_s": 0.658,
+     "gen_s": 0.685
+    },
+    {
+     "choice": "A3",
+     "prefill_s": 0.81,
+     "gen_s": 0.672
+    },
+    {
+     "choice": "A7",
+     "prefill_s": 0.875,
+     "gen_s": 0.701
+    }
+   ],
+   "source_executed_mids": [
+    "A1",
+    "A7"
+   ],
+   "inflight_label": "booking(Fjord Lodge, 3 nights at $115.65)",
+   "snapshot_statuses": [
+    "unknown",
+    "committed"
+   ],
+   "block_tokens_est": 499,
+   "block_bytes": 715,
+   "wire_bytes": 3209,
+   "ms": {
+    "fence_snapshot": 2.32,
+    "distil_serialise": 3.32,
+    "seal": 0.21,
+    "send_verify_install_ack": 17.8
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.17,
+    "load_ms": 16.84,
+    "records": 2
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-travel-008",
+    "block_tokens": 739,
+    "truncated_at_target": false,
+    "prefill_tokens": 1002,
+    "prefill_s": 1.564,
+    "prefill_tok_per_s": 640.8,
+    "turns": [
+     {
+      "choice": "A1",
+      "gen_s": 0.366
+     },
+     {
+      "choice": "A2",
+      "gen_s": 0.412
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.412
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.468
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.497
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.491
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A2",
+      "verdict": "execute",
+      "dispatched": true,
+      "reason": "no record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 1,
+    "final_statuses": {
+     "2d74ca2a7be8e2ba": "unknown",
+     "34384cfbdc498028": "committed",
+     "7f35f10fd2ee2801": "committed"
+    }
+   },
+   "duplicate": false,
+   "violation": true,
+   "all_performed": false,
+   "effect_counts": {
+    "booking|hold Aerlin 120 on 2026-12-23 for $423.43": 1,
+    "distractor": 1,
+    "file_write|itinerary_valparaiso.md": 0,
+    "message_send|trip summary for Valparaiso to owner": 0,
+    "booking|Fjord Lodge, 3 nights at $115.65": 1
+   }
+  },
+  {
+   "task": "synth-fleet-009",
+   "family": "fleet",
+   "inflight": true,
+   "n_true_effects": 8,
+   "handoff_after": 4,
+   "source_turns": [
+    {
+     "choice": "A1",
+     "prefill_s": 0.899,
+     "gen_s": 0.546
+    },
+    {
+     "choice": "A2",
+     "prefill_s": 0.888,
+     "gen_s": 0.624
+    },
+    {
+     "choice": "A3",
+     "prefill_s": 0.849,
+     "gen_s": 0.544
+    },
+    {
+     "choice": "A4",
+     "prefill_s": 0.982,
+     "gen_s": 0.655
+    },
+    {
+     "choice": "A8",
+     "prefill_s": 0.952,
+     "gen_s": 0.677
+    }
+   ],
+   "source_executed_mids": [
+    "A1",
+    "A3",
+    "A4",
+    "A8"
+   ],
+   "inflight_label": "device_actuation(zone=hallway, device=robot vacuum, target=off)",
+   "snapshot_statuses": [
+    "committed",
+    "committed",
+    "committed",
+    "unknown"
+   ],
+   "block_tokens_est": 467,
+   "block_bytes": 714,
+   "wire_bytes": 5683,
+   "ms": {
+    "fence_snapshot": 2.65,
+    "distil_serialise": 2.44,
+    "seal": 0.14,
+    "send_verify_install_ack": 13.4
+   },
+   "ack": {
+    "type": "ack",
+    "epoch": 1,
+    "verify_ms": 0.07,
+    "load_ms": 12.77,
+    "records": 4
+   },
+   "network_replay": {
+    "type": "reject",
+    "reason": "replayed counter 1 for epoch 1"
+   },
+   "stale_source_verdict": "block_stale",
+   "target": {
+    "task": "synth-fleet-009",
+    "block_tokens": 599,
+    "truncated_at_target": false,
+    "prefill_tokens": 957,
+    "prefill_s": 1.441,
+    "prefill_tok_per_s": 664.1,
+    "turns": [
+     {
+      "choice": "A1",
+      "gen_s": 0.328
+     },
+     {
+      "choice": "A3",
+      "gen_s": 0.34
+     },
+     {
+      "choice": "A4",
+      "gen_s": 0.372
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.391
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.454
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.432
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.493
+     },
+     {
+      "choice": "A1",
+      "gen_s": 0.459
+     }
+    ],
+    "verdicts": [
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A3",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A4",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     },
+     {
+      "mid": "A1",
+      "verdict": "skip_duplicate",
+      "dispatched": false,
+      "reason": "committed record"
+     }
+    ],
+    "replay_probe": {
+     "verdict": "skip_duplicate",
+     "dispatched": false,
+     "reason": "committed record"
+    },
+    "recovered_unknown": 0,
+    "unknown_in_snapshot": 1,
+    "final_statuses": {
+     "02be36864ccff370": "committed",
+     "70f89fabfcd87ea1": "committed",
+     "92ec937375e4ea87": "committed",
+     "cf249a5730a436b0": "unknown"
+    }
+   },
+   "duplicate": false,
+   "violation": false,
+   "all_performed": false,
+   "effect_counts": {
+    "device_actuation|zone=bedroom, device=thermostat, target=off": 1,
+    "device_actuation|zone=study, device=door lock, target=off": 1,
+    "device_actuation|zone=kitchen, device=blinds, target=off": 1,
+    "device_actuation|zone=hallway, device=robot vacuum, target=off": 0,
+    "device_actuation|zone=kitchen, device=ceiling light, target=off": 0,
+    "device_actuation|zone=hallway, device=thermostat, target=off": 0,
+    "file_write|closedown_harbour.md": 0,
+    "device_actuation|zone=bedroom, device=speaker volume, target=off": 0
+   }
+  }
+ ]
+}

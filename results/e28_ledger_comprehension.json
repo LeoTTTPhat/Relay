@@ -1,0 +1,203 @@
+{
+ "3b": {
+  "n_cases": 80,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "per_policy": {
+   "full": {
+    "recognised_done": 0.7875,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.8938,
+    "ci_recognised": [
+     0.7875,
+     0.6997,
+     0.8625
+    ],
+    "n": 80
+   },
+   "recency": {
+    "recognised_done": 0.7875,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.8938,
+    "ci_recognised": [
+     0.7875,
+     0.6997,
+     0.8625
+    ],
+    "n": 80
+   },
+   "relay": {
+    "recognised_done": 0.95,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.975,
+    "ci_recognised": [
+     0.95,
+     0.9,
+     0.9875
+    ],
+    "n": 80
+   },
+   "relay-lite": {
+    "recognised_done": 0.9625,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.9812,
+    "ci_recognised": [
+     0.9625,
+     0.9125,
+     1.0
+    ],
+    "n": 80
+   },
+   "extractive": {
+    "recognised_done": 0.7875,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.8938,
+    "ci_recognised": [
+     0.7875,
+     0.6997,
+     0.8625
+    ],
+    "n": 80
+   },
+   "trunc25": {
+    "recognised_done": 0.4625,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.7312,
+    "ci_recognised": [
+     0.4625,
+     0.35,
+     0.575
+    ],
+    "n": 80
+   },
+   "randdrop": {
+    "recognised_done": 0.8,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.9,
+    "ci_recognised": [
+     0.8,
+     0.7125,
+     0.8875
+    ],
+    "n": 80
+   },
+   "restart": {
+    "recognised_done": 0.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.5,
+    "ci_recognised": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "n": 80
+   }
+  },
+  "runtime_s": 1442.6
+ },
+ "7b": {
+  "n_cases": 48,
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "per_policy": {
+   "full": {
+    "recognised_done": 1.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 1.0,
+    "ci_recognised": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n": 48
+   },
+   "recency": {
+    "recognised_done": 1.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 1.0,
+    "ci_recognised": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n": 48
+   },
+   "typed-recency": {
+    "recognised_done": 1.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 1.0,
+    "ci_recognised": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n": 48
+   },
+   "relay": {
+    "recognised_done": 1.0,
+    "false_alarm_not_done": 0.0625,
+    "balanced_acc": 0.9688,
+    "ci_recognised": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n": 48
+   },
+   "relay-lite": {
+    "recognised_done": 1.0,
+    "false_alarm_not_done": 0.0625,
+    "balanced_acc": 0.9688,
+    "ci_recognised": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n": 48
+   },
+   "extractive": {
+    "recognised_done": 1.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 1.0,
+    "ci_recognised": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n": 48
+   },
+   "trunc25": {
+    "recognised_done": 0.6667,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.8333,
+    "ci_recognised": [
+     0.6667,
+     0.5417,
+     0.7917
+    ],
+    "n": 48
+   },
+   "randdrop": {
+    "recognised_done": 1.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 1.0,
+    "ci_recognised": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n": 48
+   },
+   "restart": {
+    "recognised_done": 0.0,
+    "false_alarm_not_done": 0.0,
+    "balanced_acc": 0.5,
+    "ci_recognised": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "n": 48
+   }
+  },
+  "runtime_s": 1728.5
+ }
+}

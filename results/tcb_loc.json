@@ -1,0 +1,19 @@
+{
+ "trusted": {
+  "runtime/dispatcher.py": 144,
+  "state/protocol.py": 136,
+  "runtime/durable.py": 132,
+  "state/integrity.py": 113,
+  "runtime/delegation.py": 80,
+  "state/fingerprint.py": 67
+ },
+ "trusted_total": 672,
+ "untrusted_examples": {
+  "state/schema.py": 523,
+  "state/capability.py": 169,
+  "traces/anchors.py": 376,
+  "traces/parser.py": 110,
+  "policies/policies.py": 150
+ },
+ "src_total": 2915
+}

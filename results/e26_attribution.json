@@ -1,0 +1,77 @@
+{
+ "violations_by_source": 2,
+ "violations_by_target": 4,
+ "violations_logged": 6,
+ "rows": [
+  {
+   "task": "synth-errand-000",
+   "distractor_mid": "A4",
+   "by_source": false,
+   "by_target": true,
+   "violation_logged": true
+  },
+  {
+   "task": "synth-home-001",
+   "distractor_mid": "A2",
+   "by_source": false,
+   "by_target": false,
+   "violation_logged": false
+  },
+  {
+   "task": "synth-shopping-002",
+   "distractor_mid": "A5",
+   "by_source": true,
+   "by_target": false,
+   "violation_logged": true
+  },
+  {
+   "task": "synth-travel-003",
+   "distractor_mid": "A3",
+   "by_source": true,
+   "by_target": false,
+   "violation_logged": true
+  },
+  {
+   "task": "synth-fleet-004",
+   "distractor_mid": null,
+   "by_source": false,
+   "by_target": false,
+   "violation_logged": false
+  },
+  {
+   "task": "synth-errand-005",
+   "distractor_mid": "A6",
+   "by_source": false,
+   "by_target": true,
+   "violation_logged": true
+  },
+  {
+   "task": "synth-home-006",
+   "distractor_mid": "A5",
+   "by_source": false,
+   "by_target": false,
+   "violation_logged": false
+  },
+  {
+   "task": "synth-shopping-007",
+   "distractor_mid": "A1",
+   "by_source": false,
+   "by_target": true,
+   "violation_logged": true
+  },
+  {
+   "task": "synth-travel-008",
+   "distractor_mid": "A2",
+   "by_source": false,
+   "by_target": true,
+   "violation_logged": true
+  },
+  {
+   "task": "synth-fleet-009",
+   "distractor_mid": null,
+   "by_source": false,
+   "by_target": false,
+   "violation_logged": false
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "n_judged": 240,
+ "strict": {
+  "precision": 0.278,
+  "precision_ci": [
+   0.196,
+   0.378
+  ],
+  "n_flagged_judged": 90,
+  "recall_weighted": 1.0,
+  "recall_sample": 1.0,
+  "recall_ci": [
+   0.867,
+   1.0
+  ],
+  "n_genuine_judged": 25,
+  "per_stratum": {
+   "flagged": {
+    "n": 90,
+    "genuine": 25,
+    "caught": 25,
+    "population": 827,
+    "weight": 9.19,
+    "genuine_rate": 0.278
+   },
+   "broad": {
+    "n": 90,
+    "genuine": 0,
+    "caught": 0,
+    "population": 2023,
+    "weight": 22.48,
+    "genuine_rate": 0.0
+   },
+   "neither": {
+    "n": 60,
+    "genuine": 0,
+    "caught": 0,
+    "population": 1242,
+    "weight": 20.7,
+    "genuine_rate": 0.0
+   }
+  },
+  "per_class": {
+   "exec": {
+    "genuine": 24,
+    "caught": 24,
+    "recall": 1.0
+   },
+   "file": {
+    "genuine": 1,
+    "caught": 1,
+    "recall": 1.0
+   }
+  },
+  "n_misses": 0,
+  "misses": []
+ },
+ "broad": {
+  "precision": 0.933,
+  "precision_ci": [
+   0.862,
+   0.969
+  ],
+  "n_flagged_judged": 90,
+  "recall_weighted": 0.832,
+  "recall_sample": 0.923,
+  "recall_ci": [
+   0.85,
+   0.962
+  ],
+  "n_genuine_judged": 91,
+  "per_stratum": {
+   "flagged": {
+    "n": 90,
+    "genuine": 84,
+    "caught": 84,
+    "population": 827,
+    "weight": 9.19,
+    "genuine_rate": 0.933
+   },
+   "broad": {
+    "n": 90,
+    "genuine": 6,
+    "caught": 0,
+    "population": 2023,
+    "weight": 22.48,
+    "genuine_rate": 0.067
+   },
+   "neither": {
+    "n": 60,
+    "genuine": 1,
+    "caught": 0,
+    "population": 1242,
+    "weight": 20.7,
+    "genuine_rate": 0.017
+   }
+  },
+  "per_class": {
+   "web_input": {
+    "genuine": 54,
+    "caught": 54,
+    "recall": 1.0
+   },
+   "exec": {
+    "genuine": 32,
+    "caught": 29,
+    "recall": 0.906
+   },
+   "other": {
+    "genuine": 3,
+    "caught": 0,
+    "recall": 0.0
+   },
+   "file": {
+    "genuine": 2,
+    "caught": 1,
+    "recall": 0.5
+   }
+  },
+  "n_misses": 7,
+  "misses": [
+   {
+    "tid": "handcrafted-56",
+    "step": "107",
+    "class": "exec",
+    "stratum": "broad",
+    "note": "scrolled (retrieval)",
+    "text": "I scrolled down one page in the browser. Here is a screenshot of [Apple Inc. (AAPL) Stock Historical Prices & Data - Yahoo Finance](https://finance.yahoo.com/quote/AAPL/history/). The viewport shows 9"
+   },
+   {
+    "tid": "handcrafted-11",
+    "step": "16",
+    "class": "other",
+    "stratum": "broad",
+    "note": "scrolled (retrieval)",
+    "text": "I scrolled down one page in the browser. Here is a screenshot of [Flavor Graveyard | Ben & Jerry\u2019s](https://www.benjerry.com/flavors/flavor-graveyard). The viewport shows 13% of the webpage, and is po"
+   },
+   {
+    "tid": "handcrafted-51",
+    "step": "5",
+    "class": "file",
+    "stratum": "broad",
+    "note": "FileSurfer reads a local mp3 (retrieval)",
+    "text": "Address: file:///workspace/1f975693-876d-457b-a649-393859e79bf3.mp3 Viewport position: Showing page 1 of 1. ======================= Duration: 0:00:35 (approx) ### Audio Transcript: Error. Could not tr"
+   },
+   {
+    "tid": "alggen-108",
+    "step": "7",
+    "class": "exec",
+    "stratum": "broad",
+    "note": "tool result: 'A Bing search ... found 10 results' (retrieval)",
+    "text": "Address: bing: Andrea Jung biography professional history Title: Andrea Jung biography professional history - Search Viewport position: Showing page 1 of 1. ======================= A Bing search for '"
+   },
+   {
+    "tid": "alggen-108",
+    "step": "1",
+    "class": "exec",
+    "stratum": "neither",
+    "note": "tool result: 'A Bing search ... found 20 results' (retrieval)",
+    "text": "Address: bing: Apple Board of Directors members 2023 Title: Apple Board of Directors members 2023 - Search Viewport position: Showing page 1 of 1. ======================= A Bing search for 'Apple Boar"
+   },
+   {
+    "tid": "handcrafted-56",
+    "step": "88",
+    "class": "other",
+    "stratum": "broad",
+    "note": "scrolled (retrieval)",
+    "text": "I scrolled down one page in the browser. Here is a screenshot of [An Apple Stock History Timeline: Every Key Event Since the IPO](https://moneymorning.com/2015/05/01/an-apple-stock-history-timeline/)."
+   },
+   {
+    "tid": "handcrafted-11",
+    "step": "89",
+    "class": "other",
+    "stratum": "broad",
+    "note": "scrolled (retrieval)",
+    "text": "I scrolled down one page in the browser. Here is a screenshot of [Flavor Graveyard | Ben & Jerry\u2019s](https://www.benjerry.com/flavors/flavor-graveyard). The viewport shows 13% of the webpage, and is po"
+   }
+  ]
+ }
+}

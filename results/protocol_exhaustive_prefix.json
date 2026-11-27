@@ -1,0 +1,96 @@
+{
+ "max_len_single": 4,
+ "max_len_delegation": 4,
+ "has_service_rejected": false,
+ "single": {
+  "plain": {
+   "sequences": 11110,
+   "outcomes": {
+    "live": 2135,
+    "I3 invisible outcome (record failed)": 1795,
+    "blocked": 7180
+   },
+   "first_counterexamples": {
+    "I3 invisible outcome (record failed)": [
+     "lost_eff"
+    ]
+   }
+  },
+  "keyed": {
+   "sequences": 11110,
+   "outcomes": {
+    "live": 8721,
+    "I3 invisible outcome (record failed)": 2389
+   },
+   "first_counterexamples": {
+    "I3 invisible outcome (record failed)": [
+     "lost_eff"
+    ]
+   }
+  },
+  "queryable": {
+   "sequences": 11110,
+   "outcomes": {
+    "live": 8721,
+    "I3 invisible outcome (record failed)": 2389
+   },
+   "first_counterexamples": {
+    "I3 invisible outcome (record failed)": [
+     "lost_eff"
+    ]
+   }
+  }
+ },
+ "delegation": {
+  "plain": {
+   "sequences": 11111,
+   "outcomes": {
+    "blocked": 9171,
+    "live": 419,
+    "I1 duplicate effect": 1221,
+    "I3 invisible outcome (record failed)": 300
+   },
+   "first_counterexamples": {
+    "I1 duplicate effect": [
+     "tick_lost",
+     "tick_ok"
+    ],
+    "I3 invisible outcome (record failed)": [
+     "tick_lost",
+     "report"
+    ]
+   }
+  },
+  "keyed": {
+   "sequences": 11111,
+   "outcomes": {
+    "live": 10666,
+    "I3 invisible outcome (record failed)": 445
+   },
+   "first_counterexamples": {
+    "I3 invisible outcome (record failed)": [
+     "tick_lost",
+     "report"
+    ]
+   }
+  },
+  "queryable": {
+   "sequences": 11111,
+   "outcomes": {
+    "live": 10697,
+    "I3 invisible outcome (record failed)": 414
+   },
+   "first_counterexamples": {
+    "I3 invisible outcome (record failed)": [
+     "tick_lost",
+     "report"
+    ]
+   }
+  }
+ },
+ "merge_algebra": {
+  "pairs": 16,
+  "idempotence violated": 4
+ },
+ "runtime_s": 23.8
+}

@@ -1,0 +1,14 @@
+{
+ "v1-head": {
+  "steps": 827,
+  "flagged": 64,
+  "diff_clause": 0,
+  "rate_diff_clause": 0.0
+ },
+ "v2-action": {
+  "steps": 827,
+  "flagged": 59,
+  "diff_clause": 0,
+  "rate_diff_clause": 0.0
+ }
+}

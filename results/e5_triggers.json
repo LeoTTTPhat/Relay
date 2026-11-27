@@ -1,0 +1,133 @@
+{
+ "scenarios": {
+  "leave-desk": {
+   "immediate": {
+    "stall_s": [
+     18.172,
+     16.157,
+     20.348
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "defer": {
+    "stall_s": [
+     24.144,
+     21.041,
+     27.577
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "predictive": {
+    "stall_s": [
+     7.016,
+     6.045,
+     8.255
+    ],
+    "preship_bytes_mean": 1638.9,
+    "wasted_bytes_by_p_wrong": {
+     "0.1": 163.9,
+     "0.3": 491.7,
+     "0.5": 819.4
+    }
+   }
+  },
+  "enter-kitchen": {
+   "immediate": {
+    "stall_s": [
+     35.089,
+     32.284,
+     38.062
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "defer": {
+    "stall_s": [
+     46.725,
+     41.978,
+     52.165
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "predictive": {
+    "stall_s": [
+     14.804,
+     13.259,
+     16.54
+    ],
+    "preship_bytes_mean": 1474.4,
+    "wasted_bytes_by_p_wrong": {
+     "0.1": 147.4,
+     "0.3": 442.3,
+     "0.5": 737.2
+    }
+   }
+  },
+  "go-run": {
+   "immediate": {
+    "stall_s": [
+     74.863,
+     71.157,
+     78.64
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "defer": {
+    "stall_s": [
+     86.498,
+     80.985,
+     92.695
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "predictive": {
+    "stall_s": [
+     36.932,
+     33.702,
+     40.351
+    ],
+    "preship_bytes_mean": 1273.6,
+    "wasted_bytes_by_p_wrong": {
+     "0.1": 127.4,
+     "0.3": 382.1,
+     "0.5": 636.8
+    }
+   }
+  },
+  "return-home": {
+   "immediate": {
+    "stall_s": [
+     6.147,
+     5.27,
+     7.139
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "defer": {
+    "stall_s": [
+     41.056,
+     32.544,
+     53.683
+    ],
+    "preship_bytes_mean": 0.0
+   },
+   "predictive": {
+    "stall_s": [
+     2.369,
+     1.915,
+     3.014
+    ],
+    "preship_bytes_mean": 1722.7,
+    "wasted_bytes_by_p_wrong": {
+     "0.1": 172.3,
+     "0.3": 516.8,
+     "0.5": 861.3
+    }
+   }
+  }
+ },
+ "p_wrong": [
+  0.1,
+  0.3,
+  0.5
+ ]
+}
